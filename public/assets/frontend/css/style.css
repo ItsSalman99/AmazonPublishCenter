@@ -1,13 +1,13 @@
 /*
-Theme Name: Iteck     
+Theme Name: Iteck
 Theme URI: https://themeforest.net/
-Author: ThemesCamp 
-Author URI:  http://themeforest.net/user/themescamp/ 
+Author: ThemesCamp
+Author URI:  http://themeforest.net/user/themescamp/
 Description: Iteck is a Modern Software and Technology HTML Theme for agencies to show their creative works.
-Version: 1.0.0     
+Version: 1.0.0
 */
 /* -----------------------------------------------------------
-TABLE OF CONTENTS:-                                                                                                      
+TABLE OF CONTENTS:-
 --------------------------------------------------------------
 * variable
 	- text colors
@@ -16,17 +16,17 @@ TABLE OF CONTENTS:-
 * global
 	- Typography
 	- To top style
-	- inner page style  
+	- inner page style
 	- font family
-* helper         
-	- font-weight       
-	- font-size 
+* helper
+	- font-weight
+	- font-size
 	- line-height
-	- text-transform  
-	- letter-spacing 
-	- Overlay Effect Bg image     
+	- text-transform
+	- letter-spacing
+	- Overlay Effect Bg image
 	- margin-top
-	- margin-bottom 
+	- margin-bottom
 	- padding-top
 	- padding-bottom
 	- the spacing
@@ -66,7 +66,7 @@ TABLE OF CONTENTS:-
 
 ------------------------------------------------------------*/
 /* ===============================================================
-			[ * variable Section ] 
+			[ * variable Section ]
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
@@ -153,7 +153,7 @@ TABLE OF CONTENTS:-
   border-color: var(--color-blue6) !important; }
 
 /* ===============================================================
-			[ * global Section ] 
+			[ * global Section ]
 ================================================================*/
 /* --------------- global --------------- */
 *,
@@ -747,7 +747,7 @@ small.text {
     transform: scale(1); } }
 
 /* ===============================================================
-			[ * buttons Section ] 
+			[ * buttons Section ]
 ================================================================*/
 /* --------------- helper classes --------------- */
 /* --------------- radius classes --------------- */
@@ -1167,7 +1167,7 @@ small.text {
   font-size: 14px !important; }
 
 /* ===============================================================
-			[ * buttons Section ] 
+			[ * buttons Section ]
 ================================================================*/
 /* --------------- buttons styles --------------- */
 .butn,
@@ -1304,7 +1304,7 @@ small.text {
       color: var(--color-darkBlue); }
 
 /* ===============================================================
-			[ * section title ] 
+			[ * section title ]
 ================================================================*/
 /* --------------- section head styles --------------- */
 .section-head h6 {
@@ -1406,7 +1406,7 @@ small.text {
       z-index: 1; }
 
 /* ===============================================================
-			[ * top navbar Section ] 
+			[ * top navbar Section ]
 ================================================================*/
 /* --------------- top navbar styles --------------- */
 .top-navbar.style-1 {
@@ -1462,7 +1462,7 @@ small.text {
 /* --------------- top navbar styles --------------- */
 /* --------------- top navbar styles --------------- */
 /* ===============================================================
-			[ * navbar Section ] 
+			[ * navbar Section ]
 ================================================================*/
 /* --------------- navbar styles --------------- */
 .navbar {
@@ -1479,6 +1479,7 @@ small.text {
   top: -100px !important;
   left: 0;
   width: 100%;
+  height: 100px;
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   -o-transition: transform .5s;
@@ -1809,7 +1810,7 @@ small.text {
     display: none; }
 
 /* ===============================================================
-			[ * header Section ] 
+			[ * header Section ]
 ================================================================*/
 /* --------------- header styles --------------- */
 header.style-1 {
@@ -2358,7 +2359,7 @@ header.style-6 {
     z-index: 2; }
 
 /* ===============================================================
-			[ * about Section ] 
+			[ * about Section ]
 ================================================================*/
 /* --------------- about styles --------------- */
 .about.style-1 {
@@ -2859,7 +2860,7 @@ header.style-6 {
     object-fit: contain; }
 
 /* ===============================================================
-			[ * services Section ] 
+			[ * services Section ]
 ================================================================*/
 /* --------------- services styles --------------- */
 .services.style-1 {
@@ -3054,7 +3055,7 @@ header.style-6 {
     color: #666; }
 
 /* ===============================================================
-			[ * choose-us Section ] 
+			[ * choose-us Section ]
 ================================================================*/
 /* --------------- choose-usstyles --------------- */
 .choose-us.style-1 {
@@ -3176,7 +3177,7 @@ header.style-6 {
     height: calc(100% - 200px); }
 
 /* ===============================================================
-			[ * portfolio Section ] 
+			[ * portfolio Section ]
 ================================================================*/
 /* --------------- portfolio styles --------------- */
 .portfolio.style-1 {
@@ -3348,7 +3349,7 @@ header.style-6 {
       background-color: #f1f2fa; }
 
 /* ===============================================================
-			[ * testimonials Section ] 
+			[ * testimonials Section ]
 ================================================================*/
 /* --------------- testimonials styles --------------- */
 .testimonials.style-1 .content {
@@ -3747,7 +3748,7 @@ header.style-6 {
       z-index: 0; }
 
 /* ===============================================================
-			[ * testimonials Section ] 
+			[ * testimonials Section ]
 ================================================================*/
 /* --------------- pricing styles --------------- */
 .pricing.style-2 {
@@ -4146,7 +4147,7 @@ header.style-6 {
   display: none; }
 
 /* ===============================================================
-			[ * team Section ] 
+			[ * team Section ]
 ================================================================*/
 /* --------------- team styles --------------- */
 .team.style-1 {
@@ -4324,7 +4325,7 @@ header.style-6 {
       color: var(--color-blue6); }
 
 /* ===============================================================
-			[ * blog Section ] 
+			[ * blog Section ]
 ================================================================*/
 /* --------------- blog styles --------------- */
 .blog.style-1 .content .blog_slider {
@@ -4525,7 +4526,7 @@ header.style-6 {
       font-size: 13px; }
 
 /* ===============================================================
-			[ * faq Section ] 
+			[ * faq Section ]
 ================================================================*/
 /* --------------- faq styles --------------- */
 .faq.style-3 .accordion-item {
@@ -4571,7 +4572,7 @@ header.style-6 {
       font-size: 13px; }
 
 /* ===============================================================
-			[ * community Section ] 
+			[ * community Section ]
 ================================================================*/
 /* --------------- community style-4 --------------- */
 .community.style-4 .content {
@@ -4658,7 +4659,7 @@ header.style-6 {
       line-height: 1.1; }
 
 /* ===============================================================
-			[ * faq screenshots ] 
+			[ * faq screenshots ]
 ================================================================*/
 /* --------------- screenshots style-4 --------------- */
 .screenshots.style-4 {
@@ -4705,7 +4706,7 @@ header.style-6 {
     z-index: 10; }
 
 /* ===============================================================
-			[ * features Section ] 
+			[ * features Section ]
 ================================================================*/
 /* --------------- features style-4 --------------- */
 .features.style-4 {
@@ -4792,7 +4793,7 @@ header.style-6 {
     color: #777; }
 
 /* ===============================================================
-			[ * numbers Section ] 
+			[ * numbers Section ]
 ================================================================*/
 /* --------------- numbers style-6 --------------- */
 .number-card.style-6 {
@@ -4814,7 +4815,7 @@ header.style-6 {
     text-transform: capitalize; }
 
 /* ===============================================================
-			[ * clients Section ] 
+			[ * clients Section ]
 ================================================================*/
 /* --------------- clients style-4 --------------- */
 .clients.style-4 {
@@ -4860,7 +4861,7 @@ header.style-6 {
 
 /* --------------- clients styles --------------- */
 /* ===============================================================
-			[ * chat-banner Section ] 
+			[ * chat-banner Section ]
 ================================================================*/
 /* --------------- chat-banner styles --------------- */
 .chat-banner.style-3 {
@@ -4901,7 +4902,7 @@ header.style-6 {
         background-position: left; }
 
 /* ===============================================================
-			[ * contact Section ] 
+			[ * contact Section ]
 ================================================================*/
 /* --------------- contact style-1 --------------- */
 .contact.style-1 {
@@ -5050,7 +5051,7 @@ header.style-6 {
     background-position: 0% 50%; } }
 
 /* ===============================================================
-			[ * download Section ] 
+			[ * download Section ]
 ================================================================*/
 /* --------------- download style-5 --------------- */
 .download.style-5 .content h2 {
@@ -5070,7 +5071,7 @@ header.style-6 {
       transform: rotateY(180deg); }
 
 /* ===============================================================
-			[ * footer Section ] 
+			[ * footer Section ]
 ================================================================*/
 /* --------------- footer styles --------------- */
 footer.style-1 {
@@ -5317,7 +5318,7 @@ footer.style-6 {
       width: 120px; }
 
 /* ===============================================================
-			[ * portfolio_page Style ] 
+			[ * portfolio_page Style ]
 ================================================================*/
 /* --------------- portfolio-page style-1 --------------- */
 .portfolio-page.style-1 .portfolio-projects.style-1 {
@@ -5354,7 +5355,7 @@ footer.style-6 {
     animation: rotate-center 100s linear infinite both; }
 
 /* ===============================================================
-			[ * single_project Style ] 
+			[ * single_project Style ]
 ================================================================*/
 /* --------------- single-project style-5 --------------- */
 .single-project.style-5 .about-app.style-5 h1 {
@@ -5453,14 +5454,14 @@ footer.style-6 {
   background-color: var(--color-blue5); }
 
 /* ===============================================================
-			[ * services page Style ] 
+			[ * services page Style ]
 ================================================================*/
 /* --------------- services page styles --------------- */
 .services-page .features {
   background-color: #e7f1ff; }
 
 /* ===============================================================
-			[ * services page Style ] 
+			[ * services page Style ]
 ================================================================*/
 /* --------------- services page styles --------------- */
 .about-page header.style-5 {
@@ -5603,7 +5604,7 @@ footer.style-6 {
     opacity: 1; }
 
 /* ===============================================================
-			[ * contact page Style ] 
+			[ * contact page Style ]
 ================================================================*/
 /* --------------- contact page styles --------------- */
 .contact-page.style-5 .contact.style-6 .form-group .form-control:focus, .contact-page.style-5 .contact.style-6 .form-group .form-select:focus {
@@ -5614,7 +5615,7 @@ footer.style-6 {
   margin-bottom: -6px; }
 
 /* ===============================================================
-			[ * blog page Style ] 
+			[ * blog page Style ]
 ================================================================*/
 /* --------------- blog-page style-1 --------------- */
 .blog-page.style-5 .blog-details-slider {
@@ -5999,7 +6000,7 @@ footer.style-6 {
   background-color: var(--color-blue4) !important; }
 
 /* ===============================================================
-			[ * shop page Style ] 
+			[ * shop page Style ]
 ================================================================*/
 /* --------------- services page styles --------------- */
 .shop-page .filter .filter-card {
@@ -6357,7 +6358,7 @@ footer.style-6 {
   background-color: var(--color-blue4); }
 
 /* ===============================================================
-			[ * shop product Style ] 
+			[ * shop product Style ]
 ================================================================*/
 /* --------------- services product styles --------------- */
 .product-page .product-slider {
@@ -6776,7 +6777,7 @@ footer.style-6 {
       color: #f73312; }
 
 /* ===============================================================
-			[ * responsive style ] 
+			[ * responsive style ]
 ================================================================*/
 /* -------------------- responsive style ------------------------- */
 @media screen and (max-width: 1100px) {
@@ -7314,3 +7315,17 @@ footer.style-6 {
 
 /* ======== */
 /* ======= */
+
+.iam{
+  color: white;
+    font-size: 55px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.text{
+  color: white;
+    border-right: 2px solid red;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: rgb(255, 30, 0);
+}

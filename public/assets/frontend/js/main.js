@@ -38,7 +38,7 @@ $( function() {
             navbar.removeClass("nav-scroll");
         }
     });
-    
+
 
     // ---------- to top -----------
     wind.on("scroll", function() {
@@ -55,7 +55,7 @@ $( function() {
             toTop.removeClass("show");
         }
     });
-    
+
     $('.to_top').click(function() {
         $('html, body').animate({
             scrollTop: 0
@@ -83,7 +83,7 @@ $( function() {
         $(".yearly_price").show();
         $(".yearly_price").siblings(".monthly_price").hide();
     });
-    
+
 /* ===============================  Preloader page  =============================== */
 
     paceOptions = {
@@ -193,7 +193,7 @@ $( function() {
       $( "#amount1" ).val( $( "#slider-range" ).slider( "values", 0 ) );
       $( "#amount2" ).val( $( "#slider-range" ).slider( "values", 1 ) );
   } );
-  
+
 
 
 
@@ -440,7 +440,7 @@ $(document).ready(function() {
             }
         }
     });
-      
+
     // ------------ clients sliders -----------
     let SwiperBottom = new Swiper('.clients-slider5 .swiper-container', {
     spaceBetween: 0,
@@ -471,7 +471,7 @@ $(document).ready(function() {
         }
     }
     });
-      
+
     // ------------ testimonial sliders -----------
     var swiper = new Swiper('.testimonial-slider.style-5 .swiper-container', {
         slidesPerView: 4,
@@ -753,3 +753,9 @@ $(document).ready(function() {
     });
 });
 
+var typing=new Typed(".text", {
+    strings: ["", "Youtuber", "Freelancer", "Graphics Designer", "Web Designer", "Web Developer"],
+    typeSpeed: 100,
+    backSpeed: 40,
+    loop: true,
+});

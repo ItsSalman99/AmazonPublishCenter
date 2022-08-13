@@ -21,7 +21,7 @@
                                     your site will withstand the test of time.
                                 </div>
                                 <div class="btns d-flex align-items-center mt-60">
-                                    <a href="page-about-5.html"
+                                    <a href="#"
                                         class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
                                         <span>
                                             About Us
@@ -54,8 +54,7 @@
             <div class="container">
                 <div class="section-head mb-40 text-center style-6">
                     <h2 class="mb-20">
-                        Discover our top
-                        <span> <small>services</small> </span>
+                        Affordable Online Self-Publishing Agency.
                     </h2>
                     <p>Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for
                         business.</p>
@@ -66,12 +65,12 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
+                                <a href="#" class="service-card style-6">
                                     <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/16.png" alt="">
+                                        <img src="assets/frontend/images/icons/serv_icons/publisher.png" alt="">
                                     </div>
                                     <div class="info">
-                                        <h5>Content Strategy</h5>
+                                        <h5>Self Pubishing</h5>
                                         <div class="text">
                                             You can provide the answers that your potential customers are trying to
                                             find, so you can become the industry.
@@ -80,12 +79,12 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
+                                <a href="#" class="service-card style-6">
                                     <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/15.png" alt="">
+                                        <img src="assets/frontend/images/icons/serv_icons/edit.png" alt="">
                                     </div>
                                     <div class="info">
-                                        <h5>Google/FB Ads</h5>
+                                        <h5>Editing and Proofreading</h5>
                                         <div class="text">
                                             Get more website traffic, more customers & more online visibility with
                                             powerful SEO services.
@@ -94,12 +93,12 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
+                                <a href="#" class="service-card style-6">
                                     <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/14.png" alt="">
+                                        <img src="assets/frontend/images/icons/serv_icons/format.png" alt="">
                                     </div>
                                     <div class="info">
-                                        <h5>Email Marketing</h5>
+                                        <h5>Formating</h5>
                                         <div class="text">
                                             Your website has to impress your visitors within just a few seconds
                                         </div>
@@ -107,12 +106,12 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
+                                <a href="#" class="service-card style-6">
                                     <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/17.png" alt="">
+                                        <img src="assets/frontend/images/icons/serv_icons/magazine.png" alt="">
                                     </div>
                                     <div class="info">
-                                        <h5>Social Media</h5>
+                                        <h5>Book Cover Design</h5>
                                         <div class="text">
                                             Get more website traffic, more customers for your social chanel
                                         </div>
@@ -120,12 +119,12 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
+                                <a href="#" class="service-card style-6">
                                     <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/18.png" alt="">
+                                        <img src="assets/frontend/images/icons/serv_icons/trailer.png" alt="">
                                     </div>
                                     <div class="info">
-                                        <h5>Website Design and Development</h5>
+                                        <h5>Video Book Trailers</h5>
                                         <div class="text">
                                             Your website has to impress your visitors within just a few seconds. If it
                                             runs slow, if it feels outdated
@@ -134,25 +133,12 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
+                                <a href="#" class="service-card style-6">
                                     <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/19.png" alt="">
+                                        <img src="assets/frontend/images/icons/serv_icons/seo.png" alt="">
                                     </div>
                                     <div class="info">
-                                        <h5>TVC/ Viral Clip</h5>
-                                        <div class="text">
-                                            Optimized your website on google result with PPC Marketing
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="page-services-5.html" class="service-card style-6">
-                                    <div class="icon">
-                                        <img src="assets/frontend/images/icons/serv_icons/20.png" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>PPC Ads</h5>
+                                        <h5>SEO</h5>
                                         <div class="text">
                                             Optimized your website on google result with PPC Marketing
                                         </div>
@@ -163,7 +149,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="page-services-5.html" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
+                    <a href="#" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
                         <span>
                             See All Our Services
                             <i class="bi bi-arrow-right ms-1"></i>
@@ -180,10 +166,9 @@
                 <div class="container">
                     <div class="section-head mb-40 d-flex justify-content-between align-items-center style-6">
                         <h2 class="mb-20">
-                            Features
-                            <span> <small>Projects</small> </span>
+                            Features Projects
                         </h2>
-                        <a href="page-portfolio-5.html" class="small text-decoration-underline text-uppercase">See All
+                        <a href="#" class="small text-decoration-underline text-uppercase">See All
                             Projects</a>
                     </div>
                     <div class="slider-3items slider-style-6">
@@ -196,7 +181,7 @@
                                         </div>
                                         <div class="info">
                                             <h3 class="title">
-                                                <a href="page-single-project-5.html">Okpay E-Wallet Optimized</a>
+                                                <a href="#">Okpay E-Wallet Optimized</a>
                                             </h3>
                                             <small class="color-blue6">
                                                 <a href="#">SEO analysis</a>
@@ -223,7 +208,7 @@
                                         </div>
                                         <div class="info">
                                             <h3 class="title">
-                                                <a href="page-single-project-5.html">e-Commerce Dashboard</a>
+                                                <a href="#">e-Commerce Dashboard</a>
                                             </h3>
                                             <small class="color-blue6"> <a href="#">website design</a> & <a
                                                     href="#">develoment</a> </small>
@@ -246,7 +231,7 @@
                                             <img src="assets/frontend/images/projects/7.png" alt="">
                                         </div>
                                         <div class="info">
-                                            <h3 class="title"><a href="page-single-project-5.html">MLB Store
+                                            <h3 class="title"><a href="#">MLB Store
                                                     Instagram</a></h3>
                                             <small class="color-blue6"><a href="#">social media</a></small>
                                             <div class="text">
@@ -267,7 +252,7 @@
                                             <img src="assets/frontend/images/projects/5.png" alt="">
                                         </div>
                                         <div class="info">
-                                            <h3 class="title"><a href="page-single-project-5.html">e-Commerce
+                                            <h3 class="title"><a href="#">e-Commerce
                                                     Dashboard</a></h3>
                                             <small class="color-blue6"><a href="#">website design</a> & <a
                                                     href="#">develoment</a></small>
@@ -310,8 +295,7 @@
                     <div class="col-lg-5">
                         <div class="info">
                             <div class="section-head mb-20 style-6">
-                                <h2> Why choose
-                                    <span> <small> Itekseo </small> </span>
+                                <h2> Why Choose Amazon Pubish Center </span>
                                 </h2>
                             </div>
                             <div class="text mb-50">
@@ -415,8 +399,7 @@
         <section class="clients style-5">
             <div class="container">
                 <div class="section-head mb-70 style-6 text-center">
-                    <h2 class="mb-20"> Trusted by thoudsands
-                        <span> <small> Businesss </small> </span>
+                    <h2 class="mb-20"> Trusted by thoudsands Businesss</span>
                     </h2>
                     <p class="color-666">More 15,000 Companies & partners trusted & choice Itekseo</p>
                 </div>
@@ -506,8 +489,7 @@
                     <div class="row items align-items-end mb-50">
                         <div class="col-lg-7">
                             <div class="section-head mb-0 style-6">
-                                <h2 class="mb-0"> Our
-                                    <span> <small> Leaders </small> </span>
+                                <h2 class="mb-0"> Our Leaders
                                 </h2>
                             </div>
                         </div>
@@ -635,14 +617,13 @@
         <section class="blog section-padding style-6">
             <div class="container">
                 <div class="section-head mb-70 style-6 text-center">
-                    <h2 class="mb-20"> Latest from our
-                        <span> <small> magazine </small> </span>
+                    <h2 class="mb-20"> Latest from our blog
                     </h2>
                     <p class="color-666">Get the latest articles from our press, discuss & share</p>
                 </div>
                 <div class="content">
                     <div class="blog-card style-6">
-                        <a href="page-single-post-5.html" class="img img-cover d-block">
+                        <a href="#" class="img img-cover d-block">
                             <img src="assets/frontend/images/blog/9.png" alt="">
                         </a>
                         <div class="info">
@@ -654,7 +635,7 @@
                                 <a href="#" class="fs-12px">3 Days ago</a>
                             </div>
                             <h4 class="blog-title">
-                                <a href="page-single-post-5.html">Workflow Strategy for E-shop</a>
+                                <a href="#">Workflow Strategy for E-shop</a>
                             </h4>
                             <div class="text">
                                 If there’s one way that wireless technology has changed the way we work, it’s that will
@@ -680,7 +661,7 @@
                         </div>
                     </div>
                     <div class="blog-card card-center style-6">
-                        <a href="page-single-post-5.html" class="img img-cover d-block">
+                        <a href="#" class="img img-cover d-block">
                             <img src="assets/frontend/images/blog/10.png" alt="">
                         </a>
                         <div class="info">
@@ -692,7 +673,7 @@
                                 <a href="#" class="fs-12px">12 Days ago</a>
                             </div>
                             <h4 class="blog-title">
-                                <a href="page-single-post-5.html">6 Tips To Help You Build Your Social Media Effeciency</a>
+                                <a href="#">6 Tips To Help You Build Your Social Media Effeciency</a>
                             </h4>
                             <div class="text">
                                 If there’s one way that wireless technology has changed the way we work, it’s that will
@@ -718,7 +699,7 @@
                         </div>
                     </div>
                     <div class="blog-card style-6">
-                        <a href="page-single-post-5.html" class="img img-cover d-block">
+                        <a href="#" class="img img-cover d-block">
                             <img src="assets/frontend/images/blog/11.png" alt="">
                         </a>
                         <div class="info">
@@ -730,7 +711,7 @@
                                 <a href="#" class="fs-12px">12 Days ago</a>
                             </div>
                             <h4 class="blog-title">
-                                <a href="page-single-post-5.html">The Trend of Marketing With Tiktok, Should or not?</a>
+                                <a href="#">The Trend of Marketing With Tiktok, Should or not?</a>
                             </h4>
                             <div class="text">
                                 If there’s one way that wireless technology has changed the way we work, it’s that will
@@ -765,16 +746,14 @@
         <section class="contact section-padding style-6">
             <div class="container">
                 <div class="section-head mb-60 style-6 text-center">
-                    <h2 class="mb-20"> Get free
-                        <span> <small> consultation </small> </span>
+                    <h2 class="mb-20"> Get free consultation
                     </h2>
                     <p class="color-666">We will contact again after receive your request in 24h</p>
                 </div>
                 <div class="content">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <form action="https://smartinnovates.com/items/iteck/html/contact.php" class="form"
-                                method="post">
+                            <form class="form">
                                 <p class="text-center text-danger fs-12px mb-30">The field is required mark as *</p>
                                 <div class="row">
                                     <div class="col-lg-6">

@@ -69,10 +69,10 @@
                                     Home
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                    <li><a class="dropdown-item" href="home-app-landing.html"> App Landing </a></li>
-                                    <li><a class="dropdown-item" href="home-saas-technology.html"> Saas Technology </a>
+                                    <li><a class="dropdown-item" href="#"> App Landing </a></li>
+                                    <li><a class="dropdown-item" href="#"> Saas Technology </a>
                                     </li>
-                                    <li><a class="dropdown-item" href="home-marketing-startup.html"> Marketing Startup
+                                    <li><a class="dropdown-item" href="#"> Marketing Startup
                                         </a></li>
                                 </ul>
                             </li>
@@ -82,40 +82,40 @@
                                     pages
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                    <li><a class="dropdown-item" href="page-about-5.html">about</a></li>
-                                    <li><a class="dropdown-item" href="page-product-5.html">product</a></li>
-                                    <li><a class="dropdown-item" href="page-services-5.html">services</a></li>
-                                    <li><a class="dropdown-item" href="page-shop-5.html">shop</a></li>
-                                    <li><a class="dropdown-item" href="page-single-project-5.html">single project</a>
+                                    <li><a class="dropdown-item" href="#">about</a></li>
+                                    <li><a class="dropdown-item" href="#">product</a></li>
+                                    <li><a class="dropdown-item" href="#">services</a></li>
+                                    <li><a class="dropdown-item" href="#">shop</a></li>
+                                    <li><a class="dropdown-item" href="#">single project</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="page-portfolio-5.html">
+                                <a class="nav-link" href="#">
                                     portfolio
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="page-blog-5.html">
+                                <a class="nav-link" href="#">
                                     blog
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="page-contact-5.html">
+                                <a class="nav-link" href="#">
                                     contact
                                 </a>
                             </li>
                         </ul>
                         <div class="nav-side">
                             <div class="d-flex align-items-between">
-                                <a href="page-contact-5.html"
-                                    class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold">
+                                <a href="#"
+                                    class="btn mr-4 rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold">
                                     <span>
                                         <i class="bi bi-chat-dots me-1"></i>
                                         Let’s Chat!
                                     </span>
                                 </a>
-                                <a href="page-contact-5.html"
+                                <a href="#"
                                     class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold">
                                     <span>
                                         <i class="bi bi-chat-dots me-1"></i>
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <form style="background-color: #fff; padding: 20px; border-radius: 20px;">
+                        <form style="background-color: #fff; padding: 20px; border-radius: 20px; margin-top: 40px;">
                             @csrf
                             <h4 class="text-center my-4">
                                 Fill out the form and one of our Publishing experts will contact you
@@ -264,19 +264,19 @@
                         </div>
                         <ul>
                             <li>
-                                <a href="page-about-5.html"> About Itekseo </a>
+                                <a href="#"> About Itekseo </a>
                             </li>
                             <li>
                                 <a href="#"> Investors </a>
                             </li>
                             <li>
-                                <a href="page-blog-5.html"> Blog </a>
+                                <a href="#"> Blog </a>
                             </li>
                             <li>
-                                <a href="page-contact-5.html"> Contact </a>
+                                <a href="#"> Contact </a>
                             </li>
                             <li>
-                                <a href="page-about-5.html"> How It Works </a>
+                                <a href="#"> How It Works </a>
                             </li>
                             <li>
                                 <a href="#"> Pricing Plan </a>
@@ -350,7 +350,7 @@
     <script src="assets/frontend/js/lib/pace.js"></script>
     <script src="assets/frontend/js/lib/scrollIt.min.js"></script>
     <script src="assets/frontend/js/main.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </body>
 
 
