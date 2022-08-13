@@ -7315,17 +7315,3 @@ footer.style-6 {
 
 /* ======== */
 /* ======= */
-
-.iam{
-  color: white;
-    font-size: 55px;
-    padding: 15px;
-    font-family: sans-serif;
-}
-.text{
-  color: white;
-    border-right: 2px solid red;
-    font-size: 55px;
-    font-family: sans-serif;
-    color: rgb(255, 30, 0);
-}

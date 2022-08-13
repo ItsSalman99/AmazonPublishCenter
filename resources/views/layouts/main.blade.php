@@ -318,10 +318,8 @@
                     </div>
                     <div class="col-lg-6">
                         <small class="small">
-                            © 2022 Copyrights by <small class="fw-bold text-decoration-underline">Iteck Co.</small> All
-                            Rights Reserved. Designed by
-                            <a href="https://themeforest.net/user/themescamp"
-                                class="fw-bold text-decoration-underline">ThemesCamp</a>
+                            © 2022 Copyrights by <small class="fw-bold text-decoration-underline">Amazon Publish Center.</small>
+                            All Rights Reserved.
                         </small>
                     </div>
                 </div>
