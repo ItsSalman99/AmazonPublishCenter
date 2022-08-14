@@ -753,9 +753,21 @@ $(document).ready(function() {
     });
 });
 
-var typing=new Typed(".text", {
-    strings: ["", "Youtuber", "Freelancer", "Graphics Designer", "Web Designer", "Web Developer"],
-    typeSpeed: 100,
-    backSpeed: 40,
-    loop: true,
-});
+// By Salman
+var sidemenu = document.getElementById('sidemenu');
+
+var flag = true;
+function OpenCloseNav() { 
+    if (flag == true) {
+        flag = false;
+        sidemenu.style.width = "30%";
+        sidemenu.style.padding = "30px";
+        sidemenu.style.zIndex = "9999999999";
+    }
+    else if (flag == false) {
+        flag = true;
+        sidemenu.style.width = "0%";
+        sidemenu.style.padding = "0px";
+        sidemenu.style.zIndex = "0";
+    }
+}

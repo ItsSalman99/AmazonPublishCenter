@@ -7315,3 +7315,131 @@ footer.style-6 {
 
 /* ======== */
 /* ======= */
+
+/* By Salman */
+
+.hamburger-menubtn {
+	position: relative;
+	left: 0;
+	top: 0;
+  color: #000;
+	background: #fff;
+	border-color: #fff;
+	border: 3px solid #000;
+	border-radius: 0;
+	cursor: pointer;
+	outline: 0;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+  
+}
+
+.hamburger-menubtn:before {
+	position: absolute;
+	left: 12px;
+	top: 10px;
+	background: #f39732;
+	border: 0;
+	border-radius: 0;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.hamburger-menubtn:hover {
+	left: 12px;
+	top: 10px;
+	background: #f39732;
+	color: #fff;
+}
+
+.hamburger-menubtn:hover:before {
+	left: -12px;
+	top: -10px;
+	background: #fff;
+}
+
+.hamburger-menubtn, 
+.hamburger-menubtn:before {
+	transition: all .3s linear;
+}
+
+.sidebar{
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 8px 8px 8px 8px #eee;
+  position: fixed;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  transition: all .3s linear;]
+}
+.sidebar .crossbtn{
+  background-color: #f39732;
+  padding: 20px;
+  float: right;
+  color: #fff;
+  border-radius: 10px;
+}
+.sidebar ul li a{
+  font-size: 30px;
+  border-bottom: 2px solid #eee;
+  padding: 5px;
+   width: 100%;
+}
+.sidebar ul li a:hover{
+  padding: 10px;
+	transition: all .3s linear;
+  background-color: #f39732;
+  color: #fff;
+}
+/* Resposive Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 70%;
+  }
+  .hamburger-menubtn{
+    font-size: 15px;
+  }
+  .chatbtn{
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo{
+    width: 70%;
+  }
+  
+  .chatbtn{
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo{
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
