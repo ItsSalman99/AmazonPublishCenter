@@ -3,6 +3,14 @@
 @section('content')
     <!--Contents-->
     <main>
+        
+        @include('frontend.partials.clients')
+        
+        <div class="container">
+            <hr>
+        </div>
+
+
         <!-- ====== start about ====== -->
         <section class="about style-6">
             <div class="container">
@@ -11,8 +19,8 @@
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head mb-40 style-6">
-                                    <h2>
-                                        Professional Publishing Central Company in USA.
+                                    <h2> Boost your business up to
+                                        <span> <small>high level</small> </span>
                                     </h2>
                                 </div>
                                 <div class="text">
@@ -54,7 +62,8 @@
             <div class="container">
                 <div class="section-head mb-40 text-center style-6">
                     <h2 class="mb-20">
-                        Affordable Online Self-Publishing Agency.
+
+                        <span> <small>Affordable</small> </span> Online Self-Publishing Agency.
                     </h2>
                     <p>Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for
                         business.</p>
@@ -395,51 +404,6 @@
         <!-- ====== end testimonials ====== -->
 
 
-        <!-- ====== start clients ====== -->
-        <section class="clients style-5">
-            <div class="container">
-                <div class="section-head mb-70 style-6 text-center">
-                    <h2 class="mb-20"> Trusted by thoudsands Businesss</span>
-                    </h2>
-                    <p class="color-666">More 15,000 Companies & partners trusted & choice Itekseo</p>
-                </div>
-                <div class="content d-flex flex-wrap">
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/7.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/8.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/9.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/10.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/11.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/12.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/13.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/14.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/15.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/16.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- ====== end clients ====== -->
-
-
         <!-- ====== start numbers ====== -->
         <section class="numbers section-padding style-6">
             <div class="container">
@@ -753,55 +717,47 @@
                 <div class="content">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <form class="form">
+                            <form action="{{ route('clients.store') }}" method="POST" class="form">
+                                @csrf
                                 <p class="text-center text-danger fs-12px mb-30">The field is required mark as *</p>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
                                             <input type="text" name="name" class="form-control"
-                                                placeholder="Name">
+                                                placeholder="Name" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="email" class="form-control"
-                                                placeholder="Email Address *">
+                                            <input type="email" name="email" class="form-control"
+                                                placeholder="Email Address *" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="phone" class="form-control"
-                                                placeholder="Phone Number (option)">
+                                            <input type="tel" name="contact" class="form-control"
+                                                placeholder="Phone Number" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="website" class="form-control"
-                                                placeholder="Your Website (option)">
+                                            <input type="text" name="profession" class="form-control"
+                                                placeholder="Your profession" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group mb-20">
-                                            <select class="form-select" name="option">
-                                                <option value="How can we help you?" selected>How can we help you?</option>
-                                                <option value="option 1">option 1</option>
-                                                <option value="option 2">option 2</option>
+                                            <select class="form-select" name="region" required>
+                                                <option value="">-- Select Your Current Region --</option>
+                                                @foreach ($regions as $region)
+                                                    <option value="{{ $region->id }}">{{ $region->name }}</option>
+                                                @endforeach
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <textarea name="message" rows="10" class="form-control" placeholder="How can we help you?"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 text-center">
-                                        <div class="form-check d-inline-flex mt-30 mb-30">
-                                            <input class="form-check-input me-2 mt-0" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label small" for="flexCheckDefault">
-                                                By submitting, i’m agreed to the <a href="#"
-                                                    class="text-decoration-underline">Terms & Conditons</a>
-                                            </label>
+                                            <textarea name="message" required rows="10" class="form-control" placeholder="How can we help you?"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 text-center">

@@ -760,14 +760,15 @@ var flag = true;
 function OpenCloseNav() { 
     if (flag == true) {
         flag = false;
-        sidemenu.style.width = "30%";
+        sidemenu.style.height = "100%";
         sidemenu.style.padding = "30px";
         sidemenu.style.zIndex = "9999999999";
     }
     else if (flag == false) {
         flag = true;
-        sidemenu.style.width = "0%";
+        sidemenu.style.height = "0%";
         sidemenu.style.padding = "0px";
         sidemenu.style.zIndex = "0";
     }
 }
+

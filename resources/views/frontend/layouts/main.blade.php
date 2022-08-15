@@ -13,7 +13,7 @@
     <title>{{ env('APP_NAME') }}</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/frontend/images/fav.png" title="Favicon" sizes="16x16" />
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
 
     <!-- ====== bootstrap icons cdn ====== -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -57,32 +57,32 @@
                 <div class="col-lg-3">
                     <div class="items">
                         <div class="title">
-                            Itekseo - Best for SEO/Marketing
+                            Amazon Publish Center - #1 Amazon Publish Center Company
                         </div>
                         <ul>
                             <li class="color-666 mb-2">
                                 <i class="bi bi-house me-1"></i>
-                                <small>223 Thatcher Road St, Manhattan</small>
+                                <small>United States America</small>
                             </li>
                             <li class="color-666 mb-2">
                                 <i class="bi bi-phone me-1"></i>
-                                <small>+031 5689 89 98</small>
+                                <small>202-555-0109</small>
                             </li>
                             <li class="color-666 mb-2">
                                 <i class="bi bi-envelope me-1"></i>
-                                <small>contact@itecksolution.co</small>
+                                <small>info@amazonpublishcenter.com</small>
                             </li>
                         </ul>
                         <div class="socail-icons">
-                            <a href="https://www.smartinnovates.com/items/iteck/html/twiter.com"
+                            <a href="#"
                                 class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://www.smartinnovates.com/items/iteck/html/facebook.com"
+                            <a href="#"
                                 class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://www.smartinnovates.com/items/iteck/html/instagram.com"
+                            <a href="#"
                                 class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray">
                                 <i class="fab fa-instagram"></i>
                             </a>
@@ -153,7 +153,7 @@
                         </div>
                         <small class="color-666">Register now to get latest updates on <br> promotions & coupons.
                         </small>
-                        <form action="https://smartinnovates.com/items/iteck/html/contact.php" class="form mt-30"
+                        <form  class="form mt-30"
                             method="post">
                             <div class="form-group">
                                 <span class="icon">
@@ -172,7 +172,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="logo">
-                            <img src="assets/frontend/images/logo_home6.png" alt="">
+                            <img src="" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -208,6 +208,8 @@
     <script src="assets/frontend/js/lib/scrollIt.min.js"></script>
     <script src="assets/frontend/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    @include('sweetalert::alert')
+
 </body>
 
 

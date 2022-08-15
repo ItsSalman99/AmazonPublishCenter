@@ -1,10 +1,10 @@
 <header class="style-6">
-    <div class="content">
+    <div class="content main-container">
         <!-- ====== start navbar ====== -->
-        <nav class="navbar navbar-expand-lg navbar-light style-6">
+        <nav class="navbar navbar-expand-lg navbar-light style-6" style="background-color: transparent;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/frontend/images/newlogo.png" class="logo" alt="">
+                    <img src="{{ asset('assets/frontend/images/newlogo.png') }}" class="logo" alt="">
                 </a>
                 <div class="float-right">
                     <ul class="navbar-nav">
@@ -29,7 +29,7 @@
             <hr>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
                     <a href="#">About</a>
@@ -48,13 +48,15 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="info">
-                        <h6 style="text-align: left!important;">Amazon Publish Center</h6>
-                        <h1 style="text-align: left!important;">#1 Amazon Publish Central Company in USA.</small>
-                            </span></h1>
+                        <h6 style="text-align: left!important; color: #fff;">Amazon Publish Center</h6>
+                        <h1 style="text-align: left!important; font-family: 'Caveat', cursive;">
+                            <span> <small>#1 Amazon</small> </span> Publish Central Company in USA.
+                        </h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form style="background-color: #fff; padding: 20px; border-radius: 20px; margin-top: 40px;">
+                    <form style="background-color: #fff; padding: 20px; border-radius: 20px; margin-top: 40px;"
+                        action="{{ route('clients.store') }}" method="POST">
                         @csrf
                         <h4 class="text-center my-4">
                             Fill out your correct details to register, our experts will contact you!
@@ -64,17 +66,19 @@
                                 class="form-control" required id="">
                         </div>
                         <div class="my-2">
-                            <input type="text" style="padding:20px" name="name" placeholder="Your Contact"
+                            <input type="tel" style="padding:20px" name="contact" placeholder="Your Contact"
                                 class="form-control" required id="">
                         </div>
                         <div class="my-2">
-                            <input type="text" style="padding:20px" name="name" placeholder="Your Email"
+                            <input type="text" style="padding:20px" name="email" placeholder="Your Email"
                                 class="form-control" required id="">
                         </div>
                         <div class="my-2">
                             <select name="region" required style="padding: 20px;" class="form-control" id="">
                                 <option value="">-- Select Your Current Region --</option>
-                                <option value="1">United States</option>
+                                @foreach ($regions as $region)
+                                    <option value="{{ $region->id }}">{{ $region->name }}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div class="my-2">
@@ -95,10 +99,9 @@
             </div>
         </div>
     </div>
-    {{-- <img src="assets/frontend/images/header/hand_megaphone.png" alt="" class="hand-mega slide_up_down">
-    <img src="assets/frontend/images/header/target_3d.png" alt="" class="target-3d rotate-center">
+    <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="hand-mega slide_up_down">
+    <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="target-3d rotate-center">
     <img src="assets/frontend/images/header/head6_rating.png" alt="" class="head6-rating scale_up_down">
-    <img src="assets/frontend/images/header/header5_linechart.png" alt=""
-        class="head6-charts scale_up_down">
-    <img src="assets/frontend/images/header/rocket.png" alt="" class="head6-rocket"> --}}
+    <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="head6-charts scale_up_down">
+    <img src="assets/frontend/images/about/about_s5_2_1.png" alt="" class="head6-rocket">
 </header>
