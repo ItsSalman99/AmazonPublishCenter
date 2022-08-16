@@ -399,19 +399,23 @@ small.text {
   font-size: 80%;
 }
 
+
 .dropdown-menu {
   min-width: 170px;
-  padding: 10px 0;
+  padding: 20px 0;
   border-radius: 15px;
   border: 0;
   -webkit-box-shadow: 0 0 20px #0001;
   box-shadow: 0 0 20px #0001;
   top: 100%;
+  list-style: none;
+  background-color: #232f3e;
 }
 
 .dropdown-menu .dropdown-item {
   padding: 5px 20px;
   font-size: 12px;
+  color: #fff;
 }
 
 .form-control:focus {
@@ -1778,7 +1782,7 @@ small.text {
 
 /* --------------- top navbar style-4 --------------- */
 .top-navbar.style-4 {
-  background-image: url(../img/top_nav_s4.png);
+  background-image: url('/assets/frontend/images/top_nav_s4.png');
   background-size: cover;
   background-position: top;
   padding: 10px 15px 50px;
@@ -2218,7 +2222,7 @@ small.text {
 
 .navbar.style-6 .nav-item .nav-link {
   position: relative;
-  color: #000;
+  color: #fff;
   font-size: 12px;
   font-weight: bold;
   margin: 0 15px;
@@ -2796,7 +2800,6 @@ header.style-6 .content {
   position: relative;
   padding: 150px 0 100px;
   border-radius: 30px;
-  height: 150vh;
 }
 
 header.style-6 .info {
@@ -2814,7 +2817,7 @@ header.style-6 .info h6 {
 }
 
 header.style-6 .info h1 {
-  font-size: 75px;
+  font-size: 65px;
   color: #fff;
   line-height: 1.1;
 }
@@ -3322,6 +3325,7 @@ header.style-6 .head6-rocket {
 
 .about.style-4 .integration {
   position: relative;
+  margin-top: 100px;
 }
 
 .about.style-4 .integration .intg-back {
@@ -5975,6 +5979,7 @@ header.style-6 .head6-rocket {
 			[ * community Section ]
 ================================================================*/
 /* --------------- community style-4 --------------- */
+
 .community.style-4 .content {
   border: 1px solid #9993;
   border-radius: 15px;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Metas -->
     <meta charset="utf-8">
@@ -10,7 +11,7 @@
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>{{ env('APP_NAME') }}</title>
+    <title> {{ env('APP_NAME') }} </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
@@ -20,21 +21,22 @@
         integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
 
     <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="assets/frontend/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/bootstrap.min.css') }}">
+
 
     <!-- ====== font family ====== -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/frontend/css/lib/all.min.css" />
-    <link rel="stylesheet" href="assets/frontend/css/lib/animate.css" />
-    <link rel="stylesheet" href="assets/frontend/css/lib/jquery.fancybox.css" />
-    <link rel="stylesheet" href="assets/frontend/css/lib/lity.css" />
-    <link rel="stylesheet" href="assets/frontend/css/lib/swiper.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/all.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/animate.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/lity.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
 
     <!-- ====== global style ====== -->
-    <link rel="stylesheet" href="assets/frontend/css/style.css" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
 </head>
 
 <body>
@@ -44,7 +46,7 @@
     </div>
     <!-- ====== end loading page ====== -->
     <!-- ====== start header ====== -->
-    @include('frontend.partials.header')
+    @include('frontend.partials.nav')
     <!-- ====== end header ====== -->
 
 
@@ -155,8 +157,7 @@
                         </div>
                         <small class="color-666">Register now to get latest updates on <br> promotions & coupons.
                         </small>
-                        <form  class="form mt-30"
-                            method="post">
+                        <form class="form mt-30" method="post">
                             <div class="form-group">
                                 <span class="icon">
                                     <i class="bi bi-envelope"></i>
@@ -165,8 +166,8 @@
                                 <button> <i class="bi bi-send"></i> </button>
                             </div>
                         </form>
-                        <small class="color-666 fst-italic mt-20">By subscribing, you accepted the our <a
-                                href="#" class="fst-normal text-dark">Policy.</a> </small>
+                        <small class="color-666 fst-italic mt-20">By subscribing, you accepted the our <a href="#"
+                                class="fst-normal text-dark">Policy.</a> </small>
                     </div>
                 </div>
             </div>
@@ -179,7 +180,8 @@
                     </div>
                     <div class="col-lg-6">
                         <small class="small">
-                            © 2022 Copyrights by <small class="fw-bold text-decoration-underline">Amazon Publish Center.</small>
+                            © 2022 Copyrights by <small class="fw-bold text-decoration-underline">Amazon Publish
+                                Center.</small>
                             All Rights Reserved.
                         </small>
                     </div>
@@ -211,6 +213,21 @@
     <script src="assets/frontend/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     @include('sweetalert::alert')
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/62fbb66a37898912e963582d/1gajk14n2';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
 </body>
 

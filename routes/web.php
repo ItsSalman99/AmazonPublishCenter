@@ -8,7 +8,15 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/about-us', [HomeController::class, 'about'])->name('about');
+Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact');
+Route::get('/book-writing', [HomeController::class, 'bookWriting'])->name('book-writing');
+Route::get('/audio-books', [HomeController::class, 'audioBooks'])->name('audio-books');
+Route::get('/book-publishing', [HomeController::class, 'bookPublishing'])->name('book-publishing');
+Route::get('/book-marketing', [HomeController::class, 'bookMarketing'])->name('book-marketing');
+
 Route::post('clients/store', [ClientController::class, 'store'])->name('clients.store');
+
 
 Route::prefix('admin')->middleware(['auth'])->group(function () {
 

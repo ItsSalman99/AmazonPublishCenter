@@ -1,55 +1,105 @@
 <header class="style-6">
     <div class="content main-container">
         <!-- ====== start navbar ====== -->
-        <nav class="navbar navbar-expand-lg navbar-light style-6" style="background-color: transparent;">
+        <nav class="navbar navbar-expand-lg navbar-light style-6" style="background-color: transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="{{ asset('assets/frontend/images/newlogo.png') }}" class="logo" alt="">
+                    <img src="{{ asset('assets/frontend/images/newlogo.png') }}" alt="">
                 </a>
-                <div class="float-right">
-                    <ul class="navbar-nav">
-                        <li class="nav-item m-2 chatbtn">
-                            <a href="#" class="btn mr-4 rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold">
-                                <span>
-                                    <i class="bi bi-chat-dots me-1"></i>
-                                    Let’s Chat
-                                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" style="flex-grow: 0;" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                                HOME
                             </a>
                         </li>
-                        <li class="nav-item ml-2">
-                            <a onclick="OpenCloseNav()" href="javascript:void(0)" class="hamburger-menubtn">&#9776</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('about') }}">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="{{ route('book-writing') }}">Book Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('book-publishing') }}">Book Publishing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('book-marketing') }}">Book Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Book Formating</a></li>
+                                <li><a class="dropdown-item" href="#">Video Book Trailers</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Social Media
+                                        Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Interactive E-books</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Creative Writing</a></li>
+                                <li><a class="dropdown-item" href="#">Press Release Writing</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Editing and
+                                        Proofreading</a></li>
+                                <li><a class="dropdown-item" href="#">Book Cover Design</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Amazon Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">SEO Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('audio-books') }}">Audio Books</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                GHOST WRITING
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="#">FICTION</a></li>
+                                <li><a class="dropdown-item" href="#">BEAUTY GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">BEAUTY GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">BUSINESS GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">FANTASY GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">MEDICAL GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">SCREENPLAY GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">NONFICTION GHOSTWRTING</a></li>
+                                <li><a class="dropdown-item" href="#">BLOG GHOSTWRTING</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('contact') }}">
+                                CONTACT
+                            </a>
                         </li>
                     </ul>
+                    <div class="nav-side">
+                        <div class="d-flex align-items-center">
+                            @auth
+                                <a href="#" class="search-icon me-4 border border-2 p-2 rounded-circle">
+                                    <i class="bi bi-person"></i>
+                                </a>
+                            @endauth
+                            <a href="page-contact-5.html"
+                                class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold">
+                                <span>
+                                    <i class="bi bi-chat-dots me-1"></i>
+                                    Let’s Chat!
+                                </span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
-        <div class="sidebar" id="sidemenu">
-            <a href="javascript:void(0)" class="crossbtn" onclick="OpenCloseNav()">&#10006</a>
-            <br><br><br><br>
-            <hr>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-
         <!-- ====== end navbar ====== -->
-        <div class="container">
+        <div class="container" style="margin-top: 80px;">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="info">
                         <h6 style="text-align: left!important; color: #fff;">Amazon Publish Center</h6>
-                        <h1 style="text-align: left!important; font-family: 'Caveat', cursive;">
+                        <h1 style="text-align: left!important;">
                             <span> <small>#1 Amazon</small> </span> Publish Central Company in USA.
                         </h1>
                     </div>
@@ -74,7 +124,8 @@
                                 class="form-control" required id="">
                         </div>
                         <div class="my-2">
-                            <select name="region" required style="padding: 20px;" class="form-control" id="">
+                            <select name="region" required style="padding: 20px;" class="form-control"
+                                id="">
                                 <option value="">-- Select Your Current Region --</option>
                                 @foreach ($regions as $region)
                                     <option value="{{ $region->id }}">{{ $region->name }}</option>
@@ -82,8 +133,8 @@
                             </select>
                         </div>
                         <div class="my-2">
-                            <input type="text" style="padding:20px" name="profession" placeholder="Your Profession"
-                                class="form-control" required id="">
+                            <input type="text" style="padding:20px" name="profession"
+                                placeholder="Your Profession" class="form-control" required id="">
                         </div>
                         <div class="my-2">
                             <textarea name="message" id="" required class="form-control" style="height: 150px; resize: none"
@@ -101,6 +152,7 @@
     </div>
     <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="hand-mega slide_up_down">
     <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="target-3d rotate-center">
+    <br><br><br> <br><br><br><br>
     <img src="assets/frontend/images/header/head6_rating.png" alt="" class="head6-rating scale_up_down">
     <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="head6-charts scale_up_down">
     <img src="assets/frontend/images/about/about_s5_2_1.png" alt="" class="head6-rocket">

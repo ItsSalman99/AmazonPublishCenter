@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "476470070aec043b16256bba286724d0",
+    "content-hash": "2fe36296f0b6b7fc8a39048e63a7507a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -492,6 +492,67 @@
                 }
             ],
             "time": "2020-12-29T14:50:06+00:00"
+        },
+        {
+            "name": "emotality/tawk-laravel",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emotality/tawk-laravel.git",
+                "reference": "4567fca57aa9cc641eb5691e6b272bc00d32b6db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emotality/tawk-laravel/zipball/4567fca57aa9cc641eb5691e6b272bc00d32b6db",
+                "reference": "4567fca57aa9cc641eb5691e6b272bc00d32b6db",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=5.5.0",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Emotality\\TawkTo\\TawkToServiceProvider"
+                    ],
+                    "aliases": {
+                        "TawkTo": "Emotality\\TawkTo\\TawkTo"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Emotality\\TawkTo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Pierre Fourie",
+                    "email": "jp@emotality.com",
+                    "homepage": "https://emotality.com"
+                }
+            ],
+            "description": "A tawk.to chat widget for Laravel.",
+            "homepage": "https://github.com/emotality/tawk-laravel",
+            "keywords": [
+                "chat",
+                "laravel",
+                "tawk",
+                "tawk.to",
+                "tawkto",
+                "widget"
+            ],
+            "support": {
+                "issues": "https://github.com/emotality/tawk-laravel/issues",
+                "source": "https://github.com/emotality/tawk-laravel/tree/v2.1"
+            },
+            "time": "2021-08-07T02:57:01+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
@@ -8068,5 +8129,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
