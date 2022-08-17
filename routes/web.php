@@ -29,7 +29,7 @@ Route::get('/seo-writing', [HomeController::class, 'seoWriting'])->name('seo-wri
 Route::post('clients/store', [ClientController::class, 'store'])->name('clients.store');
 
 
-Route::prefix('admin')->middleware(['auth'])->group(function () {
+Route::prefix('admin')->middleware(['web','auth'])->group(function () {
 
     Route::get('/dashboard', function () {
 
