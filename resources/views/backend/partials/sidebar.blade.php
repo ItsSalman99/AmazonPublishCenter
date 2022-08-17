@@ -31,14 +31,32 @@
                             <i data-feather="home"></i>
                             <span>Dashboard</span></a>
                     </li>
-                    <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="{{ route('regions.index') }}">
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav"
+                            href="{{ route('regions.index') }}">
                             <i data-feather="globe"></i>
                             <span>Region</span></a>
                     </li>
-                    <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="{{ route('clients.index') }}">
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav"
+                            href="{{ route('clients.index') }}">
                             <i data-feather="users"></i>
                             <span>Clients</span></a>
                     </li>
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav"
+                            href="{{ route('users.index') }}">
+                            <i data-feather="users"></i>
+                            <span>Users</span></a>
+                    </li>
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title active" href="#">
+                            <i data-feather="settings"></i>
+                            <span class="">Settings</span>
+                            <div class="according-menu"><i class="fa fa-angle-down"></i></div>
+                        </a>
+                        <ul class="sidebar-submenu" style="">
+                            <li><a href="#">Your Profile</a></li>
+                            <li><a href="#">Applications Settings</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>

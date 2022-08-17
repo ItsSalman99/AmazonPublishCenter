@@ -1,4 +1,4 @@
-$( function() {
+$(function () {
 
     var wind = $(window);
 
@@ -20,11 +20,11 @@ $( function() {
         activeClass: 'active',    // class given to the active nav element
         onPageChange: null,       // function(pageIndex) that is called when page is changed
         topOffset: -100            // offste (in px) for fixed top navigation
-      });
+    });
 
 
     // ---------- nav scroll -----------
-    wind.on("scroll", function() {
+    wind.on("scroll", function () {
 
         var bodyScroll = wind.scrollTop(),
             navbar = $(".navbar")
@@ -41,7 +41,7 @@ $( function() {
 
 
     // ---------- to top -----------
-    wind.on("scroll", function() {
+    wind.on("scroll", function () {
 
         var bodyScroll = wind.scrollTop(),
             toTop = $(".to_top")
@@ -56,7 +56,7 @@ $( function() {
         }
     });
 
-    $('.to_top').click(function() {
+    $('.to_top').click(function () {
         $('html, body').animate({
             scrollTop: 0
         }, 0);
@@ -71,20 +71,20 @@ $( function() {
 
 
     /* ==============  priceing_s2  ============== */
-    $('#monthly-input2').on('change', function() {
+    $('#monthly-input2').on('change', function () {
         $(".yearly_price , .monthly_price").toggleClass("show");
     });
     /* ==============  priceing_s5  ============== */
-    $('#monthly-input').on('change', function() {
+    $('#monthly-input').on('change', function () {
         $(".monthly_price").show();
         $(".monthly_price").siblings(".yearly_price").hide();
     });
-    $('#yearly-input').on('change', function() {
+    $('#yearly-input').on('change', function () {
         $(".yearly_price").show();
         $(".yearly_price").siblings(".monthly_price").hide();
     });
 
-/* ===============================  Preloader page  =============================== */
+    /* ===============================  Preloader page  =============================== */
 
     paceOptions = {
         ajax: true,
@@ -101,44 +101,44 @@ $( function() {
 
 
     // -------- counter --------
-        $('.counter').countUp({
-            delay: 10,
-            time: 2000
-        });
+    $('.counter').countUp({
+        delay: 10,
+        time: 2000
+    });
 
     // -------- blog effect --------
-    $(".blog .blog_box").mouseenter(function(){
+    $(".blog .blog_box").mouseenter(function () {
         $(this).find(".text").slideDown();
     })
-    $(".blog .blog_box").mouseleave(function(){
+    $(".blog .blog_box").mouseleave(function () {
         $(this).find(".text").slideUp();
     })
 
-      // --------- fav btn ---------
-  $(".fav-btn").on("click" , function(){
+    // --------- fav btn ---------
+    $(".fav-btn").on("click", function () {
         $(this).toggleClass("active");
     })
 
     // --------- grid list view ---------
-    $(".grid-list-btns").on( "click", ".bttn" , function(){
+    $(".grid-list-btns").on("click", ".bttn", function () {
         $(this).addClass("active").siblings().removeClass("active");
     })
 
-    $(".grid-list-btns").on( "click", ".list-btn" , function(){
+    $(".grid-list-btns").on("click", ".list-btn", function () {
         $(".products-content .products").addClass("list-view");
     })
 
-    $(".grid-list-btns").on( "click", ".grid-btn" , function(){
+    $(".grid-list-btns").on("click", ".grid-btn", function () {
         $(".products-content .products").removeClass("list-view");
     })
 
 
     // ------------ increase products -----------
-    $(".qt-plus").click(function() {
+    $(".qt-plus").click(function () {
         $(this).parent().children(".qt").html(parseInt($(this).parent().children(".qt").html()) + 1);
     });
 
-    $(".qt-minus").click(function() {
+    $(".qt-minus").click(function () {
 
         child = $(this).parent().children(".qt");
 
@@ -152,53 +152,53 @@ $( function() {
 
 });
 
- // ---------- hover dropdown -----------
- const $dropdown = $(".dropdown");
- const $dropdownToggle = $(".dropdown-toggle");
- const $dropdownMenu = $(".dropdown-menu");
- const showClass = "show";
+// ---------- hover dropdown -----------
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
 
- $(window).on("load resize", function() {
+$(window).on("load resize", function () {
     if (this.matchMedia("(min-width: 768px)").matches) {
-      $dropdown.hover(
-        function() {
-          const $this = $(this);
-          $this.addClass(showClass);
-          $this.find($dropdownToggle).attr("aria-expanded", "true");
-          $this.find($dropdownMenu).addClass(showClass);
-        },
-        function() {
-          const $this = $(this);
-          $this.removeClass(showClass);
-          $this.find($dropdownToggle).attr("aria-expanded", "false");
-          $this.find($dropdownMenu).removeClass(showClass);
-        }
-      );
+        $dropdown.hover(
+            function () {
+                const $this = $(this);
+                $this.addClass(showClass);
+                $this.find($dropdownToggle).attr("aria-expanded", "true");
+                $this.find($dropdownMenu).addClass(showClass);
+            },
+            function () {
+                const $this = $(this);
+                $this.removeClass(showClass);
+                $this.find($dropdownToggle).attr("aria-expanded", "false");
+                $this.find($dropdownMenu).removeClass(showClass);
+            }
+        );
     } else {
-      $dropdown.off("mouseenter mouseleave");
+        $dropdown.off("mouseenter mouseleave");
     }
-  });
+});
 
- $( function() {
-    $( "#slider-range" ).slider({
-              range: true,
-              min: 0,
-              max: 500,
-              values: [ 75, 300 ],
-              slide: function( event, ui ) {
-              $( "#amount1" ).val( ui.values[ 0 ] );
-              $( "#amount2" ).val( ui.values[ 1 ] );
-          }
-      });
-      $( "#amount1" ).val( $( "#slider-range" ).slider( "values", 0 ) );
-      $( "#amount2" ).val( $( "#slider-range" ).slider( "values", 1 ) );
-  } );
+$(function () {
+    $("#slider-range").slider({
+        range: true,
+        min: 0,
+        max: 500,
+        values: [75, 300],
+        slide: function (event, ui) {
+            $("#amount1").val(ui.values[0]);
+            $("#amount2").val(ui.values[1]);
+        }
+    });
+    $("#amount1").val($("#slider-range").slider("values", 0));
+    $("#amount2").val($("#slider-range").slider("values", 1));
+});
 
 
 
 
 // ------------ swiper sliders -----------
-$(document).ready(function() {
+$(document).ready(function () {
     var swiper = new Swiper('.portfolio-slider .swiper-container', {
         slidesPerView: 3,
         spaceBetween: 30,
@@ -443,33 +443,33 @@ $(document).ready(function() {
 
     // ------------ clients sliders -----------
     let SwiperBottom = new Swiper('.clients-slider5 .swiper-container', {
-    spaceBetween: 0,
-    centeredSlides: true,
-    slidesPerView: 6,
-    speed: 6000,
-    autoplay: {
-        delay: 1,
-    },
-    loop: true,
-    allowTouchMove: false,
-    disableOnInteraction: true,
-    breakpoints: {
-        0: {
-            slidesPerView: 2,
+        spaceBetween: 0,
+        centeredSlides: true,
+        slidesPerView: 6,
+        speed: 6000,
+        autoplay: {
+            delay: 1,
         },
-        480: {
-            slidesPerView: 2,
-        },
-        787: {
-            slidesPerView: 3,
-        },
-        991: {
-            slidesPerView: 4,
-        },
-        1200: {
-            slidesPerView: 6,
+        loop: true,
+        allowTouchMove: false,
+        disableOnInteraction: true,
+        breakpoints: {
+            0: {
+                slidesPerView: 2,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+            787: {
+                slidesPerView: 3,
+            },
+            991: {
+                slidesPerView: 4,
+            },
+            1200: {
+                slidesPerView: 6,
+            }
         }
-    }
     });
 
     // ------------ testimonial sliders -----------
@@ -540,13 +540,13 @@ $(document).ready(function() {
         },
         on: {
             slideChange: function () {
-              var activeIndex = this.activeIndex;
-              var realIndex = this.slides.eq(activeIndex).attr('data-swiper-slide-index');
-             $('.swiper-slide').removeClass('swiper-slide-nth-prev-2 swiper-slide-nth-next-2');
-             $('.swiper-slide[data-swiper-slide-index="'+realIndex+'"]').prev().prev().addClass('swiper-slide-nth-prev-2');
-             $('.swiper-slide[data-swiper-slide-index="'+realIndex+'"]').next().next().addClass('swiper-slide-nth-next-2');
+                var activeIndex = this.activeIndex;
+                var realIndex = this.slides.eq(activeIndex).attr('data-swiper-slide-index');
+                $('.swiper-slide').removeClass('swiper-slide-nth-prev-2 swiper-slide-nth-next-2');
+                $('.swiper-slide[data-swiper-slide-index="' + realIndex + '"]').prev().prev().addClass('swiper-slide-nth-prev-2');
+                $('.swiper-slide[data-swiper-slide-index="' + realIndex + '"]').next().next().addClass('swiper-slide-nth-next-2');
             },
-          }
+        }
     });
 
     // ------------ works sliders -----------
@@ -757,7 +757,7 @@ $(document).ready(function() {
 var sidemenu = document.getElementById('sidemenu');
 
 var flag = true;
-function OpenCloseNav() { 
+function OpenCloseNav() {
     if (flag == true) {
         flag = false;
         sidemenu.style.height = "100%";
@@ -772,3 +772,29 @@ function OpenCloseNav() {
     }
 }
 
+jQuery(function ($) {
+
+    $(window).on('load', function () {
+        // PARALLAX FUNCTIN CALL
+        $(".parallax-object").paralmax();
+    });
+
+});
+/* ========================================================================= */
+/* http://www.jksakura.com/paralmax */
+/**
+ * Paralmax is a JQuery responsive parallax plugin for multiple uses, including full size section background image, page parallax elements and more based on different use cases. With many built-in settings, users can set parallax speed, resize background image to full size or not, disable it below specific screen size, offset of the parallax element from it's center. The advantage of Paralmax is that it only adds parallax effet to elements, but not changes their style/looking, so users can easily customise/style any elements with pure HTML or CSS (position, size, image, background, content, etc).
+ * @author Jake Zhong
+----------------------
+-------------| |   / /
+     | |     | |  / /
+     | |     | | / /
+     | |     | |/ /
+     | |     | |\ \
+     | |     | | \ \
+     | |     | |  \ \
+-----  |     | |   \ \
+-----------------------
+**/
+/* ========================================================================= */
+jQuery.fn.extend({ paralmax: function () { var t; return $(window).width(), t = $(window).height(), $(this).each(function () { function e() { s() ? $(i).data("speed") || 0 === $(i).data("speed") ? d.speed = $(i).data("speed") : d.speed = .5 : d.speed = 0 } function a() { var e, a, r = i; !0 === d.resizable && ($(window).width() > d.breakpoint ? (e = parseInt($(r).parent().outerHeight()), a = parseInt($(r).parent().offset().top) > parseInt(t) ? parseInt(t * d.speed) : parseInt($(r).parent().offset().top) * d.speed, $(r).height(e + a)) : $(r).height(e)) } function r() { var t = i, e = $("html").scrollTop(), a = $("body").scrollTop(), r = (e > a ? e : a) - d.start, n = parseInt(r * d.speed) + d.offset; $(t).css({ webkitTransform: "translate3d(0, " + n + "px, 0)", MozTransform: "translate3d(0, " + n + "px, 0)", msTransform: "translateY(" + n + "px)", OTransform: "translate3d(0, " + n + "px, 0)", transform: "translate3d(0, " + n + "px, 0)" }) } function n() { if (!s()) { var t = i; $(t).css({ webkitTransform: "translate3d(0, 0, 0)", MozTransform: "translate3d(0, 0, 0)", msTransform: "translateY(0)", OTransform: "translate3d(0, 0, 0)", transform: "translate3d(0, 0, 0)" }) } } function s() { return $(window).width() > d.breakpoint } var o, i = this, d = { start: (o = $(i).offset()).top, stop: o.top + $(i).outerHeight(), speed: 0, resizable: !!$(i).data("resize") && $(i).data("resize"), breakpoint: $(i).data("breakpoint") ? $(i).data("breakpoint") : 0, offset: $(i).data("offset") ? $(i).data("offset") * $(i).outerHeight() : 0 }; e(), a(), n(), s() && r(), $(window).bind("scroll", function () { s() && r() }), $(window).bind("resize", function () { e(), a(), n() }) }) } });

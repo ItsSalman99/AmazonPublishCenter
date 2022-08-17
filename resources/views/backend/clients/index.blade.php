@@ -36,10 +36,13 @@
                                     </a>
                                 </div>
                                 <div>
-                                    <button class="btn btn-primary">
-                                        PDF
-                                        <i class="bi bi-file-earmark-arrow-down"></i>
-                                    </button>
+                                    <form target="__blank" action="{{ route('clients-pdf') }}" method="post">
+                                        @csrf
+                                        <button class="btn btn-primary">
+                                            PDF
+                                            <i class="bi bi-file-earmark-arrow-down"></i>
+                                        </button>
+                                    </form>
                                 </div>
                                 <div>
                                     <button class="btn btn-success">

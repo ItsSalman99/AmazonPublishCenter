@@ -6,6 +6,7 @@ use App\Models\Client;
 use App\Models\Region;
 use Illuminate\Http\Request;
 use Alert;
+use PDF;
 
 class ClientController extends Controller
 {
@@ -21,13 +22,12 @@ class ClientController extends Controller
         $client = Client::where('id', $id)->first();
         $regions = Region::all();
 
-        return view('backend.clients.edit', compact('client','regions'));
-
+        return view('backend.clients.edit', compact('client', 'regions'));
     }
 
     public function update(Request $request, $id)
     {
-     
+
         $client = Client::where('id', $id)->first();
 
         $client->name = $request->name;
@@ -40,15 +40,14 @@ class ClientController extends Controller
         $client->save();
 
         Alert::success('Updated Successfully!!', 'Client updated successfully!');
-        
+
         return redirect()->back()->with('success', 'Request submitted successfully!');
-        
     }
 
     public function store(Request $request)
     {
         // dd($request->all());
-        
+
         try {
 
             $client = new Client;
@@ -64,15 +63,13 @@ class ClientController extends Controller
             Alert::success('Request Sent Successfully!!', 'We have recieved your request, our expert will contact you soon!')->persistent('Dismiss');;
 
             return redirect()->back();
-    
         } catch (\Throwable $th) {
-                
+
             Alert::success('Request Sent Successfully!!', 'We have recieved your request, our expert will contact you soon!')->persistent('Dismiss');;
 
 
             return redirect()->back();
         }
-
     }
 
     public function destroy($id)
@@ -81,12 +78,10 @@ class ClientController extends Controller
 
         $client->delete();
 
-        
+
         Alert::success('Deleted Successfully!!', 'Client deleted successfully, You can restore it from trash in the future!');
-        
+
         return redirect()->back();
-
-
     }
 
     public function trash()
@@ -94,7 +89,6 @@ class ClientController extends Controller
         $clients = Client::onlyTrashed()->paginate(10);
 
         return view('backend.clients.trash', compact('clients'));
-
     }
 
     public function restoreTrash($id)
@@ -104,9 +98,8 @@ class ClientController extends Controller
         $client->restore();
 
         Alert::success('Restored Successfully!!', 'Client data restored successfully!');
-        
-        return redirect()->back();
 
+        return redirect()->back();
     }
 
     public function deletePermanent($id)
@@ -116,8 +109,17 @@ class ClientController extends Controller
         $client->forcedelete();
 
         Alert::success('Permanently Deleted Successfully!!', 'Client data deleted permanently!');
-        
+
         return redirect()->back();
     }
 
+    public function exportClientPdf()
+    {
+        $clients = Client::all();
+
+
+        $pdf = PDF::loadView('backend.clients.pdf.client-pdf', array('clients' => $clients));
+
+        return $pdf->stream();
+    }
 }

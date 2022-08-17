@@ -30,16 +30,16 @@
                         <li><a class="dropdown-item" href="{{ route('book-writing') }}">Book Writing</a></li>
                         <li><a class="dropdown-item" href="{{ route('book-publishing') }}">Book Publishing</a></li>
                         <li><a class="dropdown-item" href="{{ route('book-marketing') }}">Book Marketing</a></li>
-                        <li><a class="dropdown-item" href="#">Book Formating</a></li>
-                        <li><a class="dropdown-item" href="#">Video Book Trailers</a></li>
-                        <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
-                        <li><a class="dropdown-item" href="#">Interactive E-books</a></li>
-                        <li><a class="dropdown-item" href="#">Creative Writing</a></li>
-                        <li><a class="dropdown-item" href="#">Press Release Writing</a></li>
-                        <li><a class="dropdown-item" href="#">Editing and Proofreading</a></li>
-                        <li><a class="dropdown-item" href="#">Book Cover Design</a></li>
-                        <li><a class="dropdown-item" href="#">Amazon Marketing</a></li>
-                        <li><a class="dropdown-item" href="#">SEO Writing</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-formating') }}">Book Formating</a></li>
+                        <li><a class="dropdown-item" href="{{ route('video-book-trailers') }}">Video Book Trailers</a></li>
+                        <li><a class="dropdown-item" href="{{ route('social-media-marketing') }}">Social Media Marketing</a></li>
+                        <li><a class="dropdown-item" href="{{ route('interactive-ebooks') }}">Interactive E-books</a></li>
+                        <li><a class="dropdown-item" href="{{ route('creative-writing') }}">Creative Writing</a></li>
+                        <li><a class="dropdown-item" href="{{ route('press-release-writing') }}">Press Release Writing</a></li>
+                        <li><a class="dropdown-item" href="{{ route('editingProofReading') }}">Editing and Proofreading</a></li>
+                        <li><a class="dropdown-item" href="{{ route('bookCoverDesign') }}">Book Cover Design</a></li>
+                        <li><a class="dropdown-item" href="{{ route('amazon-marketing') }}">Amazon Marketing</a></li>
+                        <li><a class="dropdown-item" href="{{ route('seo-writing') }}">SEO Writing</a></li>
                         <li><a class="dropdown-item" href="{{ route('audio-books') }}">Audio Books</a></li>
                     </ul>
                 </li>
@@ -69,16 +69,10 @@
             <div class="nav-side">
                 <div class="d-flex align-items-center">
                     @auth
-                        <a href="#" class="search-icon me-4 border border-2 p-2 rounded-circle">
+                        <a href="{{ route('dashboard') }}" class="search-icon me-4 border border-2 p-2 rounded-circle">
                             <i class="bi bi-person"></i>
                         </a>
                     @endauth
-                    <a href="#" style="color: #000;" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold">
-                        <span>
-                            <i class="bi bi-chat-dots me-1"></i>
-                            Let’s Chat!
-                        </span>
-                    </a>
                 </div>
             </div>
         </div>

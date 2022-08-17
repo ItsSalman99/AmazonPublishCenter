@@ -3,9 +3,9 @@
 @section('content')
     <!--Contents-->
     <main>
-        
+
         @include('frontend.partials.clients')
-        
+
         <div class="container">
             <hr>
         </div>
@@ -156,14 +156,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="text-center">
-                    <a href="#" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
-                        <span>
-                            See All Our Services
-                            <i class="bi bi-arrow-right ms-1"></i>
-                        </span>
-                    </a>
                 </div>
             </div>
         </section>
@@ -714,7 +706,7 @@
                     </h2>
                     <p class="color-666">We will contact again after receive your request in 24h</p>
                 </div>
-                <div class="content">
+                <div class="content" style="background-color: #ddd; border: 10px solid #000;">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             @include('frontend.partials.contactform')

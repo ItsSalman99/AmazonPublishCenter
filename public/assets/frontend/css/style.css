@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 :root {
@@ -1830,6 +1829,10 @@ small.text {
   transform: translateY(100px);
   border-radius: 0 !important;
   margin: 0 !important;
+}
+
+.nav-scroll ul li .nav-link{
+    color: #000!important;
 }
 
 .navbar.style-1 {
@@ -10069,3 +10072,22 @@ footer.style-6 .foot .logo {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+.parallax-background-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.section-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
