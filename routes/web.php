@@ -26,6 +26,16 @@ Route::get('/book-cover-design', [HomeController::class, 'bookCoverDesign'])->na
 Route::get('/amazon-marketing', [HomeController::class, 'amazonMarketing'])->name('amazon-marketing');
 Route::get('/seo-writing', [HomeController::class, 'seoWriting'])->name('seo-writing');
 
+// Ghostwriting
+Route::get('/fiction', [HomeController::class, 'Fiction'])->name('fiction');
+Route::get('/beauty-ghostwriting', [HomeController::class, 'Beauty'])->name('beauty');
+Route::get('/business-ghostwriting', [HomeController::class, 'Business'])->name('business');
+Route::get('/fantasy-ghostwriting', [HomeController::class, 'Fantasy'])->name('fantasy');
+Route::get('/medical-ghostwriting', [HomeController::class, 'Medical'])->name('medical');
+Route::get('/screenplay-ghostwriting', [HomeController::class, 'ScreenPlay'])->name('screenplay');
+Route::get('/nonfiction-ghostwriting', [HomeController::class, 'ScreenPlay'])->name('nonfiction');
+Route::get('/blog-ghostwriting', [HomeController::class, 'BlogWriting'])->name('blog-writing');
+
 Route::post('clients/store', [ClientController::class, 'store'])->name('clients.store');
 
 

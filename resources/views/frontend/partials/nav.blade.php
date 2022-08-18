@@ -49,15 +49,14 @@
                         GHOST WRITING
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                        <li><a class="dropdown-item" href="#">FICTION</a></li>
-                        <li><a class="dropdown-item" href="#">BEAUTY GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">BEAUTY GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">BUSINESS GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">FANTASY GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">MEDICAL GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">SCREENPLAY GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">NONFICTION GHOSTWRTING</a></li>
-                        <li><a class="dropdown-item" href="#">BLOG GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('fiction') }}">FICTION</a></li>
+                        <li><a class="dropdown-item" href="{{ route('beauty') }}">BEAUTY GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('business') }}">BUSINESS GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('fantasy') }}">FANTASY GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('medical') }}">MEDICAL GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('screenplay') }}">SCREENPLAY GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('nonfiction') }}">NONFICTION GHOSTWRTING</a></li>
+                        <li><a class="dropdown-item" href="{{ route('blog-writing') }}">BLOG GHOSTWRTING</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

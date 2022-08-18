@@ -7,11 +7,18 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    protected $regions;
+
+    public function __construct() {
+        $this->regions = Region::all();
+    }
+    
     public function index()
     {
-        $regions = Region::all();
 
-        return view('frontend.index', compact('regions'));
+        return view('frontend.index')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function about()
@@ -23,78 +30,159 @@ class HomeController extends Controller
     {
         $regions = Region::all();
 
-        return view('frontend.contact', compact('regions'));
+        return view('frontend.contact')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function bookWriting()
     {
-        return view('frontend.services.book_writing');
+        return view('frontend.services.book_writing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function bookPublishing()
     {
-        return view('frontend.services.book-publishing');
+        return view('frontend.services.book-publishing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function bookMarketing()
     {
-        return view('frontend.services.book-marketing');
+        return view('frontend.services.book-marketing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function bookFormating()
     {
-        return view('frontend.services.book_formating');
+        return view('frontend.services.book_formating')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function videoBookTrailers()
     {
-        return view('frontend.services.video_book_trailers');
+        return view('frontend.services.video_book_trailers')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function socialMediaMarketing()
     {
-        return view('frontend.services.social_media_marketing');
+        return view('frontend.services.social_media_marketing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function interactiveEbooks()
     {
-        return view('frontend.services.interactive-ebooks');
+        return view('frontend.services.interactive-ebooks')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function creativeWriting()
     {
-        return view('frontend.services.creative-writing');
+        return view('frontend.services.creative-writing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function pressReleaseWriting()
     {
-        return view('frontend.services.press-release-writing');
+        return view('frontend.services.press-release-writing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function editingProofReading()
     {
-        return view('frontend.services.editing-proofreading');
+        return view('frontend.services.editing-proofreading')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function bookCoverDesign()
     {
-        return view('frontend.services.book-cover');
+        return view('frontend.services.book-cover')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function amazonMarketing()
     {
-        return view('frontend.services.amazon-marketing');
+        return view('frontend.services.amazon-marketing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function seoWriting()
     {
-        return view('frontend.services.seo-writing');
+        return view('frontend.services.seo-writing')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function audioBooks()
     {
-        return view('frontend.services.audio_books');
+        return view('frontend.services.audio_books')->with([
+            'regions' => $this->regions
+        ]);
     }
+
+    public function Fiction()
+    {
+        return view('frontend.ghostwriting.fiction')->with([
+            'regions' => $this->regions
+        ]);
+    }
+
+    public function Beauty()
+    {
+        return view('frontend.ghostwriting.beauty')->with([
+            'regions' => $this->regions
+        ]);
+    }
+
+    
+    public function Business()
+    {
+        return view('frontend.ghostwriting.business')->with([
+            'regions' => $this->regions
+        ]);
+    }
+
+    public function Fantasy()
+    {
+        return view('frontend.ghostwriting.fantasy')->with([
+            'regions' => $this->regions
+        ]);
+    }
+    
+    public function Medical()
+    {
+        return view('frontend.ghostwriting.medical')->with([
+            'regions' => $this->regions
+        ]);
+    }
+    
+    public function ScreenPlay()
+    {
+        return view('frontend.ghostwriting.nonfiction')->with([
+            'regions' => $this->regions
+        ]);
+    }
+
+    public function BlogWriting()
+    {
+        return view('frontend.ghostwriting.blog')->with([
+            'regions' => $this->regions
+        ]);
+    }
+    
 
 }
 

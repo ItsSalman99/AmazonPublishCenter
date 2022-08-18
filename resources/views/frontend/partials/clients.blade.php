@@ -1,45 +1,83 @@
-
-        <!-- ====== start clients ====== -->
-        <section class="clients style-5" style="margin-top: 80px; margin-bottom: 20px;">
-            <div class="container">
-                <div class="section-head mb-70 style-6 text-center">
-                    <h2 class="mb-20"> Trusted by thoudsands  
-                        <span> <small> Businesss </small> </span>
-                    </h2>
-                    <p class="color-666">More 15,000 Companies & partners trusted & choice Itekseo</p>
-                </div>
-                <div class="content d-flex flex-wrap">
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/amazon.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/barnesnoble.jpg" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/google-books.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/ibook.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/ingramspark.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/kobo.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/lulu.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/scribd.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/15.png" alt="">
-                    </a>
-                    <a href="#" class="img img-card">
-                        <img src="assets/frontend/images/logos/16.png" alt="">
-                    </a>
+<!-- ====== start clients ====== -->
+<section class="clients style-5 pb-100">
+    <div class="section-head text-center mb-40 style-5">
+        <h2 class="mb-20"> Trusted By Thoudsands <span> Business </span> </h2>
+        <p>More than 15,000 companies trust and choose Iteck</p>
+    </div>
+    <div class="content">
+        <div class="clients-slider5">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/about/amazon.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/about/kobo.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/about/scribd.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/about/Ingramspart.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/about/barnesnoble.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/ibook.png') }}" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- ====== end clients ====== -->
+        </div>
+
+        <div class="clients-slider5" dir="rtl">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/13.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/14.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/15.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/16.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/17.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="img">
+                            <img src="{{ asset('assets/frontend/images/logos/9.png') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== end clients ====== -->

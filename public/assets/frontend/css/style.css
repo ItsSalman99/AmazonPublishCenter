@@ -1831,8 +1831,8 @@ small.text {
   margin: 0 !important;
 }
 
-.nav-scroll ul li .nav-link{
-    color: #000!important;
+.nav-scroll ul li .nav-link {
+  color: #000 !important;
 }
 
 .navbar.style-1 {
@@ -9968,7 +9968,7 @@ footer.style-6 .foot .logo {
 }
 
 .sidebar {
-  background-color: #000!important;
+  background-color: #000 !important;
   background-image: url('/assets/frontend/images/back1.svg');
   background-size: cover;
   background-position: center;
@@ -10010,6 +10010,7 @@ footer.style-6 .foot .logo {
 .logo {
   width: 300px;
 }
+
 /* Resposive Queries */
 
 /* Extra small devices (phones, 600px and down) */
@@ -10074,20 +10075,57 @@ footer.style-6 .foot .logo {
 @media only screen and (min-width: 1200px) {}
 
 .parallax-background-container {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .section-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.pop-up {
+  height: 90%;
+  width: 80%;
+  border: 10px solid #000;
+  position: fixed;
+  top: 10%;
+  z-index: 9999999;
+  transform: translate(10%, -5%);
+  background-color: #fff;
+
+}
+.pop-up textarea{
+  resize: none;
+  height: 100px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
+
+#the-final-countdown {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+}
+
+#the-final-countdown span {
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #000;
+  text-shadow: 1px 1px 5px #eee;
+  border: 3px solid #000;
+  border-radius: 10px;
 }

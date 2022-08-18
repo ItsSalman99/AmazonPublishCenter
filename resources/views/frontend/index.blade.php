@@ -29,8 +29,7 @@
                                     your site will withstand the test of time.
                                 </div>
                                 <div class="btns d-flex align-items-center mt-60">
-                                    <a href="#"
-                                        class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
+                                    <a href="#" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
                                         <span>
                                             About Us
                                             <i class="bi bi-arrow-right ms-1"></i>
@@ -387,7 +386,8 @@
                     <div class="col-lg-6">
                         <div class="img">
                             <img src="assets/frontend/images/testimonials/users_6.png" alt="" class="">
-                            <img src="assets/frontend/images/testimonials/bubbls.png" alt="" class="bubbls rotate-center">
+                            <img src="assets/frontend/images/testimonials/bubbls.png" alt=""
+                                class="bubbls rotate-center">
                         </div>
                     </div>
                 </div>
@@ -697,6 +697,7 @@
         </section>
         <!-- ====== end blog ====== -->
 
+        @include('frontend.partials.clients-reviews')
 
         <!-- ====== start contact ====== -->
         <section class="contact section-padding style-6">
