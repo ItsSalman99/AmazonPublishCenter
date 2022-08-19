@@ -23,7 +23,9 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('frontend.about');
+        return view('frontend.about')->with([
+            'regions' => $this->regions
+        ]);
     }
 
     public function contact()

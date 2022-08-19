@@ -161,126 +161,7 @@
         <!-- ====== end services ====== -->
 
         <!-- ====== start projects ====== -->
-        <section class="projects style-6">
-            <div class="content section-padding">
-                <div class="container">
-                    <div class="section-head mb-40 d-flex justify-content-between align-items-center style-6">
-                        <h2 class="mb-20">
-                            Features Projects
-                        </h2>
-                        <a href="#" class="small text-decoration-underline text-uppercase">See All
-                            Projects</a>
-                    </div>
-                    <div class="slider-3items slider-style-6">
-                        <div class="swiper-container pb-70">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="project-card style-6">
-                                        <div class="img">
-                                            <img src="assets/frontend/images/projects/4.png" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="title">
-                                                <a href="#">Okpay E-Wallet Optimized</a>
-                                            </h3>
-                                            <small class="color-blue6">
-                                                <a href="#">SEO analysis</a>
-                                            </small>
-                                            <div class="text">
-                                                Trust our top minds to eliminate workflow pain points, implement new
-                                                tech & app.
-                                            </div>
-                                            <div class="tags">
-                                                <span>
-                                                    <a href="#">SEO Analysis</a>
-                                                </span>
-                                                <span>
-                                                    <a href="#">Content Strategy</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="project-card style-6">
-                                        <div class="img">
-                                            <img src="assets/frontend/images/projects/5.png" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="title">
-                                                <a href="#">e-Commerce Dashboard</a>
-                                            </h3>
-                                            <small class="color-blue6"> <a href="#">website design</a> & <a
-                                                    href="#">develoment</a> </small>
-                                            <div class="text">
-                                                Trust our top minds to eliminate workflow pain points, implement new
-                                                tech & app.
-                                            </div>
-                                            <div class="tags">
-                                                <span><a href="#">WordPress</a></span>
-                                                <span><a href="#">PHP</a></span>
-                                                <span><a href="#">HTML/CSS</a></span>
-                                                <span><a href="#">Figma</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="project-card style-6">
-                                        <div class="img">
-                                            <img src="assets/frontend/images/projects/7.png" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="#">MLB Store
-                                                    Instagram</a></h3>
-                                            <small class="color-blue6"><a href="#">social media</a></small>
-                                            <div class="text">
-                                                Trust our top minds to eliminate workflow pain points, implement new
-                                                tech & app.
-                                            </div>
-                                            <div class="tags">
-                                                <span><a href="#">Social</a></span>
-                                                <span><a href="#">Instagram</a></span>
-                                                <span><a href="#">Followers</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="project-card style-6">
-                                        <div class="img">
-                                            <img src="assets/frontend/images/projects/5.png" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="#">e-Commerce
-                                                    Dashboard</a></h3>
-                                            <small class="color-blue6"><a href="#">website design</a> & <a
-                                                    href="#">develoment</a></small>
-                                            <div class="text">
-                                                Trust our top minds to eliminate workflow pain points, implement new
-                                                tech & app.
-                                            </div>
-                                            <div class="tags">
-                                                <span><a href="#">WordPress</a></span>
-                                                <span><a href="#">PHP</a></span>
-                                                <span><a href="#">HTML/CSS</a></span>
-                                                <span><a href="#">Figma</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ====== pagination ====== -->
-                        <div class="swiper-pagination"></div>
-
-                        <!-- ====== arrows ====== -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('frontend.partials.book-slider')
         <!-- ====== end projects ====== -->
 
         <!-- ====== start choose us ====== -->
@@ -696,8 +577,6 @@
             </div>
         </section>
         <!-- ====== end blog ====== -->
-
-        @include('frontend.partials.clients-reviews')
 
         <!-- ====== start contact ====== -->
         <section class="contact section-padding style-6">

@@ -345,7 +345,7 @@ small.text {
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  background: var(--color-main-grad);
+  background: #f39732;
 }
 
 .swiper-button-next:hover::after,
@@ -502,10 +502,10 @@ small.text {
   left: 0;
   height: 50%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#0c3df4), to(#02b5ff));
-  background: -webkit-linear-gradient(left, #0c3df4 0%, #02b5ff 100%);
-  background: -o-linear-gradient(left, #0c3df4 0%, #02b5ff 100%);
-  background: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#f73312), to(#f39732));
+  background: -webkit-linear-gradient(left, #f73312 0%, #f39732 100%);
+  background: -o-linear-gradient(left, #f73312 0%, #f39732 100%);
+  background: linear-gradient(to right, #f73312 0%, #f39732 100%);
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -1480,7 +1480,7 @@ small.text {
 
 .butn.butn-blue6,
 .btn.butn-blue6 {
-  background: var(--color-blue6);
+  background: #f39732;
 }
 
 .butn.butn-blue6 span,
@@ -1667,7 +1667,7 @@ small.text {
 }
 
 .section-head.style-5 h2 span {
-  color: var(--color-blue5);
+  color: #fb7000;
   position: relative;
   display: inline-block;
   padding: 0 5px;
@@ -1681,7 +1681,7 @@ small.text {
   bottom: 0;
   width: 100%;
   height: 40%;
-  background-color: var(--color-blue5);
+  background-color: dodgerblue;
   opacity: 8%;
 }
 
@@ -3767,7 +3767,7 @@ header.style-6 .head6-rocket {
 
 .services_projects .swiper-button-next:hover,
 .services_projects .swiper-button-prev:hover {
-  background: var(--color-lightBlue) !important;
+  background: #f39732!important;
 }
 
 .swiper-slide-duplicate-prev .service-box {
@@ -4579,7 +4579,7 @@ header.style-6 .head6-rocket {
 }
 
 .testimonials.style-3 .testimonial-slider.style-3 .swiper-button-next:hover {
-  background: var(--color-blue2);
+  background: #f39732;
 }
 
 .testimonials.style-3 .testimonial-slider.style-3 .swiper-button-prev {

@@ -839,3 +839,23 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s0.parentNode.insertBefore(s1, s0);
 })();
 // End of Tawk.to Script
+
+
+var mySwiper = new Swiper('.swiper-bg-container', {
+    autoplay: {
+        delay: 10000,
+    },
+    direction: 'horizontal',
+    pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    effect: 'fade',
+    loop: true,
+    speed: 1000,
+})
