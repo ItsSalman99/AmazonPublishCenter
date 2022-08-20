@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination" style="background-color: transparent"></div>
         </div>
     </div>
 </section>

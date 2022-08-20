@@ -184,7 +184,13 @@ class HomeController extends Controller
             'regions' => $this->regions
         ]);
     }
-    
+
+    public function portfolio()
+    {
+        return view('frontend.portfolio')->with([
+            'regions' => $this->regions
+        ]);;
+    }
 
 }
 

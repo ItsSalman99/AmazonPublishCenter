@@ -42,6 +42,58 @@
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
+
+            
+            <section class="features pt-70 pb-70 style-4" style="background-color: transparent">
+                <div class="container">
+                    <div class="section-head text-center style-4">
+                        <small class="title_small bg-white">Amazon Publish Center</small>
+                        <h2 class="mb-70"> Book Publishing <span> Services </span> </h2>
+                    </div>
+                    <div class="content">
+                        <div class="features-card m-2">
+                            <h3>Editing<br> & Formatting</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Self <br>Publishing</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Promotion <br> Service</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Distribution <br> Service</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
+            </section>
+            
+            
+
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">

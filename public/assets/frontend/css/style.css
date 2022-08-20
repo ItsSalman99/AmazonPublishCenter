@@ -6278,7 +6278,7 @@ header.style-6 .head6-rocket {
 
 .number-card.style-6 h2 {
   font-size: 45px;
-  color: var(--color-blue6);
+  color: #f39732;
 }
 
 .number-card.style-6 .text {
@@ -7205,7 +7205,7 @@ footer.style-6 .foot .logo {
   object-fit: cover;
 }
 
-.about-page header.style-5 .main-vid .play-icon {
+.main-vid .play-icon {
   position: absolute;
   left: calc(50% - 50px);
   top: calc(50% - 50px);

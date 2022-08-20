@@ -46,19 +46,113 @@
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
+
+            <div class="container">
+                <div class="main-vid" style="">
+                    <img src="{{ asset('assets/frontend/images/vid_banner5.png') }}" alt=""
+                        style="border: 10px solid #000; border-radius: 20px">
+                    <a href="https://youtu.be/pGbIOC83-So?t=21" data-lity="" class="play-icon">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="content sec-content">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-5 order-2 order-lg-0">
+                            <div class="info">
+                                <div class="section-head style-4">
+                                    <small class="title_small">Better Note Management</small>
+                                    <h2 class="mb-30">Our <span> Mission </span> </h2>
+                                </div>
+                                <p class="text mb-40">
+                                    Automatically syncs across all your devices. You can also access and write notes without
+                                    internet connection.
+                                </p>
+                                <div class="faq style-3 style-4">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading1">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse1" aria-expanded="true"
+                                                    aria-controls="collapse1">
+                                                    Create and Save your notes with multi-media
+                                                </button>
+                                            </h2>
+                                            <div id="collapse1" class="accordion-collapse collapse show"
+                                                aria-labelledby="heading1" data-bs-parent="#accordionExample"
+                                                style="">
+                                                <div class="accordion-body">
+                                                    Images, videos, PDFs and audio files are supported. Create math
+                                                    expressions and diagrams directly from the app. Take photos with the
+                                                    mobile app and save them to a note.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading2">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse2"
+                                                    aria-expanded="false" aria-controls="collapse2">
+                                                    Web Clipper Extension
+                                                </button>
+                                            </h2>
+                                            <div id="collapse2" class="accordion-collapse collapse"
+                                                aria-labelledby="heading2" data-bs-parent="#accordionExample"
+                                                style="">
+                                                <div class="accordion-body">
+                                                    Images, videos, PDFs and audio files are supported. Create math
+                                                    expressions and diagrams directly from the app. Take photos with the
+                                                    mobile app and save them to a note.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading3">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                                    aria-expanded="false" aria-controls="collapse3">
+                                                    Protect your note with lock
+                                                </button>
+                                            </h2>
+                                            <div id="collapse3" class="accordion-collapse collapse"
+                                                aria-labelledby="heading3" data-bs-parent="#accordionExample"
+                                                style="">
+                                                <div class="accordion-body">
+                                                    Images, videos, PDFs and audio files are supported. Create math
+                                                    expressions and diagrams directly from the app. Take photos with the
+                                                    mobile app and save them to a note.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-0 order-lg-2">
+                            <div class="img mb-30 mb-lg-0">
+                                <img src="{{ asset('assets/frontend/images/about/best-img1.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/about/about_s4_bubble2.png" alt="" class="bubble2">
+            </div>
+
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/best-img.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img3.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Experience Unparalleled<span> Ghostwriting Services </span> </h2>
+                                    <h2 class="mb-30">Our <span> Goal </span> </h2>
                                 </div>
                                 <p class="text mb-40">
                                     Amazon Publish Central will allow you to see unrivaled talent in ghostwriting. Our
@@ -95,139 +189,68 @@
                     </div>
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/about_s4_lines.png') }}" alt="" class="lines">
-                <img src="{{ asset('assets/frontend/images/about/about_s4_bubble.png') }}" alt="" class="bubble">
             </div>
+
+            <section class="features pt-70 pb-70 style-4">
+                <div class="container">
+                    <div class="section-head text-center style-4">
+                        <small class="title_small bg-white">Amazon Publish Center</small>
+                        <h2 class="mb-70"> Our <span> Priorities </span> </h2>
+                    </div>
+                    <div class="content">
+                        <div class="features-card">
+                            <div class="icon img-contain">
+                                <img src="{{ asset('assets/frontend/images/icons/fe1.png') }}" alt="">
+                            </div>
+                            <h6>Notes Powerful <br> and Security</h6>
+                        </div>
+                        <div class="features-card">
+                            <div class="icon img-contain">
+                                <img src="{{ asset('assets/frontend/images/icons/fe2.png') }}" alt="">
+                            </div>
+                            <h6>Easy Sort, Classify <br> and Search</h6>
+                        </div>
+                        <div class="features-card">
+                            <div class="icon img-contain">
+                                <img src="{{ asset('assets/frontend/images/icons/fe3.png') }}" alt="">
+                                <span
+                                    class="label icon-40 alert-success text-success rounded-circle small text-uppercase fw-bold">
+                                    new
+                                </span>
+                            </div>
+                            <h6>Collaboration and <br> Share</h6>
+                        </div>
+                        <div class="features-card">
+                            <div class="icon img-contain">
+                                <img src="{{ asset('assets/frontend/images/icons/fe4.png') }}" alt="">
+                            </div>
+                            <h6>Quick Note In <br> Everywhere</h6>
+                        </div>
+                        <div class="features-card">
+                            <div class="icon img-contain">
+                                <img src="{{ asset('assets/frontend/images/icons/fe5.png') }}" alt="">
+                            </div>
+                            <h6>Write and Draw <br> on Ipad</h6>
+                        </div>
+                    </div>
+                </div>
+                <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
+            </section>
+
         </section>
         <!-- ====== end about ====== -->
 
 
         <!-- ====== start team ====== -->
-        <section class="team section-padding style-6">
-            <div class="content">
-                <div class="container">
-                    <div class="section-head text-center style-4 mb-60">
-                        <small class="title_small"> The Team Work </small>
-                        <h2 class="mb-20"> Our <span> Leaders </span> </h2>
-                        <p> The Professional Creative Team for Growth-up Works </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="team-card mb-30 mb-lg-0 style-6">
-                                <div class="img img-cover">
-                                    <img src="{{ asset('assets/frontend/images/team/1.jpg') }}" alt="">
-                                    <div class="social-icons">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <a class="d-block" href="#">
-                                        <h6>Michael Edwards</h6>
-                                    </a>
-                                    <small>CEO Founder</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="team-card mb-30 mb-lg-0 style-6">
-                                <div class="img img-cover">
-                                    <img src="{{ asset('assets/frontend/images/team/5.jpg') }}" alt="">
-                                    <div class="social-icons">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <a class="d-block" href="#">
-                                        <h6>Bobby Kane</h6>
-                                    </a>
-                                    <small>CTO</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="team-card mb-30 mb-lg-0 style-6">
-                                <div class="img img-cover">
-                                    <img src="{{ asset('assets/frontend/images/team/3.jpg') }}" alt="">
-                                    <div class="social-icons">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <a class="d-block" href="#">
-                                        <h6>Robert Downey Jr</h6>
-                                    </a>
-                                    <small>Project Manager</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="team-card style-6">
-                                <div class="img img-cover">
-                                    <img src="{{ asset('assets/frontend/images/team/4.jpg') }}" alt="">
-                                    <div class="social-icons">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <a class="d-block" href="#">
-                                        <h6>Andrew Robertson</h6>
-                                    </a>
-                                    <small>Marketing Leader</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('frontend.partials.our-writers')
         <!-- ====== end team ====== -->
 
         @include('frontend.partials.book-slider')
 
+        @include('frontend.partials.faq-section')
 
+
+        @include('frontend.partials.clients')
 
     </main>
     <!--End-Contents-->

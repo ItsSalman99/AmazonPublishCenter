@@ -53,8 +53,6 @@
 
     @yield('content')
 
-    @include('frontend.partials.clients')
-
     <!-- ====== start footer ====== -->
     @include('frontend.partials.footer')
     <!-- ====== end footer ====== -->

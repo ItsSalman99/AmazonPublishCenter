@@ -11,9 +11,10 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Video Book Trailers</small>
-                            <h2 class="mb-20">Boost your book with<span> Amazing Trailers </span> </h2>
+                            <h2 class="mb-20">Boost your book with <span> Amazing Trailers </span> </h2>
                             <p>
-                                Our professional book trailers are tailored to boost your book marketing and make your book stand out in the crowd.
+                                Our professional book trailers are tailored to boost your book marketing and make your book
+                                stand out in the crowd.
                             </p>
                         </div>
                     </div>
@@ -21,25 +22,74 @@
                 <div class="container">
                     <div class="content mb-100 pb-100 border-1 border-bottom brd-gray">
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer.png') }}" width="50%"
-                                alt="" class="mt-30">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer.png') }}"
+                                width="50%" alt="" class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer1.png') }}" width="50%"
-                                alt="" class="mt-60">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer1.png') }}"
+                                width="50%" alt="" class="mt-60">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer2.png') }}" width="50%"
-                                alt="" class="mt-20">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer2.png') }}"
+                                width="50%" alt="" class="mt-20">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer3.png') }}" width="50%"
-                                alt="" class="mt-80">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/book-video-trailer3.png') }}"
+                                width="50%" alt="" class="mt-80">
                         </div>
                     </div>
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
+
+            <section class="features pt-70 pb-70 style-4" style="background-color: transparent">
+                <div class="container">
+                    <div class="section-head text-center style-4">
+                        <small class="title_small bg-white">Amazon Publish Center</small>
+                        <h2 class="mb-70"> Book Formating <span> Services </span> </h2>
+                    </div>
+                    <div class="content">
+                        <div class="features-card m-2">
+                            <h3>Barebones<br> Book Trailer</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Cinematic<br>Book Trailer</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Blurb<br>Trailer</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Author<br>Profile</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
+            </section>
+
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">

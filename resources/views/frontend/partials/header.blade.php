@@ -98,6 +98,11 @@
                             </ul>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('portfolio') }}">
+                                PORTFOLIO
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('contact') }}">
                                 CONTACT
                             </a>
@@ -125,7 +130,7 @@
                             style="text-align: left!important; color: #000; background-color: #fff; width: 80%; padding: 10px; border-radius: 10px">
                             Amazon Publish Center</h6>
                         <h1 style="text-align: left!important;">
-                            #1 Amazon Publish Central Company in USA.
+                            Choose The Best Ghostwriting Services
                         </h1>
                         <div class="btns d-flex align-items-center mt-60">
                             <div>
@@ -154,15 +159,15 @@
                         action="{{ route('clients.store') }}" method="POST">
                         @csrf
                         <h2 class="text-center my-4">
-                            Fill out your correct details to register, our experts will contact you!
+                            Book Your Consultation Right Away!
                         </h2>
                         <div class="d-flex justify-content-between my-2">
                             <div style="width: 49%">
                                 <input type="text" style="padding:20px" name="name"
-                                    placeholder="Your Nice Name?" class="form-control" required id="">
+                                    placeholder="Your Name?" class="form-control" required id="">
                             </div>
                             <div style="width: 49%">
-                                <input type="tel" style="padding:20px" name="contact" placeholder="Your Contact"
+                                <input type="tel" style="padding:20px" name="contact" placeholder="Your Contact Number"
                                     class="form-control" required id="">
                             </div>
                         </div>

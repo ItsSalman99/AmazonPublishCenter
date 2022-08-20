@@ -13,37 +13,101 @@
                         <div class="section-head text-center style-4">
                             <small class="title_small">AUDIO BOOKS SERVICES</small>
                             <h2 class="mb-20">We Provide Professional<span>Finest Audiobook Production.</span> </h2>
-                            <p>Amazon Book Publish Central is an industry leader that provides the cheapest audiobook services to customers on-demand. Our voice-over experts are well-versed and do the job perfectly.</p>
+                            <p>Amazon Book Publish Central is an industry leader that provides the cheapest audiobook
+                                services to customers on-demand. Our voice-over experts are well-versed and do the job
+                                perfectly.</p>
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="content mb-100 pb-100 border-1 border-bottom brd-gray">
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book.png') }}" width="80%" alt="" class="mt-30">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book.png') }}" width="80%"
+                                alt="" class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book1.png') }}" width="70%" alt="" class="mt-60">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book1.png') }}" width="70%"
+                                alt="" class="mt-60">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book2.png') }}" width="70%" alt="" class="mt-20">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book2.png') }}" width="70%"
+                                alt="" class="mt-20">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book3.png') }}" width="70%" alt="" class="mt-80">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book3.png') }}" width="70%"
+                                alt="" class="mt-80">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book4.png') }}" width="80%"  alt="">
+                            <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book4.png') }}" width="80%"
+                                alt="">
                         </div>
                     </div>
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
+
+            <section class="features pt-70 pb-70 style-4" style="background-color: transparent">
+                <div class="container">
+                    <div class="section-head text-center style-4">
+                        <small class="title_small bg-white">Amazon Publish Center</small>
+                        <h2 class="mb-70"> Audio Books <span> Services </span> </h2>
+                    </div>
+                    <div class="content">
+                        <div class="features-card m-2">
+                            <h3>Digitally Audio
+                                <br> Formats
+                            </h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Windows
+                                <br>media audio</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Progressive
+                                <br> audio coding</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Solid-state
+                                <br> preloaded digital
+                            </h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
+            </section>
+
+
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book4.png') }}" width="50%" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/serv_icons/audio-book4.png') }}"
+                                    width="50%" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">

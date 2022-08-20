@@ -25,25 +25,70 @@
                 <div class="container">
                     <div class="content mb-100 pb-100 border-1 border-bottom brd-gray">
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book1.png') }}"
-                                alt="" class="mt-30">
+                            <img src="{{ asset('assets/frontend/images/about/book1.png') }}" alt="" class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book2.png') }}"
-                                alt="" class="mt-60">
+                            <img src="{{ asset('assets/frontend/images/about/book2.png') }}" alt="" class="mt-60">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book3.png') }}"
-                                alt="" class="mt-20">
+                            <img src="{{ asset('assets/frontend/images/about/book3.png') }}" alt="" class="mt-20">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book4.png') }}"
-                                alt="" class="mt-80">
+                            <img src="{{ asset('assets/frontend/images/about/book4.png') }}" alt="" class="mt-80">
                         </div>
                     </div>
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
+
+            <section class="features pt-70 pb-70 style-4" style="background-color: transparent">
+                <div class="container">
+                    <div class="section-head text-center style-4">
+                        <small class="title_small bg-white">Amazon Publish Center</small>
+                        <h2 class="mb-70"> Editing & <span> Proofreading Services </span> </h2>
+                    </div>
+                    <div class="content">
+                        <div class="features-card m-2">
+                            <h3>Business Editing<br> & Proofreading</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Resume Editing <br>& Proofreading</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Academic Editing <br> & Proofreading</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Writer Editing<br> & Proofreading</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
+            </section>
+
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
@@ -57,7 +102,8 @@
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
                                     <h2 class="mb-30">Competent Editing &
-                                        <span> Proofreading Service. </span> </h2>
+                                        <span> Proofreading Service. </span>
+                                    </h2>
                                 </div>
                                 <p class="text mb-40">
                                     Defining readers' viewpoint, at Amazon Publishing Central, you can witness the most

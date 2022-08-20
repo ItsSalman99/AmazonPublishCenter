@@ -19,14 +19,14 @@
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head mb-40 style-6">
-                                    <h2> Boost your business up to
-                                        <span> <small>high level</small> </span>
+                                    <h2> Your Story
+                                        <span> <small>Our Words</small> </span>
                                     </h2>
                                 </div>
                                 <div class="text">
-                                    Like any great agency, we are only as good as the result we deliver of our recent
-                                    work. Our developers are committed to maintaining the highest web standards so that
-                                    your site will withstand the test of time.
+                                    Put your thoughts into powerful words and tell the world about your experiences. Hire
+                                    one of our skilled ghostwriters, and we'll produce insightful, engaging material for
+                                    you.
                                 </div>
                                 <div class="btns d-flex align-items-center mt-60">
                                     <a href="#" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
@@ -61,11 +61,12 @@
             <div class="container">
                 <div class="section-head mb-40 text-center style-6">
                     <h2 class="mb-20">
-
-                        <span> <small>Affordable</small> </span> Online Self-Publishing Agency.
+                        We Offer a Range of Professional
+                        <span> <small>Ghostwriting</small> </span> Services
                     </h2>
-                    <p>Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for
-                        business.</p>
+                    <p>
+                        Our editing team and ghostwriter specialists undergo a thorough hiring procedure to ensure we provide the highest standard.
+                    </p>
                 </div>
             </div>
             <div class="content">
@@ -80,8 +81,7 @@
                                     <div class="info">
                                         <h5>Self Pubishing</h5>
                                         <div class="text">
-                                            You can provide the answers that your potential customers are trying to
-                                            find, so you can become the industry.
+                                            We provide a hassle-free book self-publication process, whether you're a seasoned author or a first-time writer.
                                         </div>
                                     </div>
                                 </a>
@@ -94,8 +94,7 @@
                                     <div class="info">
                                         <h5>Editing and Proofreading</h5>
                                         <div class="text">
-                                            Get more website traffic, more customers & more online visibility with
-                                            powerful SEO services.
+                                            Our team of seasoned book editors and proofreaders will polish your manuscript.
                                         </div>
                                     </div>
                                 </a>
@@ -108,8 +107,7 @@
                                     <div class="info">
                                         <h5>Formating</h5>
                                         <div class="text">
-                                            Your website has to impress your visitors within just a few seconds
-                                        </div>
+                                            We concentrate on offering a top-notch and professional format that adheres to the norms of the industry.                                        </div>
                                     </div>
                                 </a>
                             </div>
@@ -121,7 +119,7 @@
                                     <div class="info">
                                         <h5>Book Cover Design</h5>
                                         <div class="text">
-                                            Get more website traffic, more customers for your social chanel
+                                            Our team of expert book cover designers creates beautiful book covers that will make your book stand out.
                                         </div>
                                     </div>
                                 </a>
@@ -134,8 +132,7 @@
                                     <div class="info">
                                         <h5>Video Book Trailers</h5>
                                         <div class="text">
-                                            Your website has to impress your visitors within just a few seconds. If it
-                                            runs slow, if it feels outdated
+                                            As one of the best-ghostwriting services in the USA, our professional ghostwriters produce book trailer videos for marketing and promotion.
                                         </div>
                                     </div>
                                 </a>
@@ -148,7 +145,7 @@
                                     <div class="info">
                                         <h5>SEO</h5>
                                         <div class="text">
-                                            Optimized your website on google result with PPC Marketing
+                                            Our writers will create content for landing and sales pages that convert well using top SEO.
                                         </div>
                                     </div>
                                 </a>
@@ -176,13 +173,11 @@
                     <div class="col-lg-5">
                         <div class="info">
                             <div class="section-head mb-20 style-6">
-                                <h2> Why Choose Amazon Pubish Center </span>
+                                <h2> Why Should You Hire Us? </span>
                                 </h2>
                             </div>
                             <div class="text mb-50">
-                                We are passionate about our work. Our designers stay ahead of the curve to provide
-                                engaging and user-friendly website designs to make your business stand out
-                            </div>
+                                We have assisted numerous companies, brands, and people excelling in their respective industries.                            </div>
                             <ul>
                                 <li class="d-flex mb-40">
                                     <small
@@ -190,10 +185,9 @@
                                         <img src="assets/frontend/images/icons/ch4.png" alt="">
                                     </small>
                                     <div class="inf">
-                                        <h5>Affordable Price</h5>
+                                        <h5>Privacy And Reliability Guaranteed</h5>
                                         <p class="fs-12px color-666 mt-2">
-                                            Nanotechnology immersion along the information high will close the loop on
-                                            focusing solely
+                                            We trail strict procedures to ensure the security of your data and information.
                                         </p>
                                     </div>
                                 </li>
@@ -203,11 +197,9 @@
                                         <img src="assets/frontend/images/icons/ch5.png" alt="">
                                     </small>
                                     <div class="inf">
-                                        <h5>Top-notch Experts Consulting</h5>
+                                        <h5>Experienced Team of Ghostwriters</h5>
                                         <p class="fs-12px color-666 mt-2">
-                                            Our top-notch Experts with much years of experience certail will give best
-                                            solutions for your business
-                                        </p>
+                                            All of our available ghostwriters are native English speakers who are knowledgeable about the subtleties of the language and skilled writers.                                        </p>
                                     </div>
                                 </li>
                                 <li class="d-flex">
@@ -216,9 +208,9 @@
                                         <img src="assets/frontend/images/icons/ch6.png" alt="">
                                     </small>
                                     <div class="inf">
-                                        <h5>Dedicated Support 24/7</h5>
+                                        <h5>Market-Competitive Prices</h5>
                                         <p class="fs-12px color-666 mt-2">
-                                            Customer support is always our number one priority.
+                                            No additional fees or royalties are associated with our ghostwriting services. We give our patrons flexible payment options and pricing that are competitive with the market.
                                         </p>
                                     </div>
                                 </li>
@@ -231,93 +223,12 @@
         </section>
         <!-- ====== end choose us ====== -->
 
-
-        <!-- ====== start testimonials ====== -->
-        <div class="testimonials style-6">
-            <div class="container">
-                <div class="row gx-0 align-items-center justify-content-between">
-                    <div class="col-lg-4">
-                        <div class="testi-slider style-6 slider-style-6">
-                            <div class="icon mb-50">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testi-card">
-                                            <div class="text">
-                                                I don’t know what else to say, this is something that you haven’t seen
-                                                before. Unique design, lightweight, and outstanding support. Itekseo always
-                                                a pleasure to work!
-                                            </div>
-                                            <div class="author mt-30">
-                                                <span class="color-000 fw-bold text-capitalize">Conor Martinelli</span>
-                                                <p class="fs-10px"> Director at <a href="#"
-                                                        class="text-decoration-underline color-blue6"> Ecoland Resort &
-                                                        Hotel </a> </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="img">
-                            <img src="assets/frontend/images/testimonials/users_6.png" alt="" class="">
-                            <img src="assets/frontend/images/testimonials/bubbls.png" alt=""
-                                class="bubbls rotate-center">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ====== end testimonials ====== -->
-
-
+        
         <!-- ====== start numbers ====== -->
-        <section class="numbers section-padding style-6">
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="number-card style-6">
-                                <h2 class="me-4">
-                                    <span class="counter">12</span> +
-                                </h2>
-                                <div class="text">
-                                    Years <br> of Experience
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="number-card style-6">
-                                <h2 class="me-4">
-                                    <span class="counter">1565</span>
-                                </h2>
-                                <div class="text">
-                                    Projects <br> completed
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="number-card style-6 border-0">
-                                <h2 class="me-4">
-                                    <span class="counter">265</span>
-                                </h2>
-                                <div class="text">
-                                    Satisfied clients on <br> 24 countries
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('frontend.partials.numbers')
         <!-- ====== end numbers ====== -->
 
+        @include('frontend.partials.clients-reviews')
 
         <!-- ====== start team ====== -->
         <section class="team section-padding style-6">
@@ -326,12 +237,10 @@
                     <div class="row items align-items-end mb-50">
                         <div class="col-lg-7">
                             <div class="section-head mb-0 style-6">
-                                <h2 class="mb-0"> Our Leaders
+                                <h2 class="mb-0"> 
+                                    Our Writers
                                 </h2>
                             </div>
-                        </div>
-                        <div class="col-lg-5 text-end">
-                            <a class="text-decoration-underline text-uppercase mb-4" href="#">See All our team</a>
                         </div>
                     </div>
                     <div class="row">
@@ -358,7 +267,6 @@
                                     <a class="d-block" href="#">
                                         <h6>Michael Edwards</h6>
                                     </a>
-                                    <small>CEO Founder</small>
                                 </div>
                             </div>
                         </div>
@@ -385,7 +293,6 @@
                                     <a class="d-block" href="#">
                                         <h6>Bobby Kane</h6>
                                     </a>
-                                    <small>CTO</small>
                                 </div>
                             </div>
                         </div>
@@ -412,7 +319,6 @@
                                     <a class="d-block" href="#">
                                         <h6>Robert Downey Jr</h6>
                                     </a>
-                                    <small>Project Manager</small>
                                 </div>
                             </div>
                         </div>
@@ -439,7 +345,6 @@
                                     <a class="d-block" href="#">
                                         <h6>Andrew Robertson</h6>
                                     </a>
-                                    <small>Marketing Leader</small>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +356,7 @@
 
 
         <!-- ====== start blog ====== -->
-        <section class="blog section-padding style-6">
+        {{-- <section class="blog section-padding style-6">
             <div class="container">
                 <div class="section-head mb-70 style-6 text-center">
                     <h2 class="mb-20"> Latest from our blog
@@ -575,7 +480,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- ====== end blog ====== -->
 
         <!-- ====== start contact ====== -->

@@ -39,6 +39,56 @@
                 </div>
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
+
+
+            <section class="features pt-70 pb-70 style-4" style="background-color: transparent">
+                <div class="container">
+                    <div class="section-head text-center style-4">
+                        <small class="title_small bg-white">Amazon Publish Center</small>
+                        <h2 class="mb-70"> Book Writing <span> Services </span> </h2>
+                    </div>
+                    <div class="content">
+                        <div class="features-card m-2">
+                            <h3>Various <br> Specialized Genres</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Client <br> Communication</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Personalized <br> Service</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                        <div class="features-card m-2">
+                            <h3>Book <br> Marketing</h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
+                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
+                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
+            </section>
+
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
@@ -90,6 +140,7 @@
                 <img src="{{ asset('assets/frontend/images/about/about_s4_lines.png') }}" alt="" class="lines">
                 <img src="{{ asset('assets/frontend/images/about/about_s4_bubble.png') }}" alt="" class="bubble">
             </div>
+            
         </section>
         <!-- ====== end about ====== -->
 
@@ -110,7 +161,7 @@
                     </div>
                     <div>
                         <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small>  </small>Quick Chat
+                            <small> </small>Quick Chat
                         </a>
                     </div>
                 </div>
