@@ -45,7 +45,7 @@
     <div id="preloader">
     </div>
     <!-- ====== end loading page ====== -->
-    
+
     <!-- ====== start header ====== -->
     @include('frontend.partials.nav')
     <!-- ====== end header ====== -->
@@ -75,11 +75,22 @@
     <script src="{{ asset('assets/frontend/js/lib/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery.counterup.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/pace.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/mixitup.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/scrollIt.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
     @include('sweetalert::alert')
+    <script>
+        // ---------- portfolio mixitup -----------
+        var containerEl = document.querySelector('.mix-container');
 
+        var mixer = mixitup(containerEl);
+    </script>
 </body>
 
 

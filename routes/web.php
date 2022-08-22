@@ -12,6 +12,8 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/about-us', [HomeController::class, 'about'])->name('about');
 Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact');
 Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
+Route::get('our-privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
+
 Route::get('/book-writing', [HomeController::class, 'bookWriting'])->name('book-writing');
 Route::get('/audio-books', [HomeController::class, 'audioBooks'])->name('audio-books');
 Route::get('/book-publishing', [HomeController::class, 'bookPublishing'])->name('book-publishing');

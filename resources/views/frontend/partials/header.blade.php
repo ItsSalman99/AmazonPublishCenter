@@ -103,6 +103,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('privacy-policy') }}">COMPANY PRIVACY</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('contact') }}">
                                 CONTACT
                             </a>
@@ -163,12 +166,12 @@
                         </h2>
                         <div class="d-flex justify-content-between my-2">
                             <div style="width: 49%">
-                                <input type="text" style="padding:20px" name="name"
-                                    placeholder="Your Name?" class="form-control" required id="">
+                                <input type="text" style="padding:20px" name="name" placeholder="Your Name?"
+                                    class="form-control" required id="">
                             </div>
                             <div style="width: 49%">
-                                <input type="tel" style="padding:20px" name="contact" placeholder="Your Contact Number"
-                                    class="form-control" required id="">
+                                <input type="tel" style="padding:20px" name="contact"
+                                    placeholder="Your Contact Number" class="form-control" required id="">
                             </div>
                         </div>
                         <div class="my-2">
