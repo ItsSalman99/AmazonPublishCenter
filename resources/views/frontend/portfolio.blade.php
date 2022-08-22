@@ -13,154 +13,77 @@
                 </div>
                 <div class="controls">
                     <button type="button" class="control" data-filter="all">All</button>
-                    <button type="button" class="control" data-filter=".consultation">Children</button>
-                    <button type="button" class="control" data-filter=".security">Fiction</button>
-                    <button type="button" class="control" data-filter=".website">Auto Biography</button>
-                    <button type="button" class="control" data-filter=".design">Action & Adventure</button>
-                    <button type="button" class="control" data-filter=".cloud">Classics</button>
-                    <button type="button" class="control" data-filter=".development">Comic</button>
+                    <button type="button" class="control" data-filter=".children">Children</button>
+                    <button type="button" class="control" data-filter=".fiction">Fiction</button>
+                    <button type="button" class="control" data-filter=".auto-biography">Auto Biography</button>
+                    <button type="button" class="control" data-filter=".action-adventure">Action & Adventure</button>
+                    <button type="button" class="control" data-filter=".classics">Classics</button>
+                    <button type="button" class="control" data-filter=".comic">Comic</button>
                 </div>
                 <section class="portfolio style-1">
                     <div class="content">
                         <div class="row mix-container">
-                            <div class="col-lg-4 mix cloud design">
+                            <div class="col-lg-4 mix children">
                                 <div class="portfolio-card mb-50">
-                                    <div class="img">
-                                        <img src="{{ asset('assets/frontend/images/projects/4.png') }}" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>
-                                            <a href="page-single-project-5.html"> Okpay E-Wallet Optimized </a>
-                                        </h5>
-                                        <small class="d-block color-main text-uppercase">SEO analysis</small>
-                                        <div class="text">
-                                            Trust our top minds to eliminate workflow pain points, implement new tech &
-                                            app.
-                                        </div>
-                                        <div class="tags">
-                                            <a href="#">SEO Analysis</a>
-                                            <a href="#">Content Strategy</a>
-                                        </div>
-                                    </div>
+                                    <img src="{{ asset('assets/frontend/images/about/Children/book4.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-4 mix website development cloud">
-                                <div class="portfolio-card mb-50">
-                                    <div class="img">
-                                        <img src="{{ asset('assets/frontend/images/projects/5.png') }}" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>
-                                            <a href="page-single-project-5.html"> e-Commerce Dashboard </a>
-                                        </h5>
-                                        <small class="d-block color-main text-uppercase">website design &
-                                            develoment</small>
-                                        <div class="text">
-                                            Trust our top minds to eliminate workflow pain points, implement new tech &
-                                            app.
-                                        </div>
-                                        <div class="tags">
-                                            <a href="#">WordPress</a>
-                                            <a href="#">PHP</a>
-                                            <a href="#">HTML/CSS</a>
-                                            <a href="#">Figma</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mix design consultation">
-                                <div class="portfolio-card mb-50">
-                                    <div class="img">
-                                        <img src="{{ asset('assets/frontend/images/projects/7.png') }}" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>
-                                            <a href="page-single-project-5.html"> Crypto Blockchain </a>
-                                        </h5>
-                                        <small class="d-block color-main text-uppercase">Data security</small>
-                                        <div class="text">
-                                            Trust our top minds to eliminate workflow pain points, implement new tech &
-                                            app.
-                                        </div>
-                                        <div class="tags">
-                                            <a href="#">Security</a>
-                                            <a href="#">Management</a>
-                                            <a href="#">Backup & Recovery</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mix cloud design">
-                                <div class="portfolio-card mb-50">
-                                    <div class="img">
-                                        <img src="{{ asset('assets/frontend/images/projects/1.png') }}" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>
-                                            <a href="page-single-project-5.html"> Car Rental Dashboard </a>
-                                        </h5>
-                                        <small class="d-block color-main text-uppercase">UI/UX Design</small>
-                                        <div class="text">
-                                            Trust our top minds to eliminate workflow pain points, implement new tech &
-                                            app.
-                                        </div>
-                                        <div class="tags">
-                                            <a href="#">HTML/CSS</a>
-                                            <a href="#">Figma</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mix security cloud">
-                                <div class="portfolio-card mb-50">
-                                    <div class="img">
-                                        <img src="{{ asset('assets/frontend/images/projects/2.png') }}" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>
-                                            <a href="page-single-project-5.html"> Encrypt Blockchain </a>
-                                        </h5>
-                                        <small class="d-block color-main text-uppercase">Data security, it
-                                            consultation</small>
-                                        <div class="text">
-                                            Trust our top minds to eliminate workflow pain points, implement new tech &
-                                            app.
-                                        </div>
-                                        <div class="tags">
-                                            <a href="#">Data Security</a>
-                                            <a href="#">Python</a>
-                                            <a href="#">Data Backup</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mix development consultation">
+                            <div class="col-lg-4 mix development children">
                                 <div class="portfolio-card">
-                                    <div class="img">
-                                        <img src="{{ asset('assets/frontend/images/projects/6.png') }}" alt="">
-                                    </div>
-                                    <div class="info">
-                                        <h5>
-                                            <a href="page-single-project-5.html"> Robotchat AI Development </a>
-                                        </h5>
-                                        <small class="d-block color-main text-uppercase">machine learning</small>
-                                        <div class="text">
-                                            Trust our top minds to eliminate workflow pain points, implement new tech &
-                                            app.
-                                        </div>
-                                        <div class="tags">
-                                            <a href="#">AI</a>
-                                            <a href="#">Machine Learning</a>
-                                        </div>
-                                    </div>
+                                    <img src="{{ asset('assets/frontend/images/about/Children/book5.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix fiction">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/Fiction/2.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix fiction">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/Fiction/book1.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix auto-biography">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/autobiography/book1.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix auto-biography">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/autobiography/book2.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix cloud action-adventure">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix cloud action-adventure">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix classics">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/Classic/book1.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix classics">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/Classic/book2.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix comic">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/Comic/book1.jpg') }}" width="70%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix comic">
+                                <div class="portfolio-card mb-50">
+                                    <img src="{{ asset('assets/frontend/images/about/Comic/book2.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white me-4" target="_blank">
-                            <small> Show More (24) </small>
-                        </a>
                     </div>
                 </section>
             </div>
