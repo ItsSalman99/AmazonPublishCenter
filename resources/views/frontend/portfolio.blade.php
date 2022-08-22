@@ -12,13 +12,13 @@
                     <p>We have an experienced team of production and inspection personnel to ensure quality.</p>
                 </div>
                 <div class="controls">
-                    <button type="button" class="control" data-bs-filter="all">All</button>
-                    <button type="button" class="control" data-bs-filter=".consultation">Children</button>
-                    <button type="button" class="control" data-bs-filter=".security">Fiction</button>
-                    <button type="button" class="control" data-bs-filter=".website">Auto Biography</button>
-                    <button type="button" class="control" data-bs-filter=".design">Action & Adventure</button>
-                    <button type="button" class="control" data-bs-filter=".cloud">Classics</button>
-                    <button type="button" class="control" data-bs-filter=".development">Comic</button>
+                    <button type="button" class="control" data-filter="all">All</button>
+                    <button type="button" class="control" data-filter=".consultation">Children</button>
+                    <button type="button" class="control" data-filter=".security">Fiction</button>
+                    <button type="button" class="control" data-filter=".website">Auto Biography</button>
+                    <button type="button" class="control" data-filter=".design">Action & Adventure</button>
+                    <button type="button" class="control" data-filter=".cloud">Classics</button>
+                    <button type="button" class="control" data-filter=".development">Comic</button>
                 </div>
                 <section class="portfolio style-1">
                     <div class="content">
@@ -188,7 +188,7 @@
                     </div>
                 </div>
             </div>
-            <img src="{{ asset('') }}assets/img/contact_globe.svg" alt="" class="contact_globe">
+            <img src="{{ asset('assets/frontend/images/contact_globe.svg') }}" alt="" class="contact_globe">
         </section>
         <!-- ====== end portfolio-projects ====== -->
 
