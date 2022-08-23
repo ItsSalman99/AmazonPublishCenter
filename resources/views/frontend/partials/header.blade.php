@@ -18,30 +18,30 @@
             <div class="swiper-button-prev"></div>
         </div>
         <!-- ====== start navbar ====== -->
-        <nav class="navbar navbar-expand-lg navbar-light style-6" style="background-color: transparent">
+        <nav class="navbar navbar-expand-lg navbar-light style-6" id="topnav" style="background-color: transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('assets/frontend/images/logoupdate.png') }}" width="50%" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="true" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" style="flex-grow: 0;" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" aria-expanded="true" style="flex-grow: 0;" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">
+                            <a class="nav-link" style="color: #fff" href="/">
                                 HOME
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about') }}">
+                            <a class="nav-link"style="color: #fff" href="{{ route('about') }}">
                                 ABOUT
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            <a class="nav-link dropdown-toggle" style="color: #fff" href="#" id="navbarDropdown2" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICES
                             </a>
@@ -78,7 +78,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            <a class="nav-link dropdown-toggle"style="color: #fff" href="#" id="navbarDropdown2" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 GHOST WRITING
                             </a>
@@ -98,15 +98,15 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('portfolio') }}">
+                            <a class="nav-link" style="color: #fff" href="{{ route('portfolio') }}">
                                 PORTFOLIO
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('privacy-policy') }}">COMPANY PRIVACY</a>
+                            <a class="nav-link" style="color: #fff" href="{{ route('privacy-policy') }}">COMPANY PRIVACY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">
+                            <a class="nav-link" style="color: #fff" href="{{ route('contact') }}">
                                 CONTACT
                             </a>
                         </li>
@@ -158,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form style="width: 100%; background-color: #fff; padding: 20px; border-radius: 20px;"
+                    <form class="mt-sm-2" style="width: 100%; background-color: #fff; padding: 20px; border-radius: 20px;"
                         action="{{ route('clients.store') }}" method="POST">
                         @csrf
                         <h2 class="text-center my-4">

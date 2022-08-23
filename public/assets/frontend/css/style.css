@@ -3767,7 +3767,7 @@ header.style-6 .head6-rocket {
 
 .services_projects .swiper-button-next:hover,
 .services_projects .swiper-button-prev:hover {
-  background: #f39732!important;
+  background: #f39732 !important;
 }
 
 .swiper-slide-duplicate-prev .service-box {
@@ -10049,16 +10049,43 @@ footer.style-6 .foot .logo {
   }
 }
 
+.navbar-collapse{
+  background-color: transparent!important;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .logo {
     width: 70%;
   }
+  
+  #topnav{
+    background-color: #fff!important;
+  }
+  .navbar-nav .nav-item .nav-link{
+    color: #000!important;
+  }
 
+  .nav-scroll .navbar-brand{
+    width: 30%;
+  }
+
+  .navbar-scroll .nav-item .nav-link{
+    color: #000!important;
+  }
+  .nav-scroll .container-fluid{
+    background-color: #fff;
+  }
+  
   .chatbtn {
     visibility: hidden;
     display: none;
   }
+
+  .mt-sm-2 {
+    margin-top: 140px;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -10097,14 +10124,15 @@ footer.style-6 .foot .logo {
   height: 90%;
   width: 80%;
   border: 10px solid #000;
+  border-radius: 50px;
   position: fixed;
   top: 10%;
   z-index: 9999999;
   transform: translate(10%, -5%);
   background-color: #fff;
-
 }
-.pop-up textarea{
+
+.pop-up textarea {
   resize: none;
   height: 100px;
 }

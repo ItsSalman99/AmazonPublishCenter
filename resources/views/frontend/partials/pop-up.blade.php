@@ -1,7 +1,7 @@
 <div class="pop-up" id="pop-up">
-    <div class="d-flex justify-content-between " style="background-color: #ddd; height: 100%">
+    <div class="d-flex justify-content-between " style="border-radius: 40px; background-color: #ddd; height: 100%">
         <div
-            style="border-right: 10px solid #000; width: 50%; background-image: url('assets/frontend/images/sale.jpeg'); background-attachment: fixed; background-position: center; background-size: cover">
+            style="border-top-left-radius: 40px; border-bottom-left-radius: 40px; border-right: 10px solid #000; width: 50%; background-image: url('assets/frontend/images/sale.jpeg'); background-attachment: fixed; background-position: center; background-size: cover">
         </div>
         <div style="width: 50%;">
             <div>

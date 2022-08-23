@@ -1,5 +1,5 @@
 <!-- ====== start navbar ====== -->
-<nav class="navbar navbar-expand-lg navbar-light style-6" style="background-color: transparent">
+<nav class="navbar navbar-expand-lg navbar-light style-6" id="topnav" style="background-color: transparent">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="{{ asset('assets/frontend/images/logoupdate.png') }}" width="50%" alt="">
