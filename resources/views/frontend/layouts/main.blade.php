@@ -44,7 +44,7 @@
     </div>
     <!-- ====== end loading page ====== -->
 
-    {{-- @include('frontend.partials.pop-up') --}}
+    @include('frontend.partials.pop-up')
 
     <!-- ====== start header ====== -->
     @include('frontend.partials.header')

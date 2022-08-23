@@ -65,12 +65,12 @@
                                         <td>
                                             <div class="d-flex justify-content-between">
                                                 <div>
-                                                    <a href="{{ route('clients.edit', ['id'=>$user->id]) }}" class="btn btn-sm btn-success">
+                                                    <a href="#" class="btn btn-sm btn-success">
                                                         <i class="bi bi-pencil-square"></i>
                                                     </a>
                                                 </div>
                                                 <div>
-                                                    <a href="{{ route('clients.destroy', ['id'=>$user->id]) }}" class="btn btn-sm btn-danger">
+                                                    <a href="#" class="btn btn-sm btn-danger">
                                                         <i class="bi bi-trash3-fill"></i>
                                                     </a>
                                                 </div>

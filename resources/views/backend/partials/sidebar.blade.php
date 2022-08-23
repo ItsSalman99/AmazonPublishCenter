@@ -52,7 +52,6 @@
                             <div class="according-menu"><i class="fa fa-angle-down"></i></div>
                         </a>
                         <ul class="sidebar-submenu" style="">
-                            <li><a href="#">Your Profile</a></li>
                             <li><a href="#">Applications Settings</a></li>
                         </ul>
                     </li>
