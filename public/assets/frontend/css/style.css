@@ -10027,6 +10027,23 @@ footer.style-6 .foot .logo {
     visibility: hidden;
     display: none;
   }
+
+  .pop-up{
+    height: 70%!important;
+  }
+  #the-final-countdown p{
+    font-size: 13px!important;
+  }
+  #the-final-countdown span{
+    font-size: 13px!important;
+  } 
+
+  .pop-img{
+    display: none;
+  }
+  .pop-h2{
+    font-size: 20px;
+  }
 }
 
 .main-container {
@@ -10123,7 +10140,6 @@ footer.style-6 .foot .logo {
 .pop-up {
   height: 90%;
   width: 80%;
-  border: 10px solid #000;
   border-radius: 50px;
   position: fixed;
   top: 10%;

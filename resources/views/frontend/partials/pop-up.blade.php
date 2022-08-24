@@ -1,22 +1,31 @@
 <div class="pop-up" id="pop-up">
-    <div class="d-flex justify-content-between " style="border-radius: 40px; background-color: #ddd; height: 100%">
-        <div
-            style="border-top-left-radius: 40px; border-bottom-left-radius: 40px; border-right: 10px solid #000; width: 50%; background-image: url('assets/frontend/images/sale.jpeg'); background-attachment: fixed; background-position: center; background-size: cover">
+    <div class="row justify-content-between" style="border: 10px solid #000; border-radius: 40px; background-color: #ddd; height: 100%">
+        <div class="col-lg-6 pop-img"
+            style="border-top-left-radius: 40px; border-bottom-left-radius: 40px; border-right: 10px solid #000; background-image: url('assets/frontend/images/sale.jpeg'); background-attachment: fixed; background-position: center; background-size: cover">
         </div>
-        <div style="width: 50%;">
+        <div class="col-lg-6">
             <div>
                 <a href="#" onclick="closePopUp()" class="float-end" style="font-size: 40px; margin-right: 20px">
                     &times;
                 </a>
             </div>
             <div id="the-final-countdown">
+                
                 <p style="font-size: 20px">Time Left</p>
-                <span id="hours"></span>
-                <span id="mins"></span>
-                <span id="secs"></span>
+                <div class="d-flex justify-content-center mt-4">
+                    <div>
+                        <span id="hours"></span>
+                    </div>
+                    <div>
+                        <span id="mins"></span>
+                    </div>
+                    <div>
+                        <span id="secs"></span>
+                    </div>
+                </div>
             </div>
             <br><br>
-            <h2 class="text-center">
+            <h2 class="text-center pop-h2">
                 Get Ready To Become <br> A Best Seller!
             </h2>
             <div style="width: 80%; margin: 0 auto;">
