@@ -180,10 +180,6 @@
                                 We have assisted numerous companies, brands, and people excelling in their respective industries.                            </div>
                             <ul>
                                 <li class="d-flex mb-40">
-                                    <small
-                                        class="icon-60 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-4 flex-shrink-0">
-                                        <img src="assets/frontend/images/icons/ch4.png" alt="">
-                                    </small>
                                     <div class="inf">
                                         <h5>Privacy And Reliability Guaranteed</h5>
                                         <p class="fs-12px color-666 mt-2">
@@ -192,10 +188,6 @@
                                     </div>
                                 </li>
                                 <li class="d-flex mb-40">
-                                    <small
-                                        class="icon-60 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-4 flex-shrink-0">
-                                        <img src="assets/frontend/images/icons/ch5.png" alt="">
-                                    </small>
                                     <div class="inf">
                                         <h5>Experienced Team of Ghostwriters</h5>
                                         <p class="fs-12px color-666 mt-2">
@@ -203,10 +195,6 @@
                                     </div>
                                 </li>
                                 <li class="d-flex">
-                                    <small
-                                        class="icon-60 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-4 flex-shrink-0">
-                                        <img src="assets/frontend/images/icons/ch6.png" alt="">
-                                    </small>
                                     <div class="inf">
                                         <h5>Market-Competitive Prices</h5>
                                         <p class="fs-12px color-666 mt-2">

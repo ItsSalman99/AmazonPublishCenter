@@ -5,7 +5,7 @@
             <div class="col-lg-3">
                 <div class="items">
                     <div class="title" style="color: #fff">
-                        Amazon Publish Center - #1 Amazon Publish Center Company
+                        Amazon Publish Center 
                     </div>
                     <ul>
                         <li class="color-666 mb-2">
@@ -37,59 +37,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-4">
                 <div class="items">
                     <div class="title text-white">
-                        Services
+                        Pages
                     </div>
                     <ul>
                         <li>
-                            <a href="#">SEO Analysis</a>
+                            <a href="#">About</a>
                         </li>
                         <li>
-                            <a href="#">Content Strategy</a>
+                            <a href="#">Contact</a>
                         </li>
                         <li>
-                            <a href="#">Growth Hacking</a>
+                            <a href="#">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#">Social Media</a>
+                            <a href="#">Privacy & Policy</a>
                         </li>
                         <li>
-                            <a href="#">Web Design & Develoment</a>
-                        </li>
-                        <li>
-                            <a href="#">Google/FB Ads</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="items">
-                    <div class="title text-white">
-                        Information
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="#"> About Itekseo </a>
-                        </li>
-                        <li>
-                            <a href="#"> Investors </a>
-                        </li>
-                        <li>
-                            <a href="#"> Blog </a>
-                        </li>
-                        <li>
-                            <a href="#"> Contact </a>
-                        </li>
-                        <li>
-                            <a href="#"> How It Works </a>
-                        </li>
-                        <li>
-                            <a href="#"> Pricing Plan </a>
-                        </li>
-                        <li>
-                            <a href="#"> Covid-19 Update </a>
+                            <a href="#">Terms & Conditions</a>
                         </li>
                     </ul>
                 </div>
