@@ -11,11 +11,10 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Interactive E-Books</small>
-                            <h2 class="mb-20">Interactive E-Book ghostwriting
-                                <span> services in your budget </span>
+                            <h2 class="mb-20"><span>Affordable E-Book Writing</span> Service at Your Feasibility.
                             </h2>
                             <p>
-                                We create engaging content and social media strategies that increase engagement.
+                                Our skilled ebook authors know how to increase your book's audience.
                             </p>
                         </div>
                     </div>
@@ -54,37 +53,33 @@
                             <h3>Audio<br> Clips</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                You can use audio samples for advertising your book using interactive ebooks. As a result,
+                                we assist you in transferring any audible data from one user to another.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Interactive<br> Checklists</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The experts provide interactive checklists within the document at Amazon Publish Center to
+                                simplify the reading and editing process.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Maps</h3>
-                            <br>
+                            <br><br>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The interactive ebooks offered by Amazon Publish Center provide a variety of options. Within
+                                the document, some of these include searching, panning, zooming in and out, etc.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Animations <br>and Infographics</h3>
+                            <h3>Animations & <br> Infographics</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Instead of giving the audience written content, we at Amazon Publish Center think animation
+                                will engage them more effectively.
                             </p>
                         </div>
                     </div>
@@ -97,23 +92,22 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/best-interactive.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img1.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Encounter Phenomenal
-                                        <span> EBook Ghostwriting Services. </span>
+                                    <h2 class="mb-30">Exposure to
+                                        <span> Interactive Ebooks. </span>
                                     </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Amazon Book Publishing Central assists you by delivering a range of eBooks that
-                                    interact. Our Interactive eBook conversion team lets your readers absorb more of your
-                                    book by using the most delinquent and most efficient eBook conversion tools. Create
-                                    Interactive e-book with us to get better results. If you're looking to develop
-                                    top-quality interactive eBooks, look no further than an interest in our options.
+                                    You can get assistance from Amazon Publish Center using various interactive ebook
+                                    services. Our interactive eBook conversion team achieves greater outcomes by utilizing
+                                    the most recent and effective eBook conversion technologies and techniques. You don't
+                                    need to look any out if you want to make fantastic interactive eBooks.
                                 </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">

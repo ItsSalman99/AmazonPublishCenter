@@ -8,6 +8,7 @@ $(document).ready(function () {
 function closePopUp() {
     $('#pop-up').hide().fadeDown();
 }
+
 setInterval(function time() {
     var d = new Date();
     var hours = 24 - d.getHours();

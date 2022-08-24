@@ -11,11 +11,11 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Video Book Trailers</small>
-                            <h2 class="mb-20">Boost your book with <span> Amazing Trailers </span> </h2>
+                            <h2 class="mb-20">We Deliver The Best <span> Video Trailer Services </span> Suitable For Every
+                                Budget</h2>
                             <p>
-                                Our professional book trailers are tailored to boost your book marketing and make your book
-                                stand out in the crowd.
-                            </p>
+                                You can get the ideal video trailers from Amazon Publish Center. We fill in the gap in your
+                                puzzle. </p>
                         </div>
                     </div>
                 </div>
@@ -46,43 +46,40 @@
                 <div class="container">
                     <div class="section-head text-center style-4">
                         <small class="title_small bg-white">Amazon Publish Center</small>
-                        <h2 class="mb-70"> Book Formating <span> Services </span> </h2>
+                        <h2 class="mb-70"> Video Book Trailers <span> Services </span> </h2>
                     </div>
                     <div class="content">
                         <div class="features-card m-2">
-                            <h3>Barebones<br> Book Trailer</h3>
+                            <h3>Cinematic<br> Book Trailers</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The complexity of these trailers makes them the most creatively challenging. These book
+                                teasers, which frequently resemble movie trailers, might be pricey but are worth it.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Cinematic<br>Book Trailer</h3>
+                            <h3>Blurb <br> Trailers</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Usually, these trailers contain reviews or testimonies. Blurb trailers can be useful for
+                                book promotion because most authors have them made before their books are published.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Blurb<br>Trailer</h3>
+                            <h3>Author<br>Profiles</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
-                            </p>
+                                These book trailers typically show the author of the book speaking about the book in an
+                                interview-style setting. The authors are advertising the book and the guy who came up with
+                                the idea. </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Author<br>Profile</h3>
+                            <h3>Docu <br> Trailers</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                These are expanded versions of author profiles that resemble them. Docu-Trailers typically
+                                use a documentary shooting technique where the author discusses the inspiration for the book
+                                and what drove them to write it.
                             </p>
                         </div>
                     </div>
@@ -95,19 +92,24 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/best-trailer.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img5.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Attractive
-                                        Video<span> Book Trailers </span> </h2>
+                                    <h2 class="mb-30">Offering <span> Books Video Trailer </span> Services For Aspiring
+                                        Authors.</h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Amazon Publish Central will allow you to see unrivaled talent in ghostwriting. Our
-                                    experts create content that demonstrates unmatched professionalism and creativity.
+                                    You can get the ideal video trailers from Amazon Publish Center. We complete your puzzle
+                                    by adding the lone piece. You are effectively having a dialogue with your target
+                                    audience by making video book trailers. We are aware of how significant that may be to
+                                    readers. We ensure you receive the greatest possible product at a cost that works for
+                                    you. We assist you in making a book trailer that will be interesting and entertaining to
+                                    your audience. A book trailer essentially serves as a synopsis or introduction to the
+                                    book. This makes it easier for you to interact with your audience.
                                 </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
@@ -132,8 +134,8 @@
                                         <h6 class="fw-bold">Complete note editor with rich text options</h6>
                                     </li>
                                 </ul>
-                                <a href="page-contact-5.html" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                                    <small> Free Register </small>
+                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Chat With Us </small>
                                 </a>
                             </div>
                         </div>

@@ -11,12 +11,10 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
-                            <small class="title_small">About Amazon Publish Center</small>
+                            <small class="title_small">Book Marketing Services</small>
                             <h2 class="mb-20"><br>We Help You To<span> Promote Your Book with us. </span> </h2>
-                            <p>
-                                Make the most out of your book with Amazon Publishing Central. We incorporate top-notch
-                                advertising techniques and offer professional book marketing services to make your book
-                                reach the masses and increase cognition about the books and authors.
+                            <p>To determine your launching methods, engage the best book marketing company available. We
+                                carry out our marketing plans in a way that distinguishes your book from the competition.
                             </p>
                         </div>
                     </div>
@@ -55,39 +53,38 @@
                     </div>
                     <div class="content">
                         <div class="features-card m-2">
-                            <h3>Editing<br> & Formatting</h3>
+                            <h3>Determining <br> Target Audience</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The best dealers will be nominated to create your book's promotion plans. The target
+                                audience will be known after extensive research on the subject of your book, and the book
+                                will be promoted in a way that specifically targets that population.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Self <br>Publishing</h3>
+                            <h3>Marketing Support</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The first selling step is bent and transported to you for support as soon as it is ended.
+                                The execution of the marketing strategy also starts after approval.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Promotion <br> Service</h3>
+                            <h3>Pre-launch <br> Promotion</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Before your book is even published, our marketers will generate excitement and buzz.
+                                Attractive posts, early reservations, and self-promotion in prestigious publications and
+                                magazines are used to accomplish this.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Distribution <br> Service</h3>
+                            <h3>Book <br> launch</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Our marketers are skilled at organizing the ideal book launch and selecting the attendees
+                                who will be essential to promoting your book through media relations and public relations
+                                efforts. 
                             </p>
                         </div>
                     </div>
@@ -101,14 +98,14 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/best-format.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img2.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Online Book<span> Promotion Services </span> </h2>
+                                    <h2 class="mb-30">Executing Efficient Marketing Plan for <span> Self-published Book</span> </h2>
                                 </div>
                                 <p class="text mb-40">
                                     Amazon Publish Central will allow you to see unrivaled talent in ghostwriting. Our
@@ -137,8 +134,8 @@
                                         <h6 class="fw-bold">Complete note editor with rich text options</h6>
                                     </li>
                                 </ul>
-                                <a href="page-contact-5.html" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                                    <small> Free Register </small>
+                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Chat With Us </small>
                                 </a>
                             </div>
                         </div>
@@ -157,7 +154,7 @@
                 <div class="container">
                     <div class="section-head text-center style-4 mb-60">
                         <small class="title_small"> The Team Work </small>
-                        <h2 class="mb-20"> Our <span> Leaders </span> </h2>
+                        <h2 class="mb-20"> Our <span> Writers </span> </h2>
                         <p> The Professional Creative Team for Growth-up Works </p>
                     </div>
                     <div class="row">

@@ -12,9 +12,12 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">BOOK WRITING SERVICES</small>
-                            <h2 class="mb-20">We Provide Professional<span>Ghostwriting Services Online</span> </h2>
-                            <p>Our Ghostwriting service will elevate your manuscript's quality and transform you into the
-                                next best-selling author.</p>
+                            <h2 class="mb-20">Start Your Voyage To Be A Best Seller With Our <span>Professional Book Writing
+                                    Services!</span> </h2>
+                            <p>We offer book writing services that transform concepts into sensible and pertinent language.
+                                Working with our authors is a pleasure because of their innovative approaches to bringing
+                                ideas to life on paper.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -52,36 +55,33 @@
                             <h3>Various <br> Specialized Genres</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Our writers are experts in writing in a vast diversity of genres when it comes to book
+                                writing, so all you have to do is to pick your genre and let us know, and we will do the
+                                hard work for you.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Client <br> Communication</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                We make sure that our client is satisfied and is being heard all the time. Our writers are
+                                always available for you. You can contact us anytime you are feeling troubled.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Personalized <br> Service</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                You will get your work tailored the way you like it, as our writers will customize the
+                                content just how you want it to.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Book <br> Marketing</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                After we finish your book, we can even market it for you and help you get worthy type
+                                readers for your book.
                             </p>
                         </div>
                     </div>
@@ -101,12 +101,16 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">AMAZON PUBLISH CENTER</small>
-                                    <h2 class="mb-30">Experience Unparalleled<span> Ghostwriting Services </span> </h2>
+                                    <h2 class="mb-30">It's Time You Share Your <span> Amazing Story!</span></h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Amazon Publishing Central will allow you to see unrivaled talent in ghostwriting. Our
-                                    experts create content that demonstrates unmatched professionalism and creativity.
-                                </p>
+                                    Every tale, in our opinion, merits sharing. Our book writer for rent meticulously
+                                    carried out your suggestion. Without effort and commitment, nothing can be achieved.
+                                    These qualities enable our team to produce an intriguing product. We will require the
+                                    necessary data to mold words into a tale. We refer to our project brief for creating a
+                                    text as the first step toward your success. Our book writing services properly include
+                                    the genuine meaning of our words. We promise our customers that we'll never cut corners
+                                    on quality. </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
                                         <small
@@ -130,8 +134,8 @@
                                         <h6 class="fw-bold">24/7 Support</h6>
                                     </li>
                                 </ul>
-                                <a href="page-contact-5.html" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                                    <small> Free Consultation </small>
+                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Chat With Us </small>
                                 </a>
                             </div>
                         </div>
@@ -140,35 +144,14 @@
                 <img src="{{ asset('assets/frontend/images/about/about_s4_lines.png') }}" alt="" class="lines">
                 <img src="{{ asset('assets/frontend/images/about/about_s4_bubble.png') }}" alt="" class="bubble">
             </div>
-            
+
         </section>
         <!-- ====== end about ====== -->
 
-        <!-- ====== start Culture ====== -->
-        <section class="culture section-padding style-5">
-            <div class="section-head text-center style-4 mb-60">
-                <small class="title_small"> Hire Us </small>
-                <h2 class="mb-20"> <span>100% Genuine </span>, <span>100% Attractive</span>
-                    Amazon <br> Publish Central Takes smoothest out <br> your writing journey. </h2>
-                <p> More 15,000 Companies & partners trusted & choice </p>
-            </div>
-            <div class="container">
-                <div class="d-flex justify-content-between" style="width: 30%; margin: 0 auto;">
-                    <div>
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small> Free Consultation </small>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small> </small>Quick Chat
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ====== end Culture ====== -->
+        @include('frontend.partials.our-writers')
 
+
+        @include('frontend.partials.end-section')
 
 
     </main>

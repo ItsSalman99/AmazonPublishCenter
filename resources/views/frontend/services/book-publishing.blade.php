@@ -10,8 +10,8 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">BOOKS PUBLISHING SERVICES</small>
-                            <h2 class="mb-20">Publish Your Own Book <br><span>Lowest Price.</span> </h2>
-                            <p>Are you in search of the best American book publishing company? Let Amazon Publishing Central handle all aspects of publishing, from editing to distribution.                            </p>
+                            <h2 class="mb-20"><span>Self-Publishing</span> A Book Can Be Solid.</span> </h2>
+                            <p>Get the benefit of a book publisher online, and rest easy!</p>
                         </div>
                     </div>
                 </div>
@@ -37,13 +37,13 @@
                             <img src="{{ asset('assets/frontend/images/icons/serv_icons/world.png') }}" width="80%"
                                 alt="" class="mt-20">
                         </div>
-                        </div>
                     </div>
                 </div>
-                <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
+            </div>
+            <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
 
-            
+
             <section class="features pt-70 pb-70 style-4" style="background-color: transparent">
                 <div class="container">
                     <div class="section-head text-center style-4">
@@ -55,51 +55,49 @@
                             <h3>Editing<br> & Formatting</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                You can easily get help from our book editors and ghostwriters to proofread your copy. Our
+                                editors have an excellent eye for detail and ensure every article is free of mistakes. Give
+                                us a chance to improve your manuscript by having one of our talented editors do a thorough
+                                evaluation.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Self <br>Publishing</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Your work will receive the attention it deserves with the help of our self-book publishing
+                                service. We ensure we're doing everything in our power to support your success.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Promotion <br> Service</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                After you publish your book, our team starts to make different successful strategies to
+                                promote your work and gather readers as much as possible to make your book a huge success.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Distribution <br> Service</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
-                            </p>
+                                The final phase is for you to enjoy the results of your diligence, endurance, and
+                                commitment. All payments will be made to your bank account immediately. The royalties you
+                                receive are not reduced. </p>
                         </div>
                     </div>
                 </div>
                 <img src="{{ asset('assets/frontend/images/feat_circle.png') }}" alt="" class="img-circle">
             </section>
-            
-            
+
+
 
             <div class="content frs-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/book-publish.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img15.gif') }}" width="90%" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -107,14 +105,19 @@
                                 <div class="section-head style-4">
                                     <small class="title_small">AMAZON PUBLISH CENTER</small>
                                     <h2 class="mb-30">
-                                        <span>
-                                            Top Self-Publishing </span>
-                                            Service Online.
+                                        Why Should You Hire A
+                                        <span>Book Publishing Company? </span>
                                     </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Amazon Publishing Central will allow you to see unrivaled talent in ghostwriting. Our
-                                    experts create content that demonstrates unmatched professionalism and creativity.
+                                    Several authors self-published their novels. Why is it any different from yours? We have
+                                    the ideal solution for you. Self-publishing books require a lot more time and effort
+                                    than it appears to. You must first prepare your book and get it professionally edited.
+                                    It takes a lot of time and effort to do this alone. There is too much information in one
+                                    line, but you next need to create your covers, get in touch with a developer, and wait
+                                    for it to decide to be released. Be at ease; we'll guide you through the procedure. It
+                                    can frequently take a long time until your book is released. A self-published book can
+                                    be less expensive than the latter choice.
                                 </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
@@ -152,34 +155,9 @@
         </section>
         <!-- ====== end about ====== -->
 
-        @include('frontend.partials.book-slider')
+        @include('frontend.partials.our-writers')
 
-        <!-- ====== start Culture ====== -->
-        <section class="culture section-padding style-5">
-            <div class="section-head text-center style-4 mb-60">
-                <small class="title_small"> Hire Us </small>
-                <h2 class="mb-20"> <span>100% Genuine </span>, <span>100% Attractive</span>
-                    Amazon <br> Publish Central Takes smoothest out <br> your writing journey. </h2>
-                <p> More 15,000 Companies & partners trusted & choice </p>
-            </div>
-            <div class="container">
-                <div class="d-flex justify-content-between" style="width: 30%; margin: 0 auto;">
-                    <div>
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small> Free Consultation </small>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small> </small>Quick Chat
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ====== end Culture ====== -->
-
-
+        @include('frontend.partials.end-section')
 
     </main>
     <!--End-Contents-->

@@ -13,11 +13,11 @@
                         <div class="section-head text-center style-4">
                             <small class="title_small">About Amazon Publish Center</small>
                             <h2 class="mb-20">
-                                Discover more about
-                                <span>Amazon Publishing Central</span>
+                                Offering <span>Ghostwriting Solutions</span> To Satisfy All Your Publication Needs
                             </h2>
-                            <p>Our Ghostwriting service will elevate your manuscript's quality and transform you into the
-                                next best-selling author.</p>
+                            <p>The writers at Amazon Publish Center will sum up your thoughts exactly. Our team of experts
+                                will aid your journey to become a best-selling novel. We cordially invite you to collaborate
+                                with the top professionals in the ghostwriting field.</p>
                         </div>
                     </div>
                 </div>
@@ -63,13 +63,13 @@
                         <div class="col-lg-5 order-2 order-lg-0">
                             <div class="info">
                                 <div class="section-head style-4">
-                                    <small class="title_small">Better Note Management</small>
-                                    <h2 class="mb-30">Our <span> Mission </span> </h2>
+                                    <small class="title_small">Amazon Publish Center</small>
+                                    <h2 class="mb-30">We're On A <span> Mission... </span> </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Automatically syncs across all your devices. You can also access and write notes without
-                                    internet connection.
-                                </p>
+                                    To make working with independent contractors simple and pleasurable. We are
+                                    revolutionizing how companies and individuals obtain the content they require by
+                                    emphasizing premium content and first-rate customer service. </p>
                                 <div class="faq style-3 style-4">
                                     <div class="accordion" id="accordionExample">
                                         <div class="accordion-item">
@@ -152,12 +152,13 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Our <span> Goal </span> </h2>
+                                    <h2 class="mb-30">Born From A Longing To Deliver <span> Better Service </span> </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Amazon Publish Central will allow you to see unrivaled talent in ghostwriting. Our
-                                    experts create content that demonstrates unmatched professionalism and creativity.
-                                </p>
+                                    The Amazon Publish Center was founded to provide customers with what they had been
+                                    looking for. Customers can establish genuine connections with this truly collaborative
+                                    and seamless content creation platform!
+                                 </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
                                         <small
@@ -181,8 +182,8 @@
                                         <h6 class="fw-bold">Complete note editor with rich text options</h6>
                                     </li>
                                 </ul>
-                                <a href="page-contact-5.html" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                                    <small> Free Register </small>
+                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Chat With Us </small>
                                 </a>
                             </div>
                         </div>
@@ -195,20 +196,20 @@
                 <div class="container">
                     <div class="section-head text-center style-4">
                         <small class="title_small bg-white">Amazon Publish Center</small>
-                        <h2 class="mb-70"> Our <span> Priorities </span> </h2>
+                        <h2 class="mb-70"> Why Choose <span> Amazon Publish Center? </span> </h2>
                     </div>
                     <div class="content">
                         <div class="features-card">
                             <div class="icon img-contain">
                                 <img src="{{ asset('assets/frontend/images/icons/fe1.png') }}" alt="">
                             </div>
-                            <h6>Notes Powerful <br> and Security</h6>
+                            <h6>Fast <br> Delivery</h6>
                         </div>
                         <div class="features-card">
                             <div class="icon img-contain">
                                 <img src="{{ asset('assets/frontend/images/icons/fe2.png') }}" alt="">
                             </div>
-                            <h6>Easy Sort, Classify <br> and Search</h6>
+                            <h6>Fresh <br> Content</h6>
                         </div>
                         <div class="features-card">
                             <div class="icon img-contain">
@@ -218,19 +219,19 @@
                                     new
                                 </span>
                             </div>
-                            <h6>Collaboration and <br> Share</h6>
+                            <h6>Dedicated <br> Ghostwriters</h6>
                         </div>
                         <div class="features-card">
                             <div class="icon img-contain">
                                 <img src="{{ asset('assets/frontend/images/icons/fe4.png') }}" alt="">
                             </div>
-                            <h6>Quick Note In <br> Everywhere</h6>
+                            <h6>Non-plagiarized <br> Content</h6>
                         </div>
                         <div class="features-card">
                             <div class="icon img-contain">
                                 <img src="{{ asset('assets/frontend/images/icons/fe5.png') }}" alt="">
                             </div>
-                            <h6>Write and Draw <br> on Ipad</h6>
+                            <h6>Creative <br> Plots</h6>
                         </div>
                     </div>
                 </div>

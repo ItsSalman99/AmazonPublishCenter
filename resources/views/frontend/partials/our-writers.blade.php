@@ -1,4 +1,4 @@
-<section class="team section-padding style-6">
+<section class="team section-padding style-6" style="margin-bottom: 100px">
     <div class="content">
         <div class="container">
             <div class="section-head text-center style-4 mb-60">
@@ -11,20 +11,6 @@
                     <div class="team-card mb-30 mb-lg-0 style-6">
                         <div class="img img-cover">
                             <img src="{{ asset('assets/frontend/images/team/1.jpg') }}" alt="">
-                            <div class="social-icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
                         </div>
                         <div class="info">
                             <a class="d-block" href="#">
@@ -37,20 +23,6 @@
                     <div class="team-card mb-30 mb-lg-0 style-6">
                         <div class="img img-cover">
                             <img src="{{ asset('assets/frontend/images/team/5.jpg') }}" alt="">
-                            <div class="social-icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
                         </div>
                         <div class="info">
                             <a class="d-block" href="#">
@@ -63,20 +35,6 @@
                     <div class="team-card mb-30 mb-lg-0 style-6">
                         <div class="img img-cover">
                             <img src="{{ asset('assets/frontend/images/team/3.jpg') }}" alt="">
-                            <div class="social-icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
                         </div>
                         <div class="info">
                             <a class="d-block" href="#">
@@ -89,20 +47,6 @@
                     <div class="team-card style-6">
                         <div class="img img-cover">
                             <img src="{{ asset('assets/frontend/images/team/4.jpg') }}" alt="">
-                            <div class="social-icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
                         </div>
                         <div class="info">
                             <a class="d-block" href="#">

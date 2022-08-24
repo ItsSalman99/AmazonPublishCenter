@@ -11,10 +11,11 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Social Media Marketing</small>
-                            <h2 class="mb-20">Affordable
+                            <h2 class="mb-20">Increase Your Engagement & Sales With Our
                                 Social Media<span> Marketing Services </span> </h2>
                             <p>
-                                We create engaging content and social media strategies that increase engagement.
+                                Build a powerful social media presence by looking at our social media marketing service. To
+                                begin, get in touch with us.
                             </p>
                         </div>
                     </div>
@@ -46,43 +47,45 @@
                 <div class="container">
                     <div class="section-head text-center style-4">
                         <small class="title_small bg-white">Amazon Publish Center</small>
-                        <h2 class="mb-70"> Book Formating <span> Services </span> </h2>
+                        <h2 class="mb-70"> <span>Social Media</span> Marketing Services </h2>
                     </div>
                     <div class="content">
                         <div class="features-card m-2">
                             <h3>Facebook<br> Advertising</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                With the largest social media network in the world, Facebook advertising services may help
+                                your company grow its customer base online, raise brand awareness, and enhance lead
+                                generation and revenue-generating activities.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Instagram<br> Advertising</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Thanks to its more than one billion monthly users, Instagram gives your business unrivaled
+                                access to your target market. It can be difficult for a company to stand out on the
+                                platform. For this reason, businesses spend money on Amazon Publish Center's expert
+                                Instagram marketing services.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Twitter<br> Advertising</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                With more than 500 million daily posts and around 336 million monthly active users, Twitter
+                                is a social media behemoth that keeps growing by the second. Despite the overwhelming volume
+                                of messages, our highly skilled Twitter advertising firm will assist your company cut
+                                through the din and making sure that your voice is heard.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Pinterest<br> Advertising</h3>
+                            <h3>LinkedIn<br> Advertising</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                More than half a billion active users make up the audience of LinkedIn, which started as a
+                                modest resume hub. Comparable social media juggernauts aside, LinkedIn stands out for its
+                                ability to efficiently target and connect with professionals worldwide.
                             </p>
                         </div>
                     </div>
@@ -95,25 +98,20 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/best-social.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img4.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Boost Followers on<span> Social Media </span> </h2>
+                                    <h2 class="mb-30">Grow Your ROI With<span> Social Media Marketing </span> </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Social media campaigns must stay ahead of the curve as the internet grows. Whether
-                                    you're looking to upsurge your brand's page's likes or follows or need a to create
-                                    income streams or to gain new customers, our social media marketing advisors have your
-                                    back.
-
-                                    Amazon Book Publishing Centere has a treasure of knowledge in social media marketing
-                                    services. Our experts are able to creatively plan and execute real social media
-                                    marketing campaigns that work for all sizes and types of businesses. See how our
-                                    affordable social media marketing services can increase your brand's sales potential.
+                                    Utilize Amazon Publish Center's social media services to increase your return on
+                                    investment (ROI) from websites like Facebook, Instagram, and LinkedIn. Your company can
+                                    start increasing its brand exposure and revenue from social media with our affordable
+                                    social media management services, which also provide you access to AI-powered insights.
                                 </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
