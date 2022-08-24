@@ -24,19 +24,19 @@
                 <div class="container">
                     <div class="content mb-100 pb-100 border-1 border-bottom brd-gray">
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book1.png') }}" alt="" class="mt-30">
+                            <img src="{{ asset('assets/frontend/images/about/fictions/book1.jpg') }}" width="60%" alt="" class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book2.png') }}" alt="" class="mt-60">
+                            <img src="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" width="60%" alt="" class="mt-60">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book3.png') }}" alt="" class="mt-20">
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" width="60%" alt="" class="mt-20">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book4.png') }}" alt="" class="mt-80">
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" width="60%" alt="" class="mt-80">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book5.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/autobiography/book1.jpg') }}" width="60%" alt="">
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/book5.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img4.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">

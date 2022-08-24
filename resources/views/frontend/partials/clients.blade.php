@@ -47,32 +47,32 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/google-books.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/googlebooks.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/draft2digital.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/draft2digital.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/smashwords.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/smashwords.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/lulu.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/lulu.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/indigo.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/indigo.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/createspace.png') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/createspace.png') }}" alt="">
                         </a>
                     </div>
                 </div>

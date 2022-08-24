@@ -103,9 +103,6 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #fff" href="{{ route('privacy-policy') }}">COMPANY PRIVACY</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" style="color: #fff" href="{{ route('contact') }}">
                                 CONTACT
                             </a>

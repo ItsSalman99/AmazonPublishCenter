@@ -69,9 +69,6 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #000;" href="{{ route('privacy-policy') }}">COMPANY PRIVACY</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" style="color: #000;" href="{{ route('contact') }}">
                         CONTACT
                     </a>

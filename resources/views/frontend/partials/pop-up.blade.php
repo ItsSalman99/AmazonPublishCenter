@@ -5,7 +5,7 @@
         </div>
         <div class="col-lg-6">
             <div>
-                <a href="#" onclick="closePopUp()" class="float-end" style="font-size: 40px; margin-right: 20px">
+                <a onclick="closePopUp()" class="float-end" style="font-size: 40px; margin-right: 20px">
                     &times;
                 </a>
             </div>

@@ -14,7 +14,7 @@
                         </li>
                         <li class="color-666 mb-2">
                             <i class="bi bi-phone me-1 text-white"></i>
-                            <small style="color: #fff;">202-555-0109</small>
+                            <small style="color: #fff;">+1 (361) 273-1595</small>
                         </li>
                         <li class="color-666 mb-2">
                             <i class="bi bi-envelope me-1 text-white"></i>

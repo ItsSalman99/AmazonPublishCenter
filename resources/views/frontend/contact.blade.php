@@ -33,7 +33,7 @@
                             <img src="{{ asset('assets/frontend/images/icons/msg3d.png') }}" alt="">
                         </div>
                         <div class="inf">
-                            <h6>(+23) 5535 68 68</h6>
+                            <h6>+1 (361) 273-1595</h6>
                         </div>
                     </div>
                 </div>

@@ -25,22 +25,22 @@
                         <div class="row mix-container">
                             <div class="col-lg-4 mix children">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Children/book4.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/children/book1.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix development children">
                                 <div class="portfolio-card">
-                                    <img src="{{ asset('assets/frontend/images/about/Children/book5.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/children/book2.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix fiction">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Fiction/2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/fictions/book1.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix fiction">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Fiction/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix auto-biography">
@@ -65,22 +65,22 @@
                             </div>
                             <div class="col-lg-4 mix classics">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Classic/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/classics/book1.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix classics">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Classic/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/classics/book2.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix comic">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Comic/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/comics/book1.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix comic">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/Comic/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/comics/book2.jpg') }}" width="70%" alt="">
                                 </div>
                             </div>
                         </div>
@@ -98,11 +98,11 @@
                                         bigger success </span> </h2>
                             </div>
                             <div class="butns mt-70">
-                                <a href="page-contact-app.html" class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
+                                <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
                                     target="_blank">
                                     <small> Start A Project Now </small>
                                 </a>
-                                <a href="page-about-app.html" class="btn rounded-pill hover-blue4 fw-bold border-blue4"
+                                <a href="#" class="btn rounded-pill hover-blue4 fw-bold border-blue4"
                                     target="_blank">
                                     <small> See Pricing & Plan </small>
                                 </a>

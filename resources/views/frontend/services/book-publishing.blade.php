@@ -97,7 +97,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="img mb-30 mb-lg-0">
-                                <img src="{{ asset('assets/frontend/images/about/best-img15.gif') }}" width="90%" alt="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img15.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -142,7 +142,7 @@
                                         <h6 class="fw-bold">24/7 Support</h6>
                                     </li>
                                 </ul>
-                                <a href="page-contact-5.html" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <a href="{{ route('contact') }}" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                                     <small> Free Consultation </small>
                                 </a>
                             </div>

@@ -16,41 +16,97 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="{{ asset('assets/frontend/images/about/book1.png') }}" class="culture-card d-block"
+                        <a href="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" class="culture-card d-block"
                             data-fancybox="gallery">
-                            <img src="{{ asset('assets/frontend/images/about/book1.png') }}" style="align-self: center;"
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" width="70%" style="align-self: center;"
                                 alt="">
                             <span class="overlay"></span>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ asset('assets/frontend/images/about/book2.png') }}" class="culture-card d-block"
+                        <a href="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" class="culture-card d-block"
                             data-fancybox="gallery">
-                            <img src="{{ asset('assets/frontend/images/about/book2.png') }}" style="align-self: center;"
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" width="70%" style="align-self: center;"
                                 alt="">
                             <span class="overlay"></span>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ asset('assets/frontend/images/about/book3.png') }}" class="culture-card d-block"
+                        <a href="{{ asset('assets/frontend/images/about/autobiography/book1.jpg') }}" class="culture-card d-block"
                             data-fancybox="gallery">
-                            <img src="{{ asset('assets/frontend/images/about/book3.png') }}" style="align-self: center;"
+                            <img src="{{ asset('assets/frontend/images/about/autobiography/book1.jpg') }}" width="70%" style="align-self: center;"
                                 alt="">
                             <span class="overlay"></span>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ asset('assets/frontend/images/about/book4.png') }}" class="culture-card d-block"
+                        <a href="{{ asset('assets/frontend/images/about/autobiography/book2.jpg') }}" class="culture-card d-block"
                             data-fancybox="gallery">
-                            <img src="{{ asset('assets/frontend/images/about/book4.png') }}" style="align-self: center;"
+                            <img src="{{ asset('assets/frontend/images/about/autobiography/book2.jpg') }}" width="70%" style="align-self: center;"
                                 alt="">
                             <span class="overlay"></span>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ asset('assets/frontend/images/about/book5.png') }}" class="culture-card d-block"
+                        <a href="{{ asset('assets/frontend/images/about/children/book1.jpg') }}" class="culture-card d-block"
                             data-fancybox="gallery">
-                            <img src="{{ asset('assets/frontend/images/about/book5.png') }}" style="align-self: center;"
+                            <img src="{{ asset('assets/frontend/images/about/children/book1.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/children/book2.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/children/book2.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/classics/book1.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/classics/book1.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/classics/book2.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/classics/book2.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/comics/book1.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/comics/book1.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/comics/book2.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/comics/book2.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/fictions/book1.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/fictions/book1.jpg') }}" width="70%" style="align-self: center;"
+                                alt="">
+                            <span class="overlay"></span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" class="culture-card d-block"
+                            data-fancybox="gallery">
+                            <img src="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" width="70%" style="align-self: center;"
                                 alt="">
                             <span class="overlay"></span>
                         </a>
