@@ -8,6 +8,11 @@ $(document).ready(function () {
 function closePopUp() {
     $('#pop-up').hide().fadeDown();
 }
+// preloader
+$(window).on("load", function () {
+    $(".preloader").delay(350).fadeOut('slow');
+});
+
 
 setInterval(function time() {
     var d = new Date();
