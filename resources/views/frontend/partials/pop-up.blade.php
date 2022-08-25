@@ -29,7 +29,8 @@
                 Get Ready To Become <br> A Best Seller!
             </h2>
             <div style="width: 80%; margin: 0 auto;">
-                <form action="">
+                <form  action="{{ route('clients.store') }}" method="POST">
+                    @csrf
                     <div class="d-flex justify-content-between my-2">
                         <div style="width: 48%">
                             <input type="text" placeholder="Your Nice Name?" class="form-control p-2"

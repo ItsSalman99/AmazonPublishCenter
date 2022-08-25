@@ -46,13 +46,8 @@
                             </div>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
-                            <div class="img main-img1">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_1.png') }}" alt=""
-                                    class="sm-circle">
-                                <img src="{{ asset('assets/frontend/images/about/best-editing.png') }}" alt=""
-                                    class="img-body">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_5.png') }}" alt=""
-                                    class="lg-circle">
+                            <div class="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img24.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -62,10 +57,8 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <div class="img main-img2">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_2_1.png') }}" alt="">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_2_2.png') }}" alt=""
-                                    class="img-body">
+                            <div class="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img25.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -116,13 +109,8 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8 order-0 order-lg-2">
-                            <div class="img main-img1">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_1.png') }}" alt=""
-                                    class="sm-circle">
-                                <img src="{{ asset('assets/frontend/images/about/best-editing.png') }}" alt=""
-                                    class="img-body">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_5.png') }}" alt=""
-                                    class="lg-circle">
+                            <div class="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img26.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">

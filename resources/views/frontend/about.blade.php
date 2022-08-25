@@ -69,65 +69,13 @@
                                 <p class="text mb-40">
                                     To make working with independent contractors simple and pleasurable. We are
                                     revolutionizing how companies and individuals obtain the content they require by
-                                    emphasizing premium content and first-rate customer service. </p>
-                                <div class="faq style-3 style-4">
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="heading1">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapse1" aria-expanded="true"
-                                                    aria-controls="collapse1">
-                                                    Create and Save your notes with multi-media
-                                                </button>
-                                            </h2>
-                                            <div id="collapse1" class="accordion-collapse collapse show"
-                                                aria-labelledby="heading1" data-bs-parent="#accordionExample"
-                                                style="">
-                                                <div class="accordion-body">
-                                                    Images, videos, PDFs and audio files are supported. Create math
-                                                    expressions and diagrams directly from the app. Take photos with the
-                                                    mobile app and save them to a note.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="heading2">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapse2"
-                                                    aria-expanded="false" aria-controls="collapse2">
-                                                    Web Clipper Extension
-                                                </button>
-                                            </h2>
-                                            <div id="collapse2" class="accordion-collapse collapse"
-                                                aria-labelledby="heading2" data-bs-parent="#accordionExample"
-                                                style="">
-                                                <div class="accordion-body">
-                                                    Images, videos, PDFs and audio files are supported. Create math
-                                                    expressions and diagrams directly from the app. Take photos with the
-                                                    mobile app and save them to a note.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="heading3">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapse3"
-                                                    aria-expanded="false" aria-controls="collapse3">
-                                                    Protect your note with lock
-                                                </button>
-                                            </h2>
-                                            <div id="collapse3" class="accordion-collapse collapse"
-                                                aria-labelledby="heading3" data-bs-parent="#accordionExample"
-                                                style="">
-                                                <div class="accordion-body">
-                                                    Images, videos, PDFs and audio files are supported. Create math
-                                                    expressions and diagrams directly from the app. Take photos with the
-                                                    mobile app and save them to a note.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    emphasizing premium content and first-rate customer service.
+                                </p>
+                                <a href="javascript:void(Tawk_API.toggle())"
+                                    class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Chat With Us </small>
+                                </a>
+
                             </div>
                         </div>
                         <div class="col-lg-6 order-0 order-lg-2">
@@ -158,31 +106,9 @@
                                     The Amazon Publish Center was founded to provide customers with what they had been
                                     looking for. Customers can establish genuine connections with this truly collaborative
                                     and seamless content creation platform!
-                                 </p>
-                                <ul>
-                                    <li class="d-flex align-items-center mb-3">
-                                        <small
-                                            class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
-                                            <i class="fas fa-tag"></i>
-                                        </small>
-                                        <h6 class="fw-bold">Filtering notes using matched keywords</h6>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3">
-                                        <small
-                                            class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
-                                            <i class="fas fa-sync"></i>
-                                        </small>
-                                        <h6 class="fw-bold">Automatically sync in real time</h6>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <small
-                                            class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
-                                            <i class="fas fa-text-width"></i>
-                                        </small>
-                                        <h6 class="fw-bold">Complete note editor with rich text options</h6>
-                                    </li>
-                                </ul>
-                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                </p>
+                                <a href="javascript:void(Tawk_API.toggle())"
+                                    class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                                     <small> Chat With Us </small>
                                 </a>
                             </div>

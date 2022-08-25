@@ -36,7 +36,7 @@ Route::get('/business-ghostwriting', [HomeController::class, 'Business'])->name(
 Route::get('/fantasy-ghostwriting', [HomeController::class, 'Fantasy'])->name('fantasy');
 Route::get('/medical-ghostwriting', [HomeController::class, 'Medical'])->name('medical');
 Route::get('/screenplay-ghostwriting', [HomeController::class, 'ScreenPlay'])->name('screenplay');
-Route::get('/nonfiction-ghostwriting', [HomeController::class, 'ScreenPlay'])->name('nonfiction');
+Route::get('/non-fiction-ghostwriting', [HomeController::class, 'nonFiction'])->name('nonfiction');
 Route::get('/blog-ghostwriting', [HomeController::class, 'BlogWriting'])->name('blog-writing');
 
 Route::post('clients/store', [ClientController::class, 'store'])->name('clients.store');

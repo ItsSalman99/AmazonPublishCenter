@@ -29,7 +29,7 @@
             <div class="content">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-4 order-2 order-lg-0">
+                        <div class="col-lg-6 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
                                 <h2> Professtional <span> Fiction Ghostwriting Services. </span> </h2>
                             </div>
@@ -42,14 +42,9 @@
                                 <a href="#">Sales Forecast</a>
                             </div>
                         </div>
-                        <div class="col-lg-8 order-0 order-lg-2">
-                            <div class="img main-img1">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_1.png') }}" alt=""
-                                    class="sm-circle">
-                                <img src="{{ asset('assets/frontend/images/about/best-editing.png') }}" alt=""
-                                    class="img-body">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_5.png') }}" alt=""
-                                    class="lg-circle">
+                        <div class="col-lg-6 order-0 order-lg-2">
+                            <div class="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img7.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -59,10 +54,8 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <div class="img main-img2">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_2_1.png') }}" alt="">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_2_2.png') }}" alt=""
-                                    class="img-body">
+                            <div class="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img11.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -113,13 +106,8 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8 order-0 order-lg-2">
-                            <div class="img main-img1">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_1.png') }}" alt=""
-                                    class="sm-circle">
-                                <img src="{{ asset('assets/frontend/images/about/best-editing.png') }}" alt=""
-                                    class="img-body">
-                                <img src="{{ asset('assets/frontend/images/about/about_s5_1_5.png') }}" alt=""
-                                    class="lg-circle">
+                            <div class="">
+                                <img src="{{ asset('assets/frontend/images/about/best-img12.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">

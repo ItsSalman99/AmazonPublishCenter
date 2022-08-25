@@ -173,6 +173,13 @@ class HomeController extends Controller
     
     public function ScreenPlay()
     {
+        return view('frontend.ghostwriting.screenplay')->with([
+            'regions' => $this->regions
+        ]);
+    }
+
+    public function nonFiction()
+    {
         return view('frontend.ghostwriting.nonfiction')->with([
             'regions' => $this->regions
         ]);

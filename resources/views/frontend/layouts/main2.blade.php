@@ -42,7 +42,13 @@
 <body>
 
     <!-- ====== start loading page ====== -->
-    <div id="preloader">
+    <div class="preloader">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
     <!-- ====== end loading page ====== -->
 
