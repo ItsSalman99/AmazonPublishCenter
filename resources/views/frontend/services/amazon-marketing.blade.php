@@ -11,13 +11,11 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Amazon Marketing</small>
-                            <h2 class="mb-20">The Most promising
-                                <span> Amazon Marketing Consultants </span>
+                            <h2 class="mb-20">We Got The <span>Amazon Marketing Experts</span>
                             </h2>
                             <p>
-                                Do you want to get your hands on Amazon book marketing, or do you want to know how to do
-                                kindle book promotion? You have come to the right place.
-                            </p>
+                                Searching for a website to register your Amazon? Check out our author promotion services on
+                                Amazon. </p>
                         </div>
                     </div>
                 </div>
@@ -51,36 +49,33 @@
                             <h3>Amazon Keyword <br>Optimization</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                With Amazon keyword optimization, adding each description following the supplied keywords
+                                for any good or service is simple.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Pricing <br>Plan</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Amazon's pricing policy enables customers to get goods and services for less money. At
+                                Amazon Publish Center, we employ an ideal pricing technique that aids in resolving
+                                price-related concerns.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Amazon Product<br> Title Optimization</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                By optimizing the titles of Amazon products, customers may quickly identify the services and
+                                goods they're looking for.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Product <br>Image Optimization</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Because of the expertise of our professionals in optimizing product images, customers can
+                                pick and choose the exact item they need.
                             </p>
                         </div>
                     </div>
@@ -100,17 +95,20 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Grow
-                                        On
-                                        <span> Amazon. </span>
+                                    <h2 class="mb-30">Thrive On <span> Amazon </span>
                                     </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    It is said, " DONT JUDGE A BOOK BY ITS COVER." But, most of the time, it's always the
-                                    cover representing your book. Hire a book cover designer with Amazon Publishing Central
-                                    and be stress-free. We are all you need. Narratives are influential when associated with
-                                    the beauty of art. Whatever kind of book, crime thriller, or fiction you're looking to
-                                    publish, our designers can make a fantastic cover for your book. </p>
+
+                                    Whether it's listing content or photographs, Amazon Publish Center assists you in
+                                    optimizing the title of the product that will be posted on Amazon. We also walk you
+                                    through the procedure of quickly building your brand on Amazon. For books and writers,
+                                    we provide various well-known Amazon marketing services to boost sales. Whether it's
+                                    Amazon keyword optimization, price strategy, Amazon product title optimization, or
+                                    product image optimization, we take care of every small detail. Your Amazon listing
+                                    optimization strategy increases your sales volume, click-through rate (CTR), search
+                                    visibility, and conversion rates (CR).
+                                </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
                                         <small

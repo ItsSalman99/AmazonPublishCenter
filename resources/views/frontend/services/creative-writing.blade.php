@@ -11,12 +11,12 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Creative Writing</small>
-                            <h2 class="mb-20">Improve Engagement with
-                                <span> Creative Content Writing Services </span>
+                            <h2 class="mb-20">Transform Your Story
+                                <span> With Creative Writing </span>
                             </h2>
                             <p>
-                                Be more than just a book publisher and become a best seller with our creative content
-                                writing services.
+                                Our premium creative writing services can provide your company with the competitive edge you
+                                want.
                             </p>
                         </div>
                     </div>
@@ -55,36 +55,34 @@
                             <h3>Diverse <br> Specialized Genres</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The Amazon Publish Center's writing staff has years of experience offering professional
+                                ghostwriting services. We have offered our expertise in the area of specialized writing in a
+                                variety of genres.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Customized <br>Service</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                We appoint a specialized writer knowledgeable in that field when a client contacts us about
+                                a particular category or content genre.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Customer <br>Communication</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The Amazon Publish Center's creative staff ensures that projects are finished on schedule
+                                and to the client's satisfaction. Thus, we maintain continual contact with the consumers to
+                                ensure that our services satisfy their needs.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Book <br>Marketing</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Regardless of the requirement to choose a ghostwriter, we go above and above by not only
+                                offering excellent writing services but also actively advertising the book.
                             </p>
                         </div>
                     </div>
@@ -104,14 +102,16 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">We Create <span> Phenomenal Content </span> </h2>
+                                    <h2 class="mb-30">Experience Unparalleled <span> Creative Writing Services </span>
+                                    </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Defining readers' viewpoint, at Amazon Publishing Central, you can witness the most
-                                    impressive excellence in singlehood. Our writers are well-versed and have a repertoire
-                                    that showcases the best shades of expertise while emphasizing creativity. We are a group
-                                    of talented ghostwriters who are determined to increase the quality of work by using our
-                                    content. </p>
+                                    We provide innovative writing services while paying close attention to the demands of
+                                    our clients. In a crowded digital age, the necessity for attention-grabbing text has
+                                    never been more crucial. Amazon Publish Center assists you in discovering the unique
+                                    qualities of your company, and we will create brand-new content for you to share with
+                                    your audience.
+                                </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
                                         <small

@@ -5,7 +5,7 @@
             <div class="col-lg-3">
                 <div class="items">
                     <div class="title" style="color: #fff">
-                        Amazon Publish Center 
+                        Amazon Publish Center
                     </div>
                     <ul>
                         <li class="color-666 mb-2">
@@ -37,23 +37,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="items">
                     <div class="title text-white">
                         Pages
                     </div>
                     <ul>
                         <li>
-                            <a href="#">About</a>
+                            <a href="{{ route('about') }}">About</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="{{ route('contact') }}">Contact</a>
                         </li>
                         <li>
-                            <a href="#">Portfolio</a>
+                            <a href="{{ route('portfolio') }}">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#">Privacy & Policy</a>
+                            <a href="{{ route('privacy-policy') }}">Privacy & Policy</a>
                         </li>
                         <li>
                             <a href="#">Terms & Conditions</a>
@@ -62,41 +62,32 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="items">
-                    <div class="title text-white">
-                        Newsletter
-                    </div>
-                    <small class="color-666 text-white">Register now to get latest updates on <br> promotions & coupons.
-                    </small>
-                    <form class="form mt-30" method="post">
-                        <div class="form-group">
-                            <span class="icon">
-                                <i class="bi bi-envelope"></i>
-                            </span>
-                            <input type="text" placeholder="Enter your email">
-                            <button> <i class="bi bi-send"></i> </button>
-                        </div>
-                    </form>
-                    <small class="color-666 fst-italic mt-20 text-white">By subscribing, you accepted the our <a
-                            href="#" class="fst-normal text-dark">Policy.</a> </small>
+                <div>
+                    <img src="{{ asset('assets/frontend/images/logoupdate.png') }}" width="50%" alt="">
+                    <br><br>
+                    <p>
+                        Amazon Publish Center - Choose The Best Ghostwriting Services
+                    </p>
                 </div>
             </div>
         </div>
         <div class="foot">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="logo">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <small class="small">
-                        © 2022 Copyrights by <small class="fw-bold text-decoration-underline">Amazon Publish
+            <div class="d-flex justify-content-center">
+                <div>
+                    <p> © 2022 Copyrights by <small class="fw-bold text-decoration-underline">Amazon Publish
                             Center.</small>
-                        All Rights Reserved.
-                    </small>
+                        All Rights Reserved. - &emsp13;&emsp13;
+                    </p>
+                </div>
+                <div style="margin-right: 30px">
+                    <a href="#"> Terms & Conditions </a>
+                </div>
+                <div>
+                    <a href="{{ route('privacy-policy') }}"> Privacy & Policy</a>
                 </div>
             </div>
+
         </div>
+    </div>
     </div>
 </footer>

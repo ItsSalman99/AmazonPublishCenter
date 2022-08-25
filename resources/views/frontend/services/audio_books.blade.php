@@ -12,10 +12,13 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">AUDIO BOOKS SERVICES</small>
-                            <h2 class="mb-20">We Provide Professional<span>Finest Audiobook Production.</span> </h2>
-                            <p>Amazon Book Publish Central is an industry leader that provides the cheapest audiobook
-                                services to customers on-demand. Our voice-over experts are well-versed and do the job
-                                perfectly.</p>
+                            <h2 class="mb-20">
+                                <span>Audiobook</span> Narration Services
+                            </h2>
+                            <p>
+                                You want to get your book concept made as an audiobook, right? You're covered by our
+                                excellent staff members who are skilled in recording and narrating stories!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -59,40 +62,39 @@
                             </h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Want to convert your audiobooks into a digital version that can be downloaded? We assist you
+                                at the Amazon Publish Center in converting your audiobook into a downloadable digital
+                                format.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Windows
-                                <br>media audio</h3>
+                                <br>media audio
+                            </h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                By utilizing the suggested audio codecs for Microsoft's Windows Media Audio, we guarantee
+                                the highest audio quality for audiobooks.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Progressive
-                                <br> audio coding</h3>
+                                <br> audio coding
+                            </h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Is lossy digital audio compression a concern for them? Our professionals are knowledgeable
+                                in both basic and sophisticated audio coding issues.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Solid-state
-                                <br> preloaded digital
+                                digital
                             </h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                We use suggested and portable media players at Amazon Publish Center for public and school
+                                libraries.
                             </p>
                         </div>
                     </div>
@@ -113,11 +115,19 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">AMAZON PUBLISH CENTER</small>
-                                    <h2 class="mb-30">Experience Unparalleled<span> Ghostwriting Services </span> </h2>
+                                    <h2 class="mb-30">
+                                        Your Ultimate Resource of <span>Audiobook Services</span>
+                                    </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Amazon Publishing Central will allow you to see unrivaled talent in ghostwriting. Our
-                                    experts create content that demonstrates unmatched professionalism and creativity.
+                                    Each essential element that contributes to the greatest audiobook
+                                    narration is understood by our very talented audiobook narrators, who incorporate it
+                                    into their work. Our audiobook performers are skilled at maintaining consistency in
+                                    solo-voice narration and narrations with numerous voices. We continually review our
+                                    earlier audios to make sure that the caliber is preserved as well as to ensure
+                                    consistency. While many people have strong writing abilities, our narrators excel at a
+                                    somewhat uncommon skill: narrating an audiobook. Their specialty is using their expert
+                                    narrating skills to leave a lasting impression on the listener.
                                 </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
@@ -155,30 +165,7 @@
         </section>
         <!-- ====== end about ====== -->
 
-        <!-- ====== start Culture ====== -->
-        <section class="culture section-padding style-5">
-            <div class="section-head text-center style-4 mb-60">
-                <small class="title_small"> Hire Us </small>
-                <h2 class="mb-20"> <span>100% Genuine </span>, <span>100% Attractive</span>
-                    Amazon <br> Publish Central Takes smoothest out <br> your writing journey. </h2>
-                <p> More 15,000 Companies & partners trusted & choice </p>
-            </div>
-            <div class="container">
-                <div class="d-flex justify-content-between" style="width: 30%; margin: 0 auto;">
-                    <div>
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small> Free Consultation </small>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                            <small> </small>Quick Chat
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ====== end Culture ====== -->
+        @include('frontend.partials.end-section')
 
 
 

@@ -11,12 +11,12 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Book Cover Design</small>
-                            <h2 class="mb-20">Exceptional & Affordable
-                                <span> Book Cover Design. </span>
+                            <h2 class="mb-20"><span>Professional Book Cover</span> <br> Designers for Hire
                             </h2>
                             <p>
-                                Our experienced book cover designers create stunning book covers that catch-all customers'
-                                interest from the first moment they see them.
+                                Do you want your book to stand out on the shelves of a bookstore among the hundreds of
+                                others? To do that, people employ book cover designers. You ought to follow suit. Purchase a
+                                top-notch book cover design from us.
                             </p>
                         </div>
                     </div>
@@ -51,36 +51,33 @@
                             <h3>Custom eBook<br> Cover Design</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                In our opinion, the front and back of the book cover are the first things readers notice. As
+                                a result, we design the front and back at Amazon Publish Center following your
+                                specifications.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Print Book <br>Cover Design</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                We ensure the print book cover design matches the information in your paperback. In this
+                                area, our designers are skilled.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Illustrated Book<br> Cover Design</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The illustration on the book cover can best convey the idea of your novel. Our illustrators
+                                and designers create front and back covers perfect for your story.
                             </p>
                         </div>
                         <div class="features-card m-2">
-                            <h3>Photographic Book<br> Cover Design</h3>
+                            <h3>Photographic <br> Cover Design</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                The story inside is complemented by our book's photograph on the cover. We understand how to
+                                draw interest with a stunning book cover design.
                             </p>
                         </div>
                     </div>
@@ -100,16 +97,20 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Compelling Book
-                                        <span> Cover Design. </span>
+                                    <h2 class="mb-30">
+                                        <span>Book Cover Designs</span> that Catch Everyone's Eyes
                                     </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    It is said, " DONT JUDGE A BOOK BY ITS COVER." But, most of the time, it's always the
-                                    cover representing your book. Hire a book cover designer with Amazon Publishing Central
-                                    and be stress-free. We are all you need. Narratives are influential when associated with
-                                    the beauty of art. Whatever kind of book, crime thriller, or fiction you're looking to
-                                    publish, our designers can make a fantastic cover for your book. </p>
+                                    Do not magistrate a book by its cover is a proverb that was probably not coined by a
+                                    talented front cover designer. In the real world of our reality, individuals do make
+                                    snap judgments based on a book's cover. And honestly, when they go to the bookshop, most
+                                    customers won't even give your book a second glance. No matter how magnificent your book
+                                    may be, if you want people to pick it up and look inside, it must pique their interest
+                                    enough to keep gazing at it until they feel driven to do so. If you want the same for
+                                    your book, get in touch with us so we can create a cover that astounds readers and draws
+                                    them in.
+                                </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
                                         <small

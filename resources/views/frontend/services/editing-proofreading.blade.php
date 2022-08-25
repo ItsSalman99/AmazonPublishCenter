@@ -11,13 +11,11 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Press Release Writing</small>
-                            <h2 class="mb-20">Adequate E-Book
-                                <br>
-                                <span> Editors Onboard </span>
+                            <h2 class="mb-20">Our Professional <br> <span>Editing & Proofreading</span> Services
                             </h2>
                             <p>
-                                Our skilled writers offer professional editing and proofreading services that ensure that
-                                every book is edited under the clients' requirements.
+                                Say goodbye to incomplete and subpar draughts! We provide highly engaging and expert text
+                                for your manuscripts.
                             </p>
                         </div>
                     </div>
@@ -49,39 +47,36 @@
                     </div>
                     <div class="content">
                         <div class="features-card m-2">
-                            <h3>Business Editing<br> & Proofreading</h3>
+                            <h3>Business Editing <br>& Proofreading</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Our qualified editors satisfy the demands of business executives while keeping in mind a
+                                long-term company plan or memo. Give your business in good hands.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Resume Editing <br>& Proofreading</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                Want to emphasize skills in the best possible way? The first thing a resume needs to do is
+                                catch the employer's eye. At the Amazon Publish Center, we monitor compliance with corporate
+                                policies.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Academic Editing <br> & Proofreading</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                We ensure no grammatical, spelling, structural, or punctuation issues in your work. Thus,
+                                authors from the Amazon Publish Center are the best option.
                             </p>
                         </div>
                         <div class="features-card m-2">
                             <h3>Writer Editing<br> & Proofreading</h3>
                             <hr>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quod amet molestias
-                                voluptatibus velit inventore, in similique. Nesciunt animi sint itaque consequatur
-                                architecto, quod molestiae facere magni. Magnam, tenetur nemo?
+                                It might be challenging to review a book and adhere to excellent writing devoid of errors.
+                                Because of this, our editors complete their work quickly.
                             </p>
                         </div>
                     </div>
@@ -101,16 +96,16 @@
                             <div class="info">
                                 <div class="section-head style-4">
                                     <small class="title_small">Amazon Publish Center</small>
-                                    <h2 class="mb-30">Competent Editing &
-                                        <span> Proofreading Service. </span>
+                                    <h2 class="mb-30">Professional <span>Editing And Proof-Reading</span> Service
                                     </h2>
                                 </div>
                                 <p class="text mb-40">
-                                    Defining readers' viewpoint, at Amazon Publishing Central, you can witness the most
-                                    impressive excellence in singlehood. Our writers are well-versed and have a repertoire
-                                    that showcases the best shades of expertise while emphasizing creativity. We are a group
-                                    of talented ghostwriters who are determined to increase the quality of work by using our
-                                    content. </p>
+                                    Our Amazon Publish Center service of editing and proofreading covers all of it with
+                                    correcting your grammatical errors and providing stylish references. We proofread and
+                                    make modifications following your document, topic matter, and intended readership. Our
+                                    publishing managers are native English speakers who have through a rigorous evaluation
+                                    process to determine their proofreading expertise and subject knowledge.
+                                </p>
                                 <ul>
                                     <li class="d-flex align-items-center mb-3">
                                         <small
