@@ -214,7 +214,7 @@
         @include('frontend.partials.numbers')
         <!-- ====== end numbers ====== -->
 
-        @include('frontend.partials.clients-reviews2')
+        @include('frontend.partials.clients-reviews')
 
         @include('frontend.partials.our-writers')   
 

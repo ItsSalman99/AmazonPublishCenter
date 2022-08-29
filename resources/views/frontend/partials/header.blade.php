@@ -14,8 +14,6 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
         <!-- ====== start navbar ====== -->
         <nav class="navbar navbar-expand-lg navbar-light style-6" id="topnav" style="background-color: transparent">

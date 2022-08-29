@@ -24,10 +24,9 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/all.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/animate.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
 
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
     <!-- ====== global style ====== -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/bgswiper-slider.css') }}">
@@ -72,6 +71,7 @@
     <script src="{{ asset('assets/frontend/js/lib/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/swiper.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery.counterup.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/jquery.fancybox.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
     @include('sweetalert::alert')
 

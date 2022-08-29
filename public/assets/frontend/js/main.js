@@ -2,12 +2,12 @@ $('#pop-up').hide();
 
 $(document).ready(function () {
     setTimeout(function () {
-        $('#pop-up').fadeIn().show(1500);
-    }, 3000);
+        $('#pop-up').show();
+    }, 10000);
 })
 
 function closePopUp() {
-    $('#pop-up').hide().fadeDown();
+    $('#pop-up').remove();
 }
 // preloader
 $(window).on("load", function () {
@@ -31,8 +31,32 @@ setInterval(function time() {
     jQuery('#secs').html(sec)
 }, 1000);
 
-$(function () {
+$(document).ready(function (e) {
+    
+    e.preventDefault();
 
+    var wind = $(window);
+
+    // ---------- nav scroll -----------
+    wind.on("scroll", function () {
+
+        
+        var bodyScroll = wind.scrollTop(),
+            navbar = $(".navbar")
+
+        if (bodyScroll > 1200) {
+
+            navbar.addClass("nav-scroll");
+
+        } else {
+
+            navbar.removeClass("nav-scroll");
+        }
+    });
+
+});
+
+$(function () {
 
     var wind = $(window);
 
@@ -98,21 +122,6 @@ $(function () {
         $(".yearly_price").show();
         $(".yearly_price").siblings(".monthly_price").hide();
     });
-
-    /* ===============================  Preloader page  =============================== */
-
-    paceOptions = {
-        ajax: true,
-        document: true,
-        eventLag: false
-    };
-
-    Pace.on('done', function () {
-        $('#preloader').addClass("isdone");
-        $('.loading').addClass("isdone");
-    });
-
-
 
 
     // -------- counter --------
@@ -388,7 +397,7 @@ $(document).ready(function () {
     var swiper = new Swiper('.testimonial-slider.style-3 .swiper-container', {
         slidesPerView: 3,
         spaceBetween: 100,
-        speed: 1000,
+        speed: 1200,
         pagination: {
             el: ".testimonial-slider.style-3 .swiper-pagination",
             clickable: true,
@@ -460,30 +469,13 @@ $(document).ready(function () {
         spaceBetween: 0,
         centeredSlides: true,
         slidesPerView: 6,
-        speed: 6000,
+        speed: 1200,
         autoplay: {
             delay: 1,
         },
         loop: true,
         allowTouchMove: false,
-        disableOnInteraction: true,
-        breakpoints: {
-            0: {
-                slidesPerView: 2,
-            },
-            480: {
-                slidesPerView: 2,
-            },
-            787: {
-                slidesPerView: 3,
-            },
-            991: {
-                slidesPerView: 4,
-            },
-            1200: {
-                slidesPerView: 6,
-            }
-        }
+        
     });
 
     // ------------ testimonial sliders -----------
@@ -495,24 +487,10 @@ $(document).ready(function () {
             clickable: true,
         },
         navigation: false,
-        
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
-            },
-            480: {
-                slidesPerView: 1,
-            },
-            787: {
-                slidesPerView: 2,
-            },
-            991: {
-                slidesPerView: 3,
-            },
-            1200: {
-                slidesPerView: 4,
-            }
-        }
+        speed: 1200,
+        autoplay: {
+            delay: 3000,
+        },
     });
 
     // ------------ services sliders -----------
@@ -520,7 +498,7 @@ $(document).ready(function () {
         slidesPerView: 6,
         centeredSlides: true,
         spaceBetween: 0,
-        speed: 1000,
+        speed: 1200,
         pagination: false,
         navigation: false,
         
@@ -777,19 +755,11 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 
 var mySwiper = new Swiper('.swiper-bg-container', {
     autoplay: {
-        delay: 10000,
+        delay: 2000,
     },
     direction: 'horizontal',
-    pagination: {
-        el: ".swiper-pagination",
-        type: "progressbar",
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-
     effect: 'fade',
     loop: true,
-    speed: 1000,
+    speed: 500,
 })
+

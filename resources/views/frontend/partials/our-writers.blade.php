@@ -10,7 +10,7 @@
                 <div class="col-lg-3">
                     <div class="team-card mb-30 mb-lg-0 style-6">
                         <div class="img img-cover">
-                            <img src="{{ asset('assets/frontend/images/team/1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/team/five.jpg') }}" alt="">
                         </div>
                         <div class="info">
                             <a class="d-block" href="#">
@@ -34,11 +34,11 @@
                 <div class="col-lg-3">
                     <div class="team-card mb-30 mb-lg-0 style-6">
                         <div class="img img-cover">
-                            <img src="{{ asset('assets/frontend/images/team/3.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/team/two.jpg') }}" alt="">
                         </div>
                         <div class="info">
                             <a class="d-block" href="#">
-                                <h6>Robert Downey Jr</h6>
+                                <h6>Olivia Downey Jr</h6>
                             </a>
                         </div>
                     </div>

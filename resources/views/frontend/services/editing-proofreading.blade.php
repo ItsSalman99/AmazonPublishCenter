@@ -23,16 +23,16 @@
                 <div class="container">
                     <div class="content mb-100 pb-100 border-1 border-bottom brd-gray">
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book1.png') }}" alt="" class="mt-30">
+                            <img src="{{ asset('assets/frontend/images/about/comics/book1.jpg') }}" width="60%" alt="" class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book2.png') }}" alt="" class="mt-60">
+                            <img src="{{ asset('assets/frontend/images/about/children/book2.jpg') }}" width="60%" alt="" class="mt-60">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book3.png') }}" alt="" class="mt-20">
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" width="60%" alt="" class="mt-20">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/book4.png') }}" alt="" class="mt-80">
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" width="60%" alt="" class="mt-80">
                         </div>
                     </div>
                 </div>
