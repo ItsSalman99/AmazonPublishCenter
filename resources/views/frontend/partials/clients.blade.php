@@ -9,33 +9,28 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/amazon.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/kobo.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/scribd.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/Ingramspart.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/barnesnoble.png') }}" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="img">
-                            <img src="{{ asset('assets/frontend/images/logos/ibook.png') }}" alt="">
                         </a>
                     </div>
                 </div>
@@ -46,32 +41,32 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/googlebooks.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/draft2digital.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/smashwords.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/lulu.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/indigo.png') }}" alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#" class="img">
+                        <a class="img">
                             <img src="{{ asset('assets/frontend/images/about/createspace.png') }}" alt="">
                         </a>
                     </div>

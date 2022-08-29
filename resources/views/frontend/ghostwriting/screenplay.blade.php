@@ -10,12 +10,13 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-head text-center mb-60 style-5">
-                            <h2 class="mb-20"> Exquisite Screenplay
-                                Ghostwriting at <br>
-                                <span> Amazon Publish Center.</span>
+                            <h2 class="mb-20"> <span>Premium Screenplay</span>
+                                <br>
+                                 Ghostwriting
+                                 at Amazon Publishing Center
                             </h2>
                             <p class="">
-                                Acquire professional screenplay ghostwriting services hustle-free.
+                                Hire us to have hassle-free access to professional screenplay ghostwriting services.
                             </p>
                         </div>
                     </div>
@@ -32,20 +33,16 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Best Screenplay
-                                    <span>Ghostwriting Services Online.</span>
+                                <h2> <span>Marvelous Screenplay</span> Ghostwriting
                                 </h2>
                             </div>
-                            <p>Amazon Publishing Central is known for its professional team of screenplay ghostwriters, who
-                                produce high-quality content every time. Our out-of-the-box thinking and high-quality output
-                                are what we deliver to Hollywood, Hulu, or Netflix. .
+                            <p>
+                                Some components are necessary when developing a screenplay. However, only industry
+                                professionals are aware of that. A superb mix of seasoned and up-and-coming screenplay
+                                ghostwriters may be found at Amazon Publish Center. They collaborate to offer clients
+                                outstanding screenplay ghostwriter services. They are aware of every component that makes up
+                                the best screenplays.
                             </p>
-                            <div class="line-links">
-                                <a href="#">Sales Breakdown &amp; Funnel</a>
-                                <a href="#">Abadoned Carts</a>
-                                <a href="#">Revenue by Channel &amp; Devices</a>
-                                <a href="#">Sales Forecast</a>
-                            </div>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -65,40 +62,17 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="section-head mb-30 style-5">
-                                <h2> Tempting                                    
-                                    <span> Screenplay Ghostwriting </span>
+                                <h2>
+                                    Looking for a <span>screenwriter</span> to hire?
                                 </h2>
                             </div>
                             <p>
-                                With Iteck Marketplace, choose from hundreds of payment gateways for your customers.
-                                From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc
+                                We are the screenwriter for hire you need if you need someone to take on your movie or TV
+                                idea and polish it up so it can be pitched to studio heads. The following essay examines
+                                screenwriting, its elements, and what qualities you should seek in a screenplay ghostwriter.
+                                You may find it educational if you're new to writing for movies and television. Should we
+                                start?
                             </p>
-                            <ul class="list-icon">
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        100% Guarantee Secure Payment
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        1% Extra Fees For All
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        Support Dispute &amp; Refund 24/7
-                                    </h6>
-                                </li>
-                            </ul>
                             <a href="page-contact-5.html"
                                 class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
                                 <span> Book A Free Demo </span>
@@ -117,12 +91,13 @@
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Prefessional
-                                    <span> Screenplay Ghostwriting. </span>
+                                <h2> <span>Affordable Screenplay</span> Ghostwriting Services
                                 </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
+                            <p>
+                                Amazon Publish Center is the ideal screenplay ghostwriting company for individuals
+                                interested in learning more about the most recent Netflix or Hollywood material.
+                            </p>
                         </div>
                     </div>
                 </div>

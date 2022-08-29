@@ -10,11 +10,13 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-head text-center mb-60 style-5">
-                            <h2 class="mb-20"> Online Fiction <br>
-                                <span> Ghostwriting Services. </span>
+                            <h2 class="mb-20">
+                                <span>Fiction Ghost Writers</span><br>
+                                 Are At Your Service <br>
                             </h2>
                             <p class="">
-                                Allure your readers via an indulging trip with our fiction ghostwriting service.
+                                We offer every service to support the realization of your writing goals. We only require
+                                your idea.
                             </p>
                         </div>
                     </div>
@@ -31,16 +33,17 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Professtional <span> Fiction Ghostwriting Services. </span> </h2>
+                                <h2> <span>Fiction Ghost Writing</span>
+                                    Amenities Are Available For You.
+                                </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
-                            <div class="line-links">
-                                <a href="#">Sales Breakdown &amp; Funnel</a>
-                                <a href="#">Abadoned Carts</a>
-                                <a href="#">Revenue by Channel &amp; Devices</a>
-                                <a href="#">Sales Forecast</a>
-                            </div>
+                            <p>
+                                Everyone has a fascinating tale to share, in our opinion, at Amazon Publish Center. But, you
+                                do not want to put in the effort of writing it down page by page. Additionally, you must
+                                have great language skills to recount the occurrences accurately. Our expert fiction
+                                ghostwriting services have made creating fiction books for publication incredibly
+                                straightforward.
+                            </p>
                         </div>
                         <div class="col-lg-6 order-0 order-lg-2">
                             <div class="">
@@ -60,40 +63,16 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="section-head mb-30 style-5">
-                                <h2> The globe of
-                                    <span> Fiction Writing </span>
+                                <h2>
+                                    <span>Suspense And Thriller</span> Novel Ghostwriting Services
                                 </h2>
                             </div>
                             <p>
-                                With Iteck Marketplace, choose from hundreds of payment gateways for your customers.
-                                From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc
+                                Investigators try to solve crimes in some of the most read literary works. These detective
+                                novels are classified as suspense and thrillers. These books assist the reader feel a sense
+                                of mystery and suspense, as the name would imply. We distinguish that a thriller should
+                                never get boring.
                             </p>
-                            <ul class="list-icon">
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        100% Guarantee Secure Payment
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        1% Extra Fees For All
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        Support Dispute &amp; Refund 24/7
-                                    </h6>
-                                </li>
-                            </ul>
                             <a href="page-contact-5.html"
                                 class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
                                 <span> Book A Free Demo </span>
@@ -112,10 +91,13 @@
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Professtional <span> Fiction Ghostwriting Services. </span> </h2>
+                                <h2> <span>Romance Fiction</span> Ghostwriting Facilities </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
+                            <p>
+                                If you're seeking publications that appeal to a broad readership, romance fiction is the way
+                                to go. Essentially, these stories revolve around a relationship between two people or their
+                                desire to have one.
+                            </p>
                         </div>
                     </div>
                 </div>

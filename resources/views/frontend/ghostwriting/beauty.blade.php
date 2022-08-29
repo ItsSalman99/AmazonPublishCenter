@@ -10,11 +10,11 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-head text-center mb-60 style-5">
-                            <h2 class="mb-20"> Perfect Beauty Content <br>
-                                <span> Writer At Your Service. </span>
+                            <h2 class="mb-20">
+                                The <span>Optimum Beauty Ghostwriter</span> <br> at your service.
                             </h2>
                             <p class="">
-                                Hire a ghostwriter for your next beauty project to flourish.
+                                For your next project, use the Beauty Ghostwriting Agency.
                             </p>
                         </div>
                     </div>
@@ -31,19 +31,17 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Premium
+                                <h2> Impressive
                                     <span> Beauty Ghostwriting. </span>
                                 </h2>
                             </div>
-                            <p>At Amazon Publishing Center, our well-versed beauty content writers have ample knowledge of
-                                the beauty industry to leave their impact on the world.
+                            <p>
+                                Will you soon introduce a new beauty product? It is a comparison of ten accessories that
+                                help with beauty. It is challenging to stay knowledgeable, given the growth of this business
+                                and the monthly introduction of new items. But not for our ghostwriters for beauty. The team
+                                at Amazon Publish Center includes writers for beauty blogs and magazines that thoroughly
+                                understand hair, makeup, skincare, and fashion.
                             </p>
-                            <div class="line-links">
-                                <a href="#">Sales Breakdown &amp; Funnel</a>
-                                <a href="#">Abadoned Carts</a>
-                                <a href="#">Revenue by Channel &amp; Devices</a>
-                                <a href="#">Sales Forecast</a>
-                            </div>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -63,40 +61,15 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="section-head mb-30 style-5">
-                                <h2> Premium
-                                    <span> Beauty Ghostwriting </span>
+                                <h2> Our <span> Ghostwriters </span> In The News
                                 </h2>
                             </div>
                             <p>
-                                With Iteck Marketplace, choose from hundreds of payment gateways for your customers.
-                                From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc
+                                Our staff of ghostwriters has a knack for writing, and their excellent ghostwriting
+                                abilities have frequently been highlighted by reputable media sites like The New York Times.
+                                By creating a book, our ghostwriters have successfully assisted our clients in becoming
+                                well-known authors.
                             </p>
-                            <ul class="list-icon">
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        100% Guarantee Secure Payment
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        1% Extra Fees For All
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        Support Dispute &amp; Refund 24/7
-                                    </h6>
-                                </li>
-                            </ul>
                             <a href="page-contact-5.html"
                                 class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
                                 <span> Book A Free Demo </span>
@@ -115,11 +88,14 @@
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> The best crew of
-                                    <span> Beauty Content Writers. </span> </h2>
+                                <h2> <span>Beauty Ghostwriters</span> Firm
+                                </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
+                            <p>
+                                A large range of subtopics falls under the umbrella of the overarching issue of beauty. The
+                                beauty writers at Amazon Publish Center have in-depth knowledge about the makeup and
+                                efficacy of cosmetics, and they offer advice based on their expertise.
+                            </p>
                         </div>
                     </div>
                 </div>

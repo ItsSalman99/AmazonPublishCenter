@@ -10,11 +10,13 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-head text-center mb-60 style-5">
-                            <h2 class="mb-20"> Non-Fiction <br>
-                                <span> Ghostwriting Company.</span>
+                            <h2 class="mb-20">
+                                <span>Nonfiction Ghostwriters</span>
+                                <br> At Your Service!
                             </h2>
                             <p class="">
-                                Our team comprises committed and experienced non-fiction ghostwriters who seek to create exquisite writing styles.
+                                We fully admit that our ghostwriting services are remarkable and confidently make this
+                                claim.
                             </p>
                         </div>
                     </div>
@@ -31,20 +33,14 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Exciting
-                                    <span>Non-Fiction Writing.</span>
+                                <h2> The <span>Best Non-Fiction</span> Ghostwriting Company In The Market Is Here For You!
                                 </h2>
                             </div>
-                            <p>Amazon Publishing Central is known for its professional team of screenplay ghostwriters, who
-                                produce high-quality content every time. Our out-of-the-box thinking and high-quality output
-                                are what we deliver to Hollywood, Hulu, or Netflix. .
+                            <p>
+                                For additional ten years, we have presented nonfiction copywriting services. As an outcome,
+                                our writers are seasoned professionals. Thanks to our nonfiction ghostwriter, you won't need
+                                to stress about it. Your core idea is all that our ghostwriters require.
                             </p>
-                            <div class="line-links">
-                                <a href="#">Sales Breakdown &amp; Funnel</a>
-                                <a href="#">Abadoned Carts</a>
-                                <a href="#">Revenue by Channel &amp; Devices</a>
-                                <a href="#">Sales Forecast</a>
-                            </div>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -64,40 +60,15 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="section-head mb-30 style-5">
-                                <h2> Committed and Experienced
-                                    <span> Non-fiction Ghostwriters </span>
+                                <h2> Why Do You Need To Transcribe A <span>Nonfiction Book?</span>
                                 </h2>
                             </div>
                             <p>
-                                With Iteck Marketplace, choose from hundreds of payment gateways for your customers.
-                                From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc
+                                You may develop your brand and expand your audience by reading nonfiction literature.
+                                Undoubtedly, a ghostwriter is required! We deliver innovative writing services to meet all
+                                of your writing requirements. We will professionally work on it, whether it is a fiction or
+                                nonfiction ghost book. We will develop your original concept into a strong reader.
                             </p>
-                            <ul class="list-icon">
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        100% Guarantee Secure Payment
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        1% Extra Fees For All
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        Support Dispute &amp; Refund 24/7
-                                    </h6>
-                                </li>
-                            </ul>
                             <a href="page-contact-5.html"
                                 class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
                                 <span> Book A Free Demo </span>
@@ -116,12 +87,14 @@
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Prefossional
-                                    <span> Non-Fiction Service. </span>
+                                <h2> <span>Good Storytelling</span> Is A Talent
                                 </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
+                            <p>
+                                You may already know the tale. Even the characters, perhaps. The talents necessary to write
+                                books may be what you lack, and there is nothing wrong with that. Many thousands of people
+                                have wonderful things to offer the world.
+                            </p>
                         </div>
                     </div>
                 </div>

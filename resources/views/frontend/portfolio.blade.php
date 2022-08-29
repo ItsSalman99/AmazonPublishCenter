@@ -8,8 +8,11 @@
             <div class="container" style="margin-top: 150px;">
                 <div class="section-head text-center style-4 mb-40">
                     <small class="title_small">Amazon Publish Center</small>
-                    <h2 class="mb-20">Some Of <span>Amazon Publish Center</span> Company's Successful Creations</h2>
-                    <p>We have an experienced team of production and inspection personnel to ensure quality.</p>
+                    <h2 class="mb-20">
+                        OUR <span>PORTFOLIO</span>                    </h2>
+                    <p>
+                        We have an experienced team of production and inspection personnel to ensure quality.
+                    </p>
                 </div>
                 <div class="controls">
                     <button type="button" class="control" data-filter="all">All</button>
@@ -25,62 +28,74 @@
                         <div class="row mix-container">
                             <div class="col-lg-4 mix children">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/children/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/children/book1.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix development children">
                                 <div class="portfolio-card">
-                                    <img src="{{ asset('assets/frontend/images/about/children/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/children/book2.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix fiction">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/fictions/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/fictions/book1.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix fiction">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix auto-biography">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/autobiography/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/autobiography/book1.jpg') }}"
+                                        width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix auto-biography">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/autobiography/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/autobiography/book2.jpg') }}"
+                                        width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix cloud action-adventure">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}"
+                                        width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix cloud action-adventure">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}"
+                                        width="70%" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix classics">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/classics/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/classics/book1.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix classics">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/classics/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/classics/book2.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix comic">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/comics/book1.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/comics/book1.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 mix comic">
                                 <div class="portfolio-card mb-50">
-                                    <img src="{{ asset('assets/frontend/images/about/comics/book2.jpg') }}" width="70%" alt="">
+                                    <img src="{{ asset('assets/frontend/images/about/comics/book2.jpg') }}" width="70%"
+                                        alt="">
                                 </div>
                             </div>
                         </div>

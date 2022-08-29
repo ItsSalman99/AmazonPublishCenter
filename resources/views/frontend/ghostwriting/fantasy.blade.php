@@ -10,11 +10,11 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-head text-center mb-60 style-5">
-                            <h2 class="mb-20"> Professtional Fantasy <br>
-                                <span> Ghostwriting Company.</span>
+                            <h2 class="mb-20">
+                                <span> Fantasy Ghostwriting </span> <br> Company Near Me
                             </h2>
                             <p class="">
-                                Take a voyage to the conceptual world with our proficient fantasy novel ghostwriters.
+                                Join our expert fantasy novel ghostwriters on a journey into the world of ideas.
                             </p>
                         </div>
                     </div>
@@ -31,19 +31,15 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Astonishing
-                                    <span>Fantasy Ghostwriting.</span>
+                                <h2>
+                                    <span>Experience unparalleled </span> ghostwriting services
                                 </h2>
                             </div>
-                            <p>At Amazon Publishing Center, our well-versed beauty content writers have ample knowledge of
-                                the beauty industry to leave their impact on the world.
+                            <p>
+                                You may see ghostwriting at its highest level of genius at Amazon Publish Center. Our
+                                writers craft knowledgeable content that displays genuine professionalism while showcasing
+                                inventiveness.
                             </p>
-                            <div class="line-links">
-                                <a href="#">Sales Breakdown &amp; Funnel</a>
-                                <a href="#">Abadoned Carts</a>
-                                <a href="#">Revenue by Channel &amp; Devices</a>
-                                <a href="#">Sales Forecast</a>
-                            </div>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -63,40 +59,16 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="section-head mb-30 style-5">
-                                <h2> Premium
-                                    <span> Fantasy Ghostwriting </span>
+                                <h2> Fabulous <span>Fantasy Ghostwriting</span>
                                 </h2>
                             </div>
                             <p>
-                                With Iteck Marketplace, choose from hundreds of payment gateways for your customers.
-                                From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc
+                                A perfectionist is always meticulous, and a fantasy fiction writer should share this trait.
+                                A variety of skilled fantasy ghostwriters with a strong command of language and grammar are
+                                available from Amazon Publish Center. They are quite knowledgeable in writing fantasy
+                                fiction and conducting research. They consequently interpret and offer tales that reflect
+                                the message and information ingrained in its core.
                             </p>
-                            <ul class="list-icon">
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        100% Guarantee Secure Payment
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        1% Extra Fees For All
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        Support Dispute &amp; Refund 24/7
-                                    </h6>
-                                </li>
-                            </ul>
                             <a href="page-contact-5.html"
                                 class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
                                 <span> Book A Free Demo </span>
@@ -115,12 +87,14 @@
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Proficient
-                                    <span> Business Ghostwriting. </span>
+                                <h2>
+                                    <span>Leading Fantasy</span> Ghostwriting Services
                                 </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
+                            <p>
+                                We deliver the most entertaining books by professional fantasy story writers with
+                                outstanding writing styles and captivating reads.
+                            </p>
                         </div>
                     </div>
                 </div>

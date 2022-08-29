@@ -204,5 +204,10 @@ class HomeController extends Controller
         return view('frontend.privacy-policy.privacypolicy');
     }
 
+    public function termsConditions()
+    {
+        return view('frontend.privacy-policy.termsconditions');
+    }
+
 }
 

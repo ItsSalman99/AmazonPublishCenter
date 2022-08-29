@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="Employ a qualified ghostwriter through our ghostwriting services company. In the USA, we offer the best services. Discover Perfection. Call us right away!" />
-    <meta name="description" content="Employ a qualified ghostwriter through our ghostwriting services company. In the USA, we offer the best services. Discover Perfection. Call us right away!" />
-    
+
     <!-- Title  -->
     <title>{{ env('APP_NAME') }} - Ghostwriting Services by The Professionals</title>
 
@@ -28,8 +26,6 @@
 
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/all.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/animate.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/lity.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
 
     <!-- ====== global style ====== -->
@@ -58,9 +54,7 @@
 
 
     @yield('content')
-
-    @include('frontend.partials.clients')
-
+    
     <!-- ====== start footer ====== -->
     @include('frontend.partials.footer')
     <!-- ====== end footer ====== -->
@@ -76,16 +70,9 @@
     <script src="{{ asset('assets/frontend/js/lib/jquery-3.0.0.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery-migrate-3.0.0.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/wow.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/jquery.fancybox.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/lity.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/swiper.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery.counterup.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/pace.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/scrollIt.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     @include('sweetalert::alert')
 
 </body>

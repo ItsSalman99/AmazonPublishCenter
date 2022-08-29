@@ -47,7 +47,7 @@
                 <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
 
-            <div class="container">
+            {{-- <div class="container">
                 <div class="main-vid" style="">
                     <img src="{{ asset('assets/frontend/images/vid_banner5.png') }}" alt=""
                         style="border: 10px solid #000; border-radius: 20px">
@@ -55,7 +55,7 @@
                         <i class="fas fa-play"></i>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="content sec-content">
                 <div class="container">

@@ -1,11 +1,11 @@
 <div class="pop-up" id="pop-up">
-    <div class="row justify-content-between" style="border: 10px solid #000; border-radius: 40px; background-color: #ddd; height: 100%">
-        <div class="col-lg-6 pop-img"
-            style="border-top-left-radius: 40px; border-bottom-left-radius: 40px; border-right: 10px solid #000; background-image: url('assets/frontend/images/sale.jpeg'); background-attachment: fixed; background-position: center; background-size: cover">
+    <div class="row justify-content-between" style="border: 10px solid #000; border-radius: 40px; background-color: #e6e6e6; height: 100%">
+        <div class="col-lg-6 popimg">
+            <img src="{{ asset('/assets/frontend/images/sale.jpeg') }}" class="pop-img">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 pop-form">
             <div>
-                <a onclick="closePopUp()" class="float-end" style="font-size: 40px; margin-right: 20px">
+                <a onclick="closePopUp()" class="float-end close-pop" style="font-size: 40px; margin-right: 20px">
                     &times;
                 </a>
             </div>
@@ -26,7 +26,7 @@
             </div>
             <br><br>
             <h2 class="text-center pop-h2">
-                Get Ready To Become <br> A Best Seller!
+                Get Ready To Become A Best Seller!
             </h2>
             <div style="width: 80%; margin: 0 auto;">
                 <form  action="{{ route('clients.store') }}" method="POST">

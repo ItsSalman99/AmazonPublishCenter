@@ -10,11 +10,13 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-head text-center mb-60 style-5">
-                            <h2 class="mb-20"> EFFECTIVE WRITING <br>
-                                <span> FOR HEALTH CARE.</span>
+                            <h2 class="mb-20">
+                                <span> Medical Ghostwriting </span>
+                                <br>
+                                Services USA
                             </h2>
                             <p class="">
-                                Our specialized medical writing agency creates excellent content tailored to your needs.
+                                To address your unique needs, our technical medical ghostwriters provide unequaled writing.
                             </p>
                         </div>
                     </div>
@@ -31,19 +33,17 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Searching For
-                                    <span>Medical Ghostwriters?</span>
+                                <h2> Well-Researched
+                                    <span>Medical Ghostwriting</span>
                                 </h2>
                             </div>
-                            <p>At Amazon Publishing Center, our well-versed beauty content writers have ample knowledge of
-                                the beauty industry to leave their impact on the world.
+                            <p>
+                                The subject is difficult, just like the field of work. What should you do if you wish to
+                                acquire current and accurate medical information? The solution is as easy as hiring Amazon
+                                Publish Center. We collaborate with some incredible content writers and ex-medical
+                                consultants to support research-based medical ghostwriting. They have an excellent grasp of
+                                the language, which helps them to speak clearly and precisely.
                             </p>
-                            <div class="line-links">
-                                <a href="#">Sales Breakdown &amp; Funnel</a>
-                                <a href="#">Abadoned Carts</a>
-                                <a href="#">Revenue by Channel &amp; Devices</a>
-                                <a href="#">Sales Forecast</a>
-                            </div>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -63,40 +63,14 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="section-head mb-30 style-5">
-                                <h2> Premium
-                                    <span> Health Care Ghostwriting </span>
+                                <h2> <span>Medical Ghostwriting</span> Services
                                 </h2>
                             </div>
                             <p>
-                                With Iteck Marketplace, choose from hundreds of payment gateways for your customers.
-                                From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc
+                                We have a highly skilled team of physicians and scientists with Ph. D.s who have a wealth of
+                                knowledge in writing scientifically. We offer writing for research papers, books, review
+                                articles, and other publications as part of our medical ghostwriting service.
                             </p>
-                            <ul class="list-icon">
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        100% Guarantee Secure Payment
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        1% Extra Fees For All
-                                    </h6>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <i class="bi bi-check2"></i>
-                                    </span>
-                                    <h6>
-                                        Support Dispute &amp; Refund 24/7
-                                    </h6>
-                                </li>
-                            </ul>
                             <a href="page-contact-5.html"
                                 class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
                                 <span> Book A Free Demo </span>
@@ -115,12 +89,13 @@
                         </div>
                         <div class="col-lg-4 order-2 order-lg-0">
                             <div class="section-head mb-30 style-5">
-                                <h2> Intensely Researched                                    
-                                    <span> Medical Ghostwriting. </span>
+                                <h2> <span>Ethical Medical GhostWriting</span> For Experts In The Field
                                 </h2>
                             </div>
-                            <p>The uploading and updating processes made by suppliers can be streamlined through
-                                front-end dashboards that create better ease of access. </p>
+                            <p>
+                                Many doctors, surgeons, and other medical professionals must keep themselves and the public
+                                informed about the newest scientific advancements and data on medications and illnesses.
+                            </p>
                         </div>
                     </div>
                 </div>

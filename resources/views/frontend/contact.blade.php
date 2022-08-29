@@ -25,7 +25,7 @@
                             <img src="{{ asset('assets/frontend/images/icons/map3d.png') }}" alt="">
                         </div>
                         <div class="inf">
-                            <h6>1321 Upland Dr Houston, TX 77043, United States of America</h6>
+                            <h6>Office 4111 182-184 High Street North, East Ham, London E6 2JA. UK</h6>
                         </div>
                     </div>
                     <div class="commun-card">
@@ -33,7 +33,7 @@
                             <img src="{{ asset('assets/frontend/images/icons/msg3d.png') }}" alt="">
                         </div>
                         <div class="inf">
-                            <h6>+1 (361) 273-1595</h6>
+                            <h6>+1 361 355 4874</h6>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,8 @@
                         </div>
                     </div>
                     <img src="{{ asset('assets/frontend/images/icons/contact_a.png') }}" alt="" class="contact_a">
-                    <img src="{{ asset('assets/frontend/images/icons/contact_message.png') }}" alt="" class="contact_message">
+                    <img src="{{ asset('assets/frontend/images/icons/contact_message.png') }}" alt=""
+                        class="contact_message">
                 </div>
             </div>
         </section>

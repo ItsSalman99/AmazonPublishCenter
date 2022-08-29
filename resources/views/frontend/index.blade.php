@@ -35,12 +35,12 @@
                                             <i class="bi bi-arrow-right ms-1"></i>
                                         </span>
                                     </a>
-                                    <a href="https://youtu.be/pGbIOC83-So?t=21" data-lity class="vid-btn">
+                                    {{-- <a data-lity class="vid-btn">
                                         <i class="bi bi-play"></i>
                                         <span>
                                             See Our <br> Showreels
                                         </span>
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,6 @@
                     </div>
                 </div>
             </div>
-            <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="bubbles rotate-center">
         </section>
         <!-- ====== end community ====== -->
 
@@ -74,7 +73,7 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="#" class="service-card style-6">
+                                <a class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/publisher.png" alt="">
                                     </div>
@@ -87,7 +86,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#" class="service-card style-6">
+                                <a  class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/edit.png" alt="">
                                     </div>
@@ -100,7 +99,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#" class="service-card style-6">
+                                <a  class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/format.png" alt="">
                                     </div>
@@ -112,7 +111,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#" class="service-card style-6">
+                                <a  class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/magazine.png" alt="">
                                     </div>
@@ -125,7 +124,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#" class="service-card style-6">
+                                <a  class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/trailer.png" alt="">
                                     </div>
@@ -138,7 +137,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#" class="service-card style-6">
+                                <a  class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/seo.png" alt="">
                                     </div>
@@ -207,7 +206,6 @@
                     </div>
                 </div>
             </div>
-            <img src="assets/frontend/images/about/about_s6_bubbles.png" alt="" class="bubbles rotate-center">
         </section>
         <!-- ====== end choose us ====== -->
 
@@ -216,7 +214,7 @@
         @include('frontend.partials.numbers')
         <!-- ====== end numbers ====== -->
 
-        @include('frontend.partials.clients-reviews')
+        @include('frontend.partials.clients-reviews2')
 
         @include('frontend.partials.our-writers')   
 

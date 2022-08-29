@@ -13,6 +13,7 @@ Route::get('/about-us', [HomeController::class, 'about'])->name('about');
 Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact');
 Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 Route::get('our-privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
+Route::get('terms-and-conditions', [HomeController::class, 'termsConditions'])->name('terms-conditions');
 
 Route::get('/book-writing', [HomeController::class, 'bookWriting'])->name('book-writing');
 Route::get('/audio-books', [HomeController::class, 'audioBooks'])->name('audio-books');
