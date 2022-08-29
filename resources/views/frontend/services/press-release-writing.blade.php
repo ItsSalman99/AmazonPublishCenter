@@ -14,9 +14,11 @@
                             <h2 class="mb-20">Best <span> Press Release </span> <br> Writing Services <br>
                             </h2>
                             <p>
-                                Offering to write insightful press releases to expand the reach of your company.
+                                Want to publicize a new product or upcoming event with a great press release? Our team of
+                                skilled press release writers can prepare a news release for your company that is both clear
+                                and concise.
+                            </p>
                         </div>
-                        </p>
                     </div>
                 </div>
                 <div class="container">

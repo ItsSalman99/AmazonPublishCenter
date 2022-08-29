@@ -10,8 +10,14 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">BOOKS PUBLISHING SERVICES</small>
-                            <h2 class="mb-20"><span>Self-Publishing</span> A Book Can Be Solid.</span> </h2>
-                            <p>Get the benefit of a book publisher online, and rest easy!</p>
+                            <h2 class="mb-20">Publish Your Book On <br> <span> Right Platforms! </span> </h2>
+                            <p>
+                                A manuscript may have taken hundreds of thousands of writers years to complete, but for some
+                                strange reason, book publishing houses reject them. At Amazon Publish Center, we offer
+                                solutions for all aspiring writers to deal with the many facets of the "weird reasons"
+                                holding them back from realizing their goals. As experienced book publishers, we assist
+                                aspiring authors in establishing themselves and gaining their merit recognition.
+                            </p>
                         </div>
                     </div>
                 </div>

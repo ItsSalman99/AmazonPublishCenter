@@ -9,8 +9,11 @@
                 <div class="section-head text-center style-4 mb-40">
                     <small class="title_small">Amazon Publish Center</small>
                     <h2 class="mb-20">
-                        OUR <span>PORTFOLIO</span>                    </h2>
+                        Our Magnificent <br> <span>Successful Creation</span>
+                    </h2>
                     <p>
+                        We are proud of what we do. We want you to have a look at our magnificent portfolio. 
+                        <br>
                         We have an experienced team of production and inspection personnel to ensure quality.
                     </p>
                 </div>
@@ -109,17 +112,17 @@
                     <div class="col-lg-9">
                         <div class="content text-center">
                             <div class="section-head text-center style-4">
-                                <h2 class="mb-20"> Access your business potentials today & find opportunity for <span>
-                                        bigger success </span> </h2>
+                                <h2 class="mb-20"> 
+                                    Ready To Get Your <span> Work </span> Done With <span> Us </span>?    
+                                </h2>
                             </div>
                             <div class="butns mt-70">
-                                <a href="#" class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
+                                <a href="{{ route('contact') }}" class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
                                     target="_blank">
                                     <small> Start A Project Now </small>
                                 </a>
-                                <a href="#" class="btn rounded-pill hover-blue4 fw-bold border-blue4"
-                                    target="_blank">
-                                    <small> See Pricing & Plan </small>
+                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill hover-blue4 fw-bold border-blue4">
+                                    <small> Live Chat Support </small>
                                 </a>
                             </div>
                         </div>

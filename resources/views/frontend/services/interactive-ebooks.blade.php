@@ -11,10 +11,11 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Interactive E-Books</small>
-                            <h2 class="mb-20"><span>Affordable E-Book Writing</span> Service at Your Feasibility.
+                            <h2 class="mb-20"><span>Affordable E-Book Writing</span> <br> Service at Your Feasibility.
                             </h2>
                             <p>
-                                Our skilled ebook authors know how to increase your book's audience.
+                                Do you want to give your audience an enhanced reading experience by producing beautiful and
+                                visually appealing interactive eBooks? We can help you with that.
                             </p>
                         </div>
                     </div>

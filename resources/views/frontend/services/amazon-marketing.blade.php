@@ -14,8 +14,11 @@
                             <h2 class="mb-20">We Got The <span>Amazon Marketing Experts</span>
                             </h2>
                             <p>
-                                Searching for a website to register your Amazon? Check out our author promotion services on
-                                Amazon. </p>
+                                To get the most out of your low-cost plan, our knowledgeable team of Amazon marketing
+                                specialists assists you in developing a unique plan. For your Amazon marketing to have the
+                                greatest return on investment (ROI), working with an Amazon firm with a track record is
+                                crucial.
+                            </p>
                         </div>
                     </div>
                 </div>

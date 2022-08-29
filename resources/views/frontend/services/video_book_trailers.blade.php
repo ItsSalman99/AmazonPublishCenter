@@ -11,11 +11,12 @@
                     <div class="col-lg-6">
                         <div class="section-head text-center style-4">
                             <small class="title_small">Video Book Trailers</small>
-                            <h2 class="mb-20">We Deliver The Best <span> Video Trailer Services </span> Suitable For Every
-                                Budget</h2>
+                            <h2 class="mb-20"><span>Professional</span> <br> Video Book Trailer Services</h2>
                             <p>
-                                You can get the ideal video trailers from Amazon Publish Center. We fill in the gap in your
-                                puzzle. </p>
+                                Are you bizarre and tired of waiting for your first 100 books to sell? What if you reverse
+                                the roles and make your readers wait to purchase the book? Let us assist you in making that
+                                decision by providing the most alluring book trailer ever created.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -134,7 +135,8 @@
                                         <h6 class="fw-bold">Complete note editor with rich text options</h6>
                                     </li>
                                 </ul>
-                                <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <a href="javascript:void(Tawk_API.toggle())"
+                                    class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                                     <small> Chat With Us </small>
                                 </a>
                             </div>

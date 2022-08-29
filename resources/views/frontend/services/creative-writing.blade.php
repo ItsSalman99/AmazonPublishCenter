@@ -15,8 +15,9 @@
                                 <span> With Creative Writing </span>
                             </h2>
                             <p>
-                                Our premium creative writing services can provide your company with the competitive edge you
-                                want.
+                                We offer the remedy because you cannot afford to be average in a content-driven environment.
+                                We can assist you in establishing your internet presence if you're seeking top-notch,
+                                optimized, and unique content writing services.
                             </p>
                         </div>
                     </div>

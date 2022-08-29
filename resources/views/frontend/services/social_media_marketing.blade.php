@@ -14,8 +14,9 @@
                             <h2 class="mb-20">Increase Your Engagement & Sales With Our
                                 Social Media<span> Marketing Services </span> </h2>
                             <p>
-                                Build a powerful social media presence by looking at our social media marketing service. To
-                                begin, get in touch with us.
+                                Are you seeking a productive strategy to increase your company's website traffic, new
+                                clientele, and brand recognition? If so, you should use social media! Build a powerful
+                                social media presence by checking out our social media marketing service.
                             </p>
                         </div>
                     </div>
