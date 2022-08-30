@@ -4,112 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-:root {
-  --color-main: #0066ff;
-  --color-primary: #0066ff;
-  --color-secondary: #02b5ff;
-  --color-blue2: #4a00e1;
-  --color-blue4: #5842bc;
-  --color-blue5: #157efb;
-  --color-blue6: #6640f4;
-  --color-lightBlue: #15f1ff;
-  --color-darkBlue: #010049;
-  --color-gray: #eef4f8;
-  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%);
-}
-
-.color-main {
-  color: var(--color-main);
-}
-
-.border-main {
-  border-color: var(--color-main) !important;
-}
-
-.bg-main {
-  background-color: var(--color-main);
-  border-color: var(--color-main);
-}
-
-.color-lightBlue {
-  color: var(--color-lightBlue);
-}
-
-.border-lightBlue {
-  border-color: var(--color-lightBlue) !important;
-}
-
-.bg-lightBlue {
-  background-color: var(--color-lightBlue);
-}
-
-.color-darkBlue {
-  color: var(--color-darkBlue);
-}
-
-.border-darkBlue {
-  border-color: var(--color-darkBlue) !important;
-}
-
-.bg-darkBlue {
-  background-color: var(--color-darkBlue);
-}
-
-.bg-gradient {
-  background-image: var(--color-main-grad) !important;
-}
-
-.bg-gray {
-  background: var(--color-gray) !important;
-}
-
-.color-blue2 {
-  color: var(--color-blue2) !important;
-}
-
-.bg-blue2 {
-  background-color: var(--color-blue2) !important;
-}
-
-.border-blue2 {
-  border-color: var(--color-blue2) !important;
-}
-
-.color-blue4 {
-  color: var(--color-blue4) !important;
-}
-
-.bg-blue4 {
-  background-color: var(--color-blue4) !important;
-}
-
-.border-blue4 {
-  border-color: var(--color-blue4) !important;
-}
-
-.color-blue5 {
-  color: var(--color-blue5) !important;
-}
-
-.bg-blue5 {
-  background-color: var(--color-blue5) !important;
-}
-
-.border-blue5 {
-  border-color: var(--color-blue5) !important;
-}
-
-.color-blue6 {
-  color: var(--color-blue6) !important;
-}
-
-.bg-blue6 {
-  background-color: var(--color-blue6) !important;
-}
-
-.border-blue6 {
-  border-color: var(--color-blue6) !important;
-}
 
 /* ===============================================================
 			[ * global Section ]
@@ -1432,7 +1326,7 @@ small.text {
 
 .butn.butn-blue6,
 .btn.butn-blue6 {
-  background: #f39732;
+  background: #33406c;
 }
 
 .butn.butn-blue6 span,
@@ -2751,10 +2645,7 @@ header.style-6 {
 }
 
 header.style-6 .content {
-  background-color: #dee0f2;
-  position: relative;
-  padding: 150px 0 100px;
-  border-radius: 30px;
+  padding-bottom: 150px;
 }
 
 header.style-6 .info {
@@ -10153,22 +10044,6 @@ footer.style-6 .foot .logo {
   padding-bottom: 0px;
 }
 
-.owl-dots {
-  text-align: center;
-}
-
-.owl-dot {
-  display: inline-block;
-  height: 15px !important;
-  width: 15px !important;
-  background-color: #222222 !important;
-  opacity: 0.8;
-  border-radius: 50%;
-}
-
-.owl-dot.active {
-  background-color: #FF170F !important;
-}
 
 .single-logo {
   width: 80%;
@@ -10179,16 +10054,12 @@ footer.style-6 .foot .logo {
   padding-left: 70px;
 }
 
-.sticky {
-  background: #efefef;
-  left: 0;
-  margin: auto;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  border-bottom: 0;
-  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
-  z-index: 44;
-  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .single-logo 
+  {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }

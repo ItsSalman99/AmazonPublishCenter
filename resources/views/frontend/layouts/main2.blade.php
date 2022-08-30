@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/lity.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.min.css') }}">
 
     <!-- ====== global style ====== -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
@@ -83,6 +85,8 @@
     <script src="{{ asset('assets/frontend/js/lib/pace.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/mixitup.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/scrollIt.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/owl.carousel.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">

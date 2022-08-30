@@ -37,7 +37,7 @@ $(function () {
     'use strict'
 
     var wind = $(window);
-    
+
     // sticky
     var sticky = $('.navbar');
     wind.on('scroll', function () {
@@ -460,8 +460,25 @@ $(document).ready(function () {
         navigation: false,
         speed: 1200,
         autoplay: {
-            delay: 3000,
+            delay: 1000,
         },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 1,
+            },
+            787: {
+                slidesPerView: 2,
+            },
+            991: {
+                slidesPerView: 4,
+            },
+            1200: {
+                slidesPerView: 4,
+            }
+        }
     });
 
     // ------------ services sliders -----------
@@ -740,7 +757,8 @@ $('.brand-carousel').owlCarousel({
     smartSpeed: 500,
     responsive: {
         0: {
-            items: 1
+            margin: 30,
+            items: 2
         },
         600: {
             items: 3
@@ -757,7 +775,8 @@ $('.brand-carousel2').owlCarousel({
     rtl: true,
     responsive: {
         0: {
-            items: 1
+            margin: 30,
+            items: 2
         },
         600: {
             items: 3

@@ -14,11 +14,6 @@
                                 East Ham, London E6 2JA. UK</small>
                         </li>
                         <li class="color-666 mb-2">
-                            <i class="bi bi-house me-1 text-white"></i>
-                            <small style="color: #fff;">312 W 2nd St, Unit #A1357,
-                                Casper, WY 82601</small>
-                        </li>
-                        <li class="color-666 mb-2">
                             <i class="bi bi-phone me-1 text-white"></i>
                             <small style="color: #fff;">+1 361 355 4874 US Office Number</small>
                         </li>
@@ -72,9 +67,8 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div>
-                    <img src="{{ asset('assets/frontend/images/logoupdate.png') }}" width="50%" alt="">
-                    <br><br>
+                <div style="">
+                    <img src="{{ asset('assets/frontend/images/logos/newlogo.png') }}" width="70%" alt="">
                     <p>
                         Amazon Publish Center - Choose The Best Ghostwriting Services
                     </p>

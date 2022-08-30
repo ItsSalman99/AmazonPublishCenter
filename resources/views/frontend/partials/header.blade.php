@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-light style-6" id="topnav" style="background-color: transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="{{ asset('assets/frontend/images/logoupdate.png') }}" width="50%" alt="">
+                    <img src="{{ asset('assets/frontend/images/logos/newlogo.png') }}" width="60%" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -141,7 +141,7 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="{{ route('about') }}"
+                                <a style="" href="{{ route('about') }}"
                                     class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
                                     <span>
                                         About Us
@@ -193,7 +193,7 @@
                                 placeholder="Your message"></textarea>
                         </div>
                         <div class="my-2">
-                            <button class="btn text-white" style="background-color: #f39732; width: 100%;">
+                            <button class="btn text-white" style="background-color: #33406c; width: 100%;">
                                 Done
                             </button>
                         </div>
