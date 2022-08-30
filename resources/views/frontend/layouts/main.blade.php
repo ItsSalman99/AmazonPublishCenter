@@ -30,6 +30,8 @@
     <!-- ====== global style ====== -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/bgswiper-slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.min.css') }}">
 </head>
 
 <body>
@@ -45,7 +47,7 @@
     </div>
     <!-- ====== end loading page ====== -->
 
-    @include('frontend.partials.pop-up')
+    {{-- @include('frontend.partials.pop-up') --}}
 
     <!-- ====== start header ====== -->
     @include('frontend.partials.header')
@@ -72,6 +74,8 @@
     <script src="{{ asset('assets/frontend/js/lib/swiper.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery.counterup.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/owl.carousel.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
     @include('sweetalert::alert')
 

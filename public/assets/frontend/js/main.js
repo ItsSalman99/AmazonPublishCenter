@@ -31,50 +31,21 @@ setInterval(function time() {
     jQuery('#secs').html(sec)
 }, 1000);
 
-$(document).ready(function (e) {
-    
-    e.preventDefault();
-
-    var wind = $(window);
-
-    // ---------- nav scroll -----------
-    wind.on("scroll", function () {
-
-        
-        var bodyScroll = wind.scrollTop(),
-            navbar = $(".navbar")
-
-        if (bodyScroll > 1200) {
-
-            navbar.addClass("nav-scroll");
-
-        } else {
-
-            navbar.removeClass("nav-scroll");
-        }
-    });
-
-});
 
 $(function () {
 
+    'use strict'
+
     var wind = $(window);
-
-    // ---------- nav scroll -----------
-    wind.on("scroll", function (e) {
-
-        e.preventDefault();
-        
-        var bodyScroll = wind.scrollTop(),
-            navbar = $(".navbar")
-
-        if (bodyScroll > 200) {
-
-            navbar.addClass("nav-scroll");
-
+    
+    // sticky
+    var sticky = $('.navbar');
+    wind.on('scroll', function () {
+        var scroll = wind.scrollTop();
+        if (scroll < 100) {
+            sticky.removeClass('nav-scroll');
         } else {
-
-            navbar.removeClass("nav-scroll");
+            sticky.addClass('nav-scroll');
         }
     });
 
@@ -234,7 +205,7 @@ $(document).ready(function () {
             nextEl: '.portfolio-slider .swiper-button-next',
             prevEl: '.portfolio-slider .swiper-button-prev',
         },
-               
+
         autoplay: {
             delay: 4000,
         },
@@ -270,8 +241,8 @@ $(document).ready(function () {
             nextEl: '.blog_slider .swiper-button-next',
             prevEl: '.blog_slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -308,8 +279,8 @@ $(document).ready(function () {
             nextEl: '.services_slider .swiper-button-next',
             prevEl: '.services_slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -346,8 +317,8 @@ $(document).ready(function () {
             nextEl: '.works_slider .swiper-button-next',
             prevEl: '.works_slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -385,8 +356,8 @@ $(document).ready(function () {
             nextEl: '.reviews_slider .swiper-button-next',
             prevEl: '.reviews_slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -406,8 +377,8 @@ $(document).ready(function () {
             nextEl: '.testimonial-slider.style-3 .swiper-button-next',
             prevEl: '.testimonial-slider.style-3 .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -439,8 +410,8 @@ $(document).ready(function () {
         speed: 1000,
         pagination: false,
         navigation: false,
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -471,11 +442,11 @@ $(document).ready(function () {
         slidesPerView: 6,
         speed: 1200,
         autoplay: {
-            delay: 1,
+            delay: 3,
         },
         loop: true,
         allowTouchMove: false,
-        
+
     });
 
     // ------------ testimonial sliders -----------
@@ -501,8 +472,8 @@ $(document).ready(function () {
         speed: 1200,
         pagination: false,
         navigation: false,
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -548,8 +519,8 @@ $(document).ready(function () {
             nextEl: '.slider-3items .swiper-button-next',
             prevEl: '.slider-3items .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -583,8 +554,8 @@ $(document).ready(function () {
             nextEl: '.testi-slider.style-6 .swiper-button-next',
             prevEl: '.testi-slider.style-6 .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -605,8 +576,8 @@ $(document).ready(function () {
             nextEl: '.blog-details-slider .swiper-button-next',
             prevEl: '.blog-details-slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -624,8 +595,8 @@ $(document).ready(function () {
             nextEl: '.related-postes-slider .swiper-button-next',
             prevEl: '.related-postes-slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -660,8 +631,8 @@ $(document).ready(function () {
             clickable: "true",
         },
         navigation: false,
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -713,8 +684,8 @@ $(document).ready(function () {
             nextEl: '.related-products-slider .swiper-button-next',
             prevEl: '.related-products-slider .swiper-button-prev',
         },
-        
-        
+
+
         autoplay: {
             delay: 4000,
         },
@@ -763,3 +734,36 @@ var mySwiper = new Swiper('.swiper-bg-container', {
     speed: 500,
 })
 
+$('.brand-carousel').owlCarousel({
+    loop: true,
+    autoplay: true,
+    smartSpeed: 500,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 6
+        }
+    }
+})
+$('.brand-carousel2').owlCarousel({
+    loop: true,
+    autoplay: true,
+    smartSpeed: 500,
+    rtl: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 6
+        }
+    }
+})

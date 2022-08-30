@@ -10023,10 +10023,11 @@ footer.style-6 .foot .logo {
     margin-top: 140px;
   }
 
-  .pop-up{
-    height: 70%!important;
+  .pop-up {
+    height: 70% !important;
   }
-  .popimg{
+
+  .popimg {
     height: 30%;
   }
 
@@ -10034,10 +10035,11 @@ footer.style-6 .foot .logo {
     display: none;
   }
 
-  .close-pop{
+  .close-pop {
     font-size: 12px;
-    margin-right: 0px!important;
+    margin-right: 0px !important;
   }
+
   .pop-h2 {
     font-size: 13px;
     text-align: center;
@@ -10053,7 +10055,7 @@ footer.style-6 .foot .logo {
 
   .pop-form textarea {
     font-size: 12px;
-    height: 50px!important;
+    height: 50px !important;
   }
 
 }
@@ -10132,4 +10134,61 @@ footer.style-6 .foot .logo {
   text-shadow: 1px 1px 5px #eee;
   border: 3px solid #000;
   border-radius: 10px;
+}
+
+
+/* Added by Salman */
+/* .section-padding {
+  padding: 60px 0;
+}
+*/
+
+.brand-carousel {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.brand-carousel2 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #222222 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.owl-dot.active {
+  background-color: #FF170F !important;
+}
+
+.single-logo {
+  width: 80%;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  padding: 40px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.sticky {
+  background: #efefef;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 0;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+  z-index: 44;
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
 }
