@@ -40,6 +40,9 @@
                                 writers craft knowledgeable content that displays genuine professionalism while showcasing
                                 inventiveness.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -69,9 +72,8 @@
                                 fiction and conducting research. They consequently interpret and offer tales that reflect
                                 the message and information ingrained in its core.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -95,6 +97,9 @@
                                 We deliver the most entertaining books by professional fantasy story writers with
                                 outstanding writing styles and captivating reads.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

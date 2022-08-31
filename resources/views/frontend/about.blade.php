@@ -75,7 +75,6 @@
                                     class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                                     <small> Chat With Us </small>
                                 </a>
-
                             </div>
                         </div>
                         <div class="col-lg-6 order-0 order-lg-2">

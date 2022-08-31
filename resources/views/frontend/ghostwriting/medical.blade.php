@@ -44,6 +44,9 @@
                                 consultants to support research-based medical ghostwriting. They have an excellent grasp of
                                 the language, which helps them to speak clearly and precisely.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -71,9 +74,8 @@
                                 knowledge in writing scientifically. We offer writing for research papers, books, review
                                 articles, and other publications as part of our medical ghostwriting service.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -96,6 +98,9 @@
                                 Many doctors, surgeons, and other medical professionals must keep themselves and the public
                                 informed about the newest scientific advancements and data on medications and illnesses.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

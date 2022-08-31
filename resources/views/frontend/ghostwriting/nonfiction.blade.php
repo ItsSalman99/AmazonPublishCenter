@@ -41,6 +41,9 @@
                                 our writers are seasoned professionals. Thanks to our nonfiction ghostwriter, you won't need
                                 to stress about it. Your core idea is all that our ghostwriters require.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -69,9 +72,8 @@
                                 of your writing requirements. We will professionally work on it, whether it is a fiction or
                                 nonfiction ghost book. We will develop your original concept into a strong reader.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -95,6 +97,9 @@
                                 books may be what you lack, and there is nothing wrong with that. Many thousands of people
                                 have wonderful things to offer the world.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

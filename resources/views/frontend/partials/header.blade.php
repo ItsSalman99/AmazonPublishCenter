@@ -120,7 +120,7 @@
             </div>
         </nav>
         <!-- ====== end navbar ====== -->
-        <div class="container-fluid" style=" margin-top: 80px;">
+        <div class="container-fluid" style=" margin-top: 180px;">
             <div class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="info" style="margin-top: 40px;">

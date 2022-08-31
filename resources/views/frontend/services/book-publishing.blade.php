@@ -45,8 +45,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
+
+                <img src="{{ asset('assets/frontend/images/about/intg_back.png') }}" alt="" class="intg-back">
             </div>
 
 

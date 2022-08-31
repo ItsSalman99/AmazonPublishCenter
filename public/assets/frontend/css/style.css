@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -285,16 +284,6 @@ small.text {
 }
 
 /* --------------- dropdown --------------- */
-.dropdown-toggle::after {
-  position: relative;
-  top: 3px;
-  opacity: 0.8;
-  content: "\f078";
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  border: 0;
-  font-size: 80%;
-}
 
 
 .dropdown-menu {
@@ -1271,6 +1260,7 @@ small.text {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  background-color: #33406c;
 }
 
 .butn span,
@@ -1338,7 +1328,8 @@ small.text {
 
 .butn.blue5-3Dbutn,
 .btn.blue5-3Dbutn {
-  background: var(--color-blue5);
+  margin-top: 20px;
+  background: #33406c;
   -webkit-box-shadow: 0px 4px 0px 0px var(--color-blue4);
   box-shadow: 0px 4px 0px 0px var(--color-blue4);
   -webkit-filter: drop-shadow(0 13px 20px #07397235);
@@ -1365,7 +1356,7 @@ small.text {
 
 .butn:hover,
 .btn:hover {
-  background: var(--color-main);
+  background: #f39732;
   border-color: transparent !important;
 }
 
@@ -2078,7 +2069,7 @@ small.text {
   text-transform: capitalize;
 }
 
-.navbar.style-6 .nav-item .nav-link::after {
+/* .navbar.style-6 .nav-item .nav-link::after {
   position: absolute;
   content: "";
   right: -16px;
@@ -2087,7 +2078,7 @@ small.text {
   height: 4px;
   border-radius: 50%;
   background-color: #bebccd;
-}
+} */
 
 .navbar.style-6 .nav-item .nav-link:hover,
 .navbar.style-6 .nav-item .nav-link.active {

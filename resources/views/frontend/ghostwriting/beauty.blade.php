@@ -42,6 +42,9 @@
                                 at Amazon Publish Center includes writers for beauty blogs and magazines that thoroughly
                                 understand hair, makeup, skincare, and fashion.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -70,9 +73,8 @@
                                 By creating a book, our ghostwriters have successfully assisted our clients in becoming
                                 well-known authors.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -96,6 +98,9 @@
                                 beauty writers at Amazon Publish Center have in-depth knowledge about the makeup and
                                 efficacy of cosmetics, and they offer advice based on their expertise.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

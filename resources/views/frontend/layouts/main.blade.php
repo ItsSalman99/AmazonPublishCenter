@@ -7,22 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!-- Title  -->
-    <title>{{ env('APP_NAME') }} - Ghostwriting Services by The Professionals</title>
+    <title>{{ config('app.name') }} - Ghostwriting Services by The Professionals</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
+    <link rel="favicon icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
 
-    <!-- ====== bootstrap icons cdn ====== -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-        integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
 
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/bootstrap.min.css') }} ">
 
-    <!-- ====== font family ====== -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-        rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
 
@@ -60,12 +53,6 @@
     @include('frontend.partials.footer')
     <!-- ====== end footer ====== -->
 
-    <!-- ====== start to top button ====== -->
-    <a href="#"
-        class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
-        <i class="bi bi-chevron-up fs-6 text-dark"></i>
-    </a>
-    <!-- ====== end to top button ====== -->
 
     <!-- ====== request ====== -->
     <script src="{{ asset('assets/frontend/js/lib/jquery-3.0.0.min.js') }}"></script>

@@ -43,6 +43,9 @@
                                 ghostwriting if you or someone you know has the same problem with your blog. For blog
                                 purposes, Amazon Publish Center is the best option.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -72,9 +75,8 @@
                                 services. Since many websites and businesses cannot manage blogs independently, our
                                 ghostwriters help them with their writing assignments.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -98,6 +100,10 @@
                                 One of the top providers of blog ghostwriter services is Amazon Publish Center. The business
                                 has a team of qualified writers who can assist you in producing blog posts that are of a
                                 high standard, thoroughly researched, and interesting.
+                            </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

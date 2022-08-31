@@ -12,8 +12,8 @@
                         <div class="section-head text-center mb-60 style-5">
                             <h2 class="mb-20"> <span>Premium Screenplay</span>
                                 <br>
-                                 Ghostwriting
-                                 at Amazon Publishing Center
+                                Ghostwriting
+                                at Amazon Publishing Center
                             </h2>
                             <p class="">
                                 Hire us to have hassle-free access to professional screenplay ghostwriting services.
@@ -43,6 +43,10 @@
                                 outstanding screenplay ghostwriter services. They are aware of every component that makes up
                                 the best screenplays.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -73,9 +77,9 @@
                                 You may find it educational if you're new to writing for movies and television. Should we
                                 start?
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -98,6 +102,10 @@
                                 Amazon Publish Center is the ideal screenplay ghostwriting company for individuals
                                 interested in learning more about the most recent Netflix or Hollywood material.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

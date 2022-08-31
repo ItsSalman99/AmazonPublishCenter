@@ -42,6 +42,10 @@
                                 strategy.
 
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-8 order-0 order-lg-2">
                             <div class="">
@@ -69,9 +73,9 @@
                                 If you run a business, writing a book may not be your cup of tea. However, our business
                                 ghostwriter services can assist you if you want to write a book using your ideas.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -98,6 +102,9 @@
                                 have a concept for a book to the time it is published by one of the reputable big five
                                 publishing firms.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>

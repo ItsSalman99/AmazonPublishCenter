@@ -12,7 +12,7 @@
                         <div class="section-head text-center mb-60 style-5">
                             <h2 class="mb-20">
                                 <span>Fiction Ghost Writers</span><br>
-                                 Are At Your Service <br>
+                                Are At Your Service <br>
                             </h2>
                             <p class="">
                                 We offer every service to support the realization of your writing goals. We only require
@@ -44,6 +44,10 @@
                                 ghostwriting services have made creating fiction books for publication incredibly
                                 straightforward.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                         <div class="col-lg-6 order-0 order-lg-2">
                             <div class="">
@@ -73,9 +77,9 @@
                                 of mystery and suspense, as the name would imply. We distinguish that a thriller should
                                 never get boring.
                             </p>
-                            <a href="page-contact-5.html"
-                                class="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                                <span> Book A Free Demo </span>
+                            <a href="javascript:void(Tawk_API.toggle())"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
                             </a>
                         </div>
                     </div>
@@ -98,6 +102,9 @@
                                 to go. Essentially, these stories revolve around a relationship between two people or their
                                 desire to have one.
                             </p>
+                            <a href="javascript:void(Tawk_API.toggle())" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                <small> Chat With Us </small>
+                            </a>
                         </div>
                     </div>
                 </div>
