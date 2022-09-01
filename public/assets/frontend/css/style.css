@@ -9939,6 +9939,9 @@ footer.style-6 .foot .logo {
     font-size: 12px;
     height: 50px !important;
   }
+  .navbar-brand{
+    width: 30%;
+  }
 
 }
 
