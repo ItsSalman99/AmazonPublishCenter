@@ -705,7 +705,7 @@ $(document).ready(function (e) {
         responsive: {
             0: {
                 margin: 30,
-                items: 2
+                items: 3
             },
             600: {
                 items: 3
@@ -724,7 +724,7 @@ $(document).ready(function (e) {
         responsive: {
             0: {
                 margin: 30,
-                items: 2
+                items: 3
             },
             600: {
                 items: 3

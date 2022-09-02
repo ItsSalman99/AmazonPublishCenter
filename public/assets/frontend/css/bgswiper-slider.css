@@ -19,3 +19,13 @@
     transform: scale(1);
 
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .swiper-bg-container .image-container {
+        background-attachment: fixed;
+    }
+
+
+}
