@@ -1,5 +1,6 @@
 <div class="pop-up" id="pop-up">
-    <div class="row justify-content-between" style="border: 10px solid #000; border-radius: 40px; background-color: #e6e6e6; height: 100%">
+    <div class="row justify-content-between"
+        style="border: 10px solid #000; border-radius: 40px; background-color: #e6e6e6; height: 100%">
         <div class="col-lg-6 popimg">
             <img src="{{ asset('/assets/frontend/images/sale.jpeg') }}" class="pop-img">
         </div>
@@ -10,7 +11,7 @@
                 </a>
             </div>
             <div id="the-final-countdown">
-                
+
                 <p style="font-size: 20px">Time Left</p>
                 <div class="d-flex justify-content-center mt-4">
                     <div>
@@ -29,7 +30,7 @@
                 Get Ready To Become A Best Seller!
             </h2>
             <div style="width: 80%; margin: 0 auto;">
-                <form  action="{{ route('clients.store') }}" method="POST">
+                <form action="{{ route('clients.store') }}" method="POST">
                     @csrf
                     <div class="d-flex justify-content-between my-2">
                         <div style="width: 48%">
@@ -45,12 +46,13 @@
                         <input type="email" placeholder="Your Email?" class="form-control p-2"
                             style="border: 2px solid #ddd;">
                     </div>
-                    <div class="my-2">
-                        <select name="region" required class="form-control" id="">
+                    <div class="my-2" id="on-change">
+                        <select name="region" id="select-region" required style="padding: 20px;" class="form-control">
                             <option value="">-- Select Your Current Region --</option>
-                            @foreach ($regions as $region)
-                                <option value="{{ $region->id }}">{{ $region->name }}</option>
-                            @endforeach
+                            <option value="1">Canada</option>
+                            <option value="2">Australia</option>
+                            <option value="3">United States (US)</option>
+                            <option value="4">United Kingdom (UK)</option>  
                         </select>
                     </div>
                     <div class="my-2">

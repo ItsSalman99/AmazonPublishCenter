@@ -29,20 +29,29 @@ class RegionController extends Controller
         Alert::success("New Region Added Successfully!", "Region added to your site successfully!");
 
         return redirect()->back();
-
     }
-    
+
     public function destroy($id)
     {
-        $region = Region::where('id',$id)->first();
+        $region = Region::where('id', $id)->first();
 
         $region->delete();
 
         Alert::success("Deleted Successfully!", "Region deleted successfully!");
 
         return redirect()->back();
-
-
     }
 
+    public function getRegionByAjax(Request $request)
+    {
+        if ($request->ajax()) {
+            $regions = Region::cursor();
+
+            return response()->json(
+                [
+                    'regions' => $regions
+                ]
+            );
+        }
+    }
 }

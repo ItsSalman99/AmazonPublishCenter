@@ -42,6 +42,7 @@ Route::get('/blog-ghostwriting', [HomeController::class, 'BlogWriting'])->name('
 
 Route::post('clients/store', [ClientController::class, 'store'])->name('clients.store');
 
+Route::post('get-regions', [RegionController::class, 'getRegionByAjax']);
 
 Route::prefix('admin')->middleware(['web','auth'])->group(function () {
 

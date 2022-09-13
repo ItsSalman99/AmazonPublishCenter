@@ -1260,7 +1260,7 @@ small.text {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #33406c;
+  background-color: #f4972e;
 }
 
 .butn span,
@@ -1316,7 +1316,7 @@ small.text {
 
 .butn.butn-blue6,
 .btn.butn-blue6 {
-  background: #33406c;
+  background: #f4972e;
 }
 
 .butn.butn-blue6 span,
@@ -1329,7 +1329,7 @@ small.text {
 .butn.blue5-3Dbutn,
 .btn.blue5-3Dbutn {
   margin-top: 20px;
-  background: #33406c;
+  background: #f4972e;
   -webkit-box-shadow: 0px 4px 0px 0px var(--color-blue4);
   box-shadow: 0px 4px 0px 0px var(--color-blue4);
   -webkit-filter: drop-shadow(0 13px 20px #07397235);

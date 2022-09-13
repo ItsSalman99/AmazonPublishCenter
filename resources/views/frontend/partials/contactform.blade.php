@@ -4,35 +4,28 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="form-group mb-20">
-                <input type="text" name="name" class="form-control"
-                    placeholder="Name" required>
+                <input type="text" name="name" class="form-control" placeholder="Name" required>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="form-group mb-20">
-                <input type="email" name="email" class="form-control"
-                    placeholder="Email Address *" required>
+                <input type="email" name="email" class="form-control" placeholder="Email Address *" required>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="form-group mb-20">
-                <input type="tel" name="contact" class="form-control"
-                    placeholder="Phone Number" required>
+                <input type="tel" name="contact" class="form-control" placeholder="Phone Number" required>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="form-group mb-20">
-                <input type="text" name="profession" class="form-control"
-                    placeholder="Your profession" required>
+                <input type="text" name="profession" class="form-control" placeholder="Your profession" required>
             </div>
         </div>
         <div class="col-lg-12">
-            <div class="form-group mb-20">
-                <select class="form-select" name="region" required>
+            <div class="form-group mb-20" id="on-change">
+                <select name="region" id="select-region" required style="padding: 20px;" class="form-control">
                     <option value="">-- Select Your Current Region --</option>
-                    @foreach ($regions as $region)
-                        <option value="{{ $region->id }}">{{ $region->name }}</option>
-                    @endforeach
                 </select>
             </div>
         </div>

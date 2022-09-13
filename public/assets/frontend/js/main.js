@@ -1,19 +1,51 @@
-$(window).load(function () { // This runs when the window has loaded
-    
-    $("#bg1").attr('src', '/assets/frontend/images/bg1.jpg');
-    
-    $("#bg2").attr('src', '/assets/frontend/images/bg2.jpg');
-    
-    $("#bg3").attr('src', '/assets/frontend/images/bg3.jpg');
 
-});
+$(document).ready(function (e) {
+    $.ajax({
+        type: "POST",
+        url: "/get-regions",
+        data: {
+            '_token': $('input[name=_token]').val(),
+        },
+        dataType: "json",
+        success: function (response) {
+            options = '';
+            $.each(response.regions, function (key,
+                value) {
+                options = options +
+                    '<option value="' + value
+                        .id + '">' + value.name +
+                    '</option>';
+            });
+            var showregion =
+                '<select name="region" id="select-region" required style="padding: 20px;" class="form-control" id="">' +
+                '<option value="">-- Select Your Current Region --</option>' +
+                options +
+                '</select >' +
+                '</div >';
+
+            $('#on-change').html('');
+            $('#on-change').html(showregion);
+
+        }
+    });
+})
+// $(window).load(function () { 
+//     // This runs when the window has loaded
+
+//     $("#bg1").attr('src', '/assets/frontend/images/bg1.jpg');
+
+//     $("#bg2").attr('src', '/assets/frontend/images/bg2.jpg');
+
+//     $("#bg3").attr('src', '/assets/frontend/images/bg3.jpg');
+
+// });
 
 $('#pop-up').hide();
 
 $(document).ready(function () {
     setTimeout(function () {
         $('#pop-up').show();
-    }, 10000);
+    }, 1000);
 })
 
 function closePopUp() {
@@ -243,7 +275,7 @@ $(document).ready(function (e) {
             loop: true,
             breakpoints: {
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 480: {
                     slidesPerView: 2,
@@ -341,7 +373,7 @@ $(document).ready(function (e) {
             loop: true,
             breakpoints: {
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 480: {
                     slidesPerView: 1,
@@ -453,7 +485,7 @@ $(document).ready(function (e) {
             loop: true,
             breakpoints: {
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 480: {
                     slidesPerView: 1,
@@ -612,7 +644,7 @@ $(document).ready(function (e) {
             loop: true,
             breakpoints: {
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 480: {
                     slidesPerView: 1,
@@ -745,4 +777,10 @@ $(document).ready(function (e) {
         }
     })
 
+});
+
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
 });

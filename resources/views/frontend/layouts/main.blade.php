@@ -12,6 +12,7 @@
     <!-- Favicon -->
     <link rel="favicon icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
 
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/bootstrap.min.css') }} ">
@@ -64,7 +65,10 @@
     <script src="{{ asset('assets/frontend/js/lib/owl.carousel.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
+    
     @include('sweetalert::alert')
+
+    @yield('main-js')
 
 </body>
 

@@ -4,6 +4,8 @@
     <!--Contents-->
     <main>
 
+        @include('frontend.partials.pop-up')
+
         <div class="container">
             <hr>
         </div>
@@ -33,18 +35,12 @@
                                             <i class="bi bi-arrow-right ms-1"></i>
                                         </span>
                                     </a>
-                                    {{-- <a data-lity class="vid-btn">
-                                        <i class="bi bi-play"></i>
-                                        <span>
-                                            See Our <br> Showreels
-                                        </span>
-                                    </a> --}}
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="img">
-                                <img src="assets/frontend/images/about/superman_3d.png" alt="">
+                                <img src="assets/frontend/images/about/best-img3.png" width="100%" alt="">
                             </div>
                         </div>
                     </div>
@@ -62,7 +58,8 @@
                         <span> <small>Ghostwriting</small> </span> Services
                     </h2>
                     <p>
-                        Our editing team and ghostwriter specialists undergo a thorough hiring procedure to ensure we provide the highest standard.
+                        Our editing team and ghostwriter specialists undergo a thorough hiring procedure to ensure we
+                        provide the highest standard.
                     </p>
                 </div>
             </div>
@@ -78,13 +75,14 @@
                                     <div class="info">
                                         <h5>Self Pubishing</h5>
                                         <div class="text">
-                                            We provide a hassle-free book self-publication process, whether you're a seasoned author or a first-time writer.
+                                            We provide a hassle-free book self-publication process, whether you're a
+                                            seasoned author or a first-time writer.
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a  class="service-card style-6">
+                                <a class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/edit.png" alt="">
                                     </div>
@@ -97,52 +95,56 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a  class="service-card style-6">
+                                <a class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/format.png" alt="">
                                     </div>
                                     <div class="info">
                                         <h5>Formating</h5>
                                         <div class="text">
-                                            We concentrate on offering a top-notch and professional format that adheres to the norms of the industry.                                        </div>
+                                            We concentrate on offering a top-notch and professional format that adheres to
+                                            the norms of the industry. </div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a  class="service-card style-6">
+                                <a class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/magazine.png" alt="">
                                     </div>
                                     <div class="info">
                                         <h5>Book Cover Design</h5>
                                         <div class="text">
-                                            Our team of expert book cover designers creates beautiful book covers that will make your book stand out.
+                                            Our team of expert book cover designers creates beautiful book covers that will
+                                            make your book stand out.
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a  class="service-card style-6">
+                                <a class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/trailer.png" alt="">
                                     </div>
                                     <div class="info">
                                         <h5>Video Book Trailers</h5>
                                         <div class="text">
-                                            As one of the best-ghostwriting services in the USA, our professional ghostwriters produce book trailer videos for marketing and promotion.
+                                            As one of the best-ghostwriting services in the USA, our professional
+                                            ghostwriters produce book trailer videos for marketing and promotion.
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a  class="service-card style-6">
+                                <a class="service-card style-6">
                                     <div class="icon">
                                         <img src="assets/frontend/images/icons/serv_icons/seo.png" alt="">
                                     </div>
                                     <div class="info">
                                         <h5>SEO</h5>
                                         <div class="text">
-                                            Our writers will create content for landing and sales pages that convert well using top SEO.
+                                            Our writers will create content for landing and sales pages that convert well
+                                            using top SEO.
                                         </div>
                                     </div>
                                 </a>
@@ -174,7 +176,8 @@
                                 </h2>
                             </div>
                             <div class="text mb-50">
-                                We have assisted numerous companies, brands, and people excelling in their respective industries.                            </div>
+                                We have assisted numerous companies, brands, and people excelling in their respective
+                                industries. </div>
                             <ul>
                                 <li class="d-flex mb-40">
                                     <div class="inf">
@@ -188,14 +191,17 @@
                                     <div class="inf">
                                         <h5>Experienced Team of Ghostwriters</h5>
                                         <p class="fs-12px color-666 mt-2">
-                                            All of our available ghostwriters are native English speakers who are knowledgeable about the subtleties of the language and skilled writers.                                        </p>
+                                            All of our available ghostwriters are native English speakers who are
+                                            knowledgeable about the subtleties of the language and skilled writers. </p>
                                     </div>
                                 </li>
                                 <li class="d-flex">
                                     <div class="inf">
                                         <h5>Market-Competitive Prices</h5>
                                         <p class="fs-12px color-666 mt-2">
-                                            No additional fees or royalties are associated with our ghostwriting services. We give our patrons flexible payment options and pricing that are competitive with the market.
+                                            No additional fees or royalties are associated with our ghostwriting services.
+                                            We give our patrons flexible payment options and pricing that are competitive
+                                            with the market.
                                         </p>
                                     </div>
                                 </li>
@@ -207,21 +213,20 @@
         </section>
         <!-- ====== end choose us ====== -->
 
-        
+
         <!-- ====== start numbers ====== -->
         @include('frontend.partials.numbers')
         <!-- ====== end numbers ====== -->
 
         @include('frontend.partials.clients-reviews')
 
-        @include('frontend.partials.our-writers')   
+        @include('frontend.partials.our-writers')
 
         <!-- ====== start contact ====== -->
         <section class="contact section-padding style-6">
             <div class="container">
                 <div class="section-head mb-60 style-6 text-center">
-                    <h2 class="mb-20"> Get free consultation
-                    </h2>
+                    <h2 class="mb-20"> Get free consultation</h2>
                     <p class="color-666">We will contact again after receive your request in 24h</p>
                 </div>
                 <div class="content" style="background-color: #ddd; border: 10px solid #000;">

@@ -1,20 +1,21 @@
 <header class="style-6" style="border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; margin-bottom: 50px;">
     <div class="content">
+        <div class="overlay"></div>
         <div class="swiper-bg-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="image-container">
-                        <img src="" id="bg1" width="100%" alt="">
+                        <img src="/assets/frontend/images/bg1.jpg" id="bg1" width="100%" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image-container">
-                        <img src="" id="bg2" width="100%" alt="">
+                        <img src="/assets/frontend/images/bg2.jpg" id="bg2" width="100%" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image-container">
-                        <img src="" id="bg3" width="100%" alt="">
+                        <img src="/assets/frontend/images/bg3.jpg" id="bg3" width="100%" alt="">
                     </div>
                 </div>
             </div>
@@ -129,9 +130,9 @@
                 <div class="col-lg-4">
                     <div class="info" style="margin-top: 40px;">
                         <h6
-                            style="text-align: left!important; color: #000; background-color: #fff; width: 80%; padding: 10px; border-radius: 10px">
+                            style="text-align: left!important; color: #fff; background-color: #f4972e; width: 80%; padding: 10px; border-radius: 10px">
                             Amazon Publish Center</h6>
-                        <h1 style="text-align: left!important;">
+                        <h1 style="text-align: left!important;color: #fff" >
                             Choose The Best Ghostwriting Services
                         </h1>
                         <div class="btns d-flex align-items-center mt-60">
@@ -178,13 +179,10 @@
                                 class="form-control" required id="">
                         </div>
                         <div class="d-flex justify-content-between my-2">
-                            <div style="width: 49%">
-                                <select name="region" required style="padding: 20px;" class="form-control"
-                                    id="">
+                            <div style="width: 49%" id="on-change">
+                                <select name="region" id="select-region" required style="padding: 20px;" class="form-control">
                                     <option value="">-- Select Your Current Region --</option>
-                                    @foreach ($regions as $region)
-                                        <option value="{{ $region->id }}">{{ $region->name }}</option>
-                                    @endforeach
+                                    
                                 </select>
                             </div>
                             <div style="width: 49%">
