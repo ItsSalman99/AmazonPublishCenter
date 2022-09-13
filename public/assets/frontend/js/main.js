@@ -1,3 +1,13 @@
+$(window).load(function () { // This runs when the window has loaded
+    
+    $("#bg1").attr('src', '/assets/frontend/images/bg1.jpg');
+    
+    $("#bg2").attr('src', '/assets/frontend/images/bg2.jpg');
+    
+    $("#bg3").attr('src', '/assets/frontend/images/bg3.jpg');
+
+});
+
 $('#pop-up').hide();
 
 $(document).ready(function () {

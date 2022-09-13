@@ -3,14 +3,18 @@
         <div class="swiper-bg-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="image-container" style="background-image: url('assets/frontend/images/bg1.jpg')"></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="image-container" style="background-image: url('assets/frontend/images/bg2.jpg');">
+                    <div class="image-container">
+                        <img src="" id="bg1" width="100%" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-container" style="background-image: url('assets/frontend/images/bg3.jpg');">
+                    <div class="image-container">
+                        <img src="" id="bg2" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-container">
+                        <img src="" id="bg3" width="100%" alt="">
                     </div>
                 </div>
             </div>

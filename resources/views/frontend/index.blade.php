@@ -4,8 +4,6 @@
     <!--Contents-->
     <main>
 
-        @include('frontend.partials.clients')
-
         <div class="container">
             <hr>
         </div>
