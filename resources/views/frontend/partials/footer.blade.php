@@ -68,7 +68,7 @@
             </div>
             <div class="col-lg-3">
                 <div style="">
-                    <img src="{{ asset('assets/frontend/images/logos/newlogo.png') }}" width="70%" alt="">
+                    <img src="{{ asset('assets/frontend/images/logo.png') }}" width="80%" alt="">
                     <p>
                         Amazon Publish Center - Choose The Best Ghostwriting Services
                     </p>
@@ -82,12 +82,6 @@
                             Center.</small>
                         All Rights Reserved. - &emsp13;&emsp13;
                     </p>
-                </div>
-                <div style="margin-right: 30px">
-                    <a href="{{ route('terms-conditions') }}"> Terms & Conditions </a>
-                </div>
-                <div>
-                    <a href="{{ route('privacy-policy') }}"> Privacy & Policy</a>
                 </div>
             </div>
 
