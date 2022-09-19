@@ -24,23 +24,20 @@
                 <div class="container">
                     <div class="content mb-100 pb-100 border-1 border-bottom brd-gray">
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/amazon.png') }}" width="80%" alt=""
+                        <img src="{{ asset('assets/frontend/images/about/actionadventures/book1.jpg') }}" width="70%" alt=""
                                 class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/kobo.png') }}" width="80%" alt=""
-                                class="mt-60">
+                            <img src="{{ asset('assets/frontend/images/about/actionadventures/book2.jpg') }}" width="70%" alt=""
+                            class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/barnesnoble.png') }}" width="80%"
-                                alt="" class="mt-20">
+                            <img src="{{ asset('assets/frontend/images/about/comics/book2.jpg') }}" width="70%" alt=""
+                            class="mt-30">
                         </div>
                         <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/IngramSpark.png') }}" width="80%"
-                                alt="" class="mt-80">
-                        </div>
-                        <div class="img">
-                            <img src="{{ asset('assets/frontend/images/about/scribd.png') }}" width="80%" alt="">
+                            <img src="{{ asset('assets/frontend/images/about/fictions/book2.jpg') }}" width="70%" alt=""
+                            class="mt-30">
                         </div>
                     </div>
                 </div>
@@ -84,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="assets/img/about/about_s4_bubble2.png" alt="" class="bubble2">
+                <img src="{{ asset('assets/frontend/images/about/about_s4_bubble2.png') }}" alt="" class="bubble2">
             </div>
 
             <div class="content frs-content">

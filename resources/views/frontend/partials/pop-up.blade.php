@@ -1,17 +1,13 @@
 <div class="pop-up" id="pop-up">
-    <div class="row justify-content-between"
+    <div class="row"
         style="border: 10px solid #000; border-radius: 40px; background-color: #e6e6e6; height: 100%">
         <div class="col-lg-6 popimg">
-            <img src="{{ asset('/assets/frontend/images/sale.jpeg') }}" class="pop-img">
+            <a onclick="closePopUp()" class="float-end close-pop" style="font-size: 40px; margin-right: 20px">
+                &times;
+            </a>
         </div>
         <div class="col-lg-6 pop-form">
-            <div>
-                <a onclick="closePopUp()" class="float-end close-pop" style="font-size: 40px; margin-right: 20px">
-                    &times;
-                </a>
-            </div>
             <div id="the-final-countdown">
-
                 <p style="font-size: 20px">Time Left</p>
                 <div class="d-flex justify-content-center mt-4">
                     <div>
@@ -25,7 +21,6 @@
                     </div>
                 </div>
             </div>
-            <br><br>
             <h2 class="text-center pop-h2">
                 Get Ready To Become A Best Seller!
             </h2>
@@ -52,7 +47,7 @@
                             <option value="1">Canada</option>
                             <option value="2">Australia</option>
                             <option value="3">United States (US)</option>
-                            <option value="4">United Kingdom (UK)</option>  
+                            <option value="4">United Kingdom (UK)</option>
                         </select>
                     </div>
                     <div class="my-2">

@@ -784,3 +784,18 @@ $.ajaxSetup({
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
 });
+
+function OpenMenu() {
+    $('#mobile-menu').css({
+        'display' : 'block',
+        'width' : '100%'
+    });
+}
+
+function CloseMenu() {
+    $('#mobile-menu').css({
+        'display' : 'none',
+        'width' : '0%'
+    });
+}
+

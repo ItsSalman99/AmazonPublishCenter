@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -1676,10 +1678,6 @@ small.text {
   padding: 30px 0;
 }
 
-.navbar-brand img{
-  background-color: #fff;
-  border-radius: 20px;
-}
 
 .navbar.style-1 .navbar-brand {
   margin-right: 40px;
@@ -2047,10 +2045,10 @@ small.text {
 .navbar.style-6 {
   position: absolute;
   z-index: 99;
-  padding: 20px 0;
-  background-color: #dee0f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff !important;
   width: 100%;
-  border-radius: 30px;
   top: 0;
   left: 0;
 }
@@ -9875,22 +9873,77 @@ footer.style-6 .foot .logo {
   background-color: transparent !important;
 }
 
+
+nav ul {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  height: 60px;
+
+}
+
+
+nav ul li {
+  display: inline-block;
+}
+
+
+nav ul li a {
+  color: #333333;
+  display: block;
+  padding: 0px 40px;
+  text-decoration: none;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+nav ul li:hover {
+  background: #333333;
+}
+
+
+nav ul li:hover>a {
+  color: #FFFFFF !important;
+}
+
+nav ul li:hover>ul {
+  display: block;
+}
+
+nav ul ul {
+  background: #fff;
+  padding-top: 20px;
+  display: none;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  border-top: 2px solid #eee;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .logo {
     width: 70%;
   }
-  .navbar-brand img{
-    width: 80%;      
+
+  .navbar-brand img {
+    width: 120%;
   }
-  .navbar.style-6 .container-fluid .navbar-collapse{
-    background-color: #fff!important;
-    width: 100%!important;
+
+  .navbar.style-6 .container-fluid .navbar-collapse {
+    background-color: #fff !important;
+    width: 100% !important;
   }
-  .navbar-nav{
-    height: 100%!important;
+
+  .navbar-nav {
+    height: 100% !important;
   }
-  .navbar-light .navbar-toggler{
+
+  .navbar-light .navbar-toggler {
     background-color: #fff;
   }
 
@@ -9920,10 +9973,17 @@ footer.style-6 .foot .logo {
   }
 
   .pop-up {
-    height: 70% !important;
+    width: 100% !important;
+    height: 90% !important;
+    left: 0px;
+    transform: translate(0%, -10%) !important;
   }
 
   .popimg {
+    background-image: url('/assets/frontend/images/sale.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 30%;
   }
 
@@ -9953,10 +10013,47 @@ footer.style-6 .foot .logo {
     font-size: 12px;
     height: 50px !important;
   }
-  .navbar-brand{
+
+
+  input,
+  input::placeholder,
+  select::placeholder {
+    font: 12px sans-serif;
+  }
+
+  .navbar-brand {
     width: 30%;
   }
 
+  .service-card.style-6 .icon img {
+    width: 50%;
+  }
+
+  nav ul ul {
+    height: 100vh !important;
+  }
+
+  .service-h1 {
+    font-size: 14px;
+  }
+
+  .service-link {
+    font-size: 14px !important;
+    border-bottom: 2px solid #eee;
+  }
+
+  nav ul li:hover {
+    background: #333333;
+  }
+
+  nav ul li:hover>a {
+    color: #FFFFFF !important;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -10002,17 +10099,24 @@ footer.style-6 .foot .logo {
   background-color: #fff;
 }
 
-.pop-img {
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-  width: 100%;
-  height: 100%;
+.close-pop {
+  position: absolute;
+  right: 0px;
+}
+
+.popimg {
+  border-radius: 50px;
+  background-image: url('/assets/frontend/images/sale.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .pop-up textarea {
   resize: none;
   height: 100px;
 }
+
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,400);
 
@@ -10064,8 +10168,7 @@ footer.style-6 .foot .logo {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-  .single-logo 
-  {
+  .single-logo {
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;

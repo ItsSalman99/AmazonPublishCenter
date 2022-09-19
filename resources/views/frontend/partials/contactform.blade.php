@@ -26,6 +26,10 @@
             <div class="form-group mb-20" id="on-change">
                 <select name="region" id="select-region" required style="padding: 20px;" class="form-control">
                     <option value="">-- Select Your Current Region --</option>
+                    <option value="1">Canada</option>
+                    <option value="2">Australia</option>
+                    <option value="3">United States (US)</option>
+                    <option value="4">United Kingdom (UK)</option>
                 </select>
             </div>
         </div>

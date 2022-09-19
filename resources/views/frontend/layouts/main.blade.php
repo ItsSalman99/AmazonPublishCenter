@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Metas -->
     <meta charset="utf-8">
@@ -49,26 +50,35 @@
 
 
     @yield('content')
-    
+
     <!-- ====== start footer ====== -->
     @include('frontend.partials.footer')
     <!-- ====== end footer ====== -->
-
 
     <!-- ====== request ====== -->
     <script src="{{ asset('assets/frontend/js/lib/jquery-3.0.0.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery-migrate-3.0.0.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/swiper.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/lib/jquery.counterup.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/wow.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/lity.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/swiper.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/jquery.counterup.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/pace.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/mixitup.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/lib/scrollIt.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/owl.carousel.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/lib/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
-    
-    @include('sweetalert::alert')
 
-    @yield('main-js')
+    @include('sweetalert::alert')
+    <script>
+        // ---------- portfolio mixitup -----------
+        var containerEl = document.querySelector('.mix-container');
+
+        var mixer = mixitup(containerEl);
+    </script>
 
 </body>
 

@@ -5,7 +5,7 @@
                 <div class="col-lg-4">
                     <div class="number-card style-6">
                         <h2 class="me-4">
-                            <span class="counter">15</span> +
+                            <span class="counter">7</span> +
                         </h2>
                         <div class="text">
                             Years <br> of Experience
@@ -15,7 +15,7 @@
                 <div class="col-lg-4">
                     <div class="number-card style-6">
                         <h2 class="me-4">
-                            <span class="counter">1600</span>
+                            <span class="counter">500</span> +
                         </h2>
                         <div class="text">
                             Projects <br> completed

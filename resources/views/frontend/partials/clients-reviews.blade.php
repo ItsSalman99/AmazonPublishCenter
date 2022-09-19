@@ -101,7 +101,6 @@
                                     <img src="{{ asset('assets/frontend/images/team/four.jpg') }}" alt="">
                                 </div>
                                 <h6> Emma Candice </h6>
-                                <small> Sale Product Management at Flipkart </small>
                             </div>
                         </a>
                     </div>
@@ -125,7 +124,6 @@
                                     <img src="{{ asset('assets/frontend/images/team/five.jpg') }}" alt="">
                                 </div>
                                 <h6> Oliver Dale </h6>
-                                <small> Sale Product Management at Flipkart </small>
                             </div>
                         </a>
                     </div>
@@ -150,7 +148,6 @@
                                     <img src="{{ asset('assets/frontend/images/team/six.jpg') }}" alt="">
                                 </div>
                                 <h6> Charlotte Denise </h6>
-                                <small> Sale Product Management at Flipkart </small>
                             </div>
                         </a>
                     </div>
@@ -173,8 +170,7 @@
                                 <div class="icon-80 rounded-circle img-cover overflow-hidden m-auto">
                                     <img src="{{ asset('assets/frontend/images/team/seven.jpg') }}" alt="">
                                 </div>
-                                <h6> Elijah Wills </h6>
-                                <small> Sale Product Management at Flipkart </small>
+                                <h6> Troy Austan </h6>
                             </div>
                         </a>
                     </div>
@@ -198,7 +194,6 @@
                                     <img src="{{ asset('assets/frontend/images/team/eight.jpg') }}" alt="">
                                 </div>
                                 <h6> Elijah Wills </h6>
-                                <small> Sale Product Management at Flipkart </small>
                             </div>
                         </a>
                     </div>

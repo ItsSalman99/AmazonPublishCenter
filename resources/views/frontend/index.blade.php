@@ -40,7 +40,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="img">
-                                <img src="assets/frontend/images/about/best-img3.png" width="100%" alt="">
+                                <img src="assets/frontend/images/books.png" width="100%" alt="">
                             </div>
                         </div>
                     </div>
