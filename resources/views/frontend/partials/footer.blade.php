@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div style="">
+                <div class="footer-logo">
                     <img src="{{ asset('assets/frontend/images/logo.png') }}" width="80%" alt="">
                     <p>
                         Amazon Publish Center - Choose The Best Ghostwriting Services
