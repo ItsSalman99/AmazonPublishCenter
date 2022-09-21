@@ -30,16 +30,16 @@
                     <div class="d-flex justify-content-between my-2">
                         <div style="width: 48%">
                             <input type="text" placeholder="Your Nice Name?" class="form-control p-2"
-                                style="border: 2px solid #ddd;">
+                                style="border: 2px solid #ddd;" required>
                         </div>
                         <div style="width: 48%">
                             <input type="tel" placeholder="Your Phone?" class="form-control p-2"
-                                style="border: 2px solid #ddd;">
+                                style="border: 2px solid #ddd;" required>
                         </div>
                     </div>
                     <div class="my-2">
                         <input type="email" placeholder="Your Email?" class="form-control p-2"
-                            style="border: 2px solid #ddd;">
+                            style="border: 2px solid #ddd;" required>
                     </div>
                     <div class="my-2" id="on-change">
                         <select name="region" id="select-region" required style="padding: 20px;" class="form-control">
@@ -52,10 +52,10 @@
                     </div>
                     <div class="my-2">
                         <input type="text" placeholder="Your Profession?" class="form-control p-2"
-                            style="border: 2px solid #ddd;">
+                            style="border: 2px solid #ddd;" required>
                     </div>
                     <div class="my-2">
-                        <textarea name="message" id="" required class="form-control" placeholder="Your message"></textarea>
+                        <textarea name="message" id="" required class="form-control" placeholder="Your message" required></textarea>
                     </div>
                     <div class="my-2">
                         <button class="btn w-100 text-white" style="background-color: #f39732; width: 100%;">

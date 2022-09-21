@@ -1,33 +1,13 @@
+@php
+use Jenssegers\Agent\Agent;
+
+$agent = new Agent();
+@endphp
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Metas -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    <!-- Title  -->
-    <title>{{ config('app.name') }} - Ghostwriting Services by The Professionals</title>
-
-    <!-- Favicon -->
-    <link rel="favicon icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
-
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
-
-    <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/bootstrap.min.css') }} ">
-
-
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
-    <!-- ====== global style ====== -->
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/bgswiper-slider.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.min.css') }}">
-</head>
+@include('frontend.partials.head')
 
 <body>
 
@@ -44,7 +24,6 @@
 
     {{-- @include('frontend.partials.pop-up') --}}
 
-    <!-- ====== start header ====== -->
     @include('frontend.partials.header')
     <!-- ====== end header ====== -->
 

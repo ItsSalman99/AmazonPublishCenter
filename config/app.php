@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+        Jenssegers\Agent\AgentServiceProvider::class,
+        Davmixcool\MetaManager\MetaServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -231,6 +233,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+        'Agent' => Jenssegers\Agent\Facades\Agent::class,
     ],
 
 ];

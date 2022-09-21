@@ -1,42 +1,12 @@
+@php
+use Jenssegers\Agent\Agent;
+
+$agent = new Agent();
+@endphp
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Metas -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!-- Title  -->
-    <title> {{ config('app.name') }} </title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/newlogo.png') }}" title="Favicon" sizes="16x16" />
-
-    <!-- ====== bootstrap icons cdn ====== -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-        integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
-
-    <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/bootstrap.min.css') }}">
-
-
-    <!-- ====== font family ====== -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/all.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/animate.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/lity.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/swiper.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/owl.carousel.min.css') }}">
-
-    <!-- ====== global style ====== -->
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
-</head>
-
+@include('frontend.partials.head')
 <body>
 
     <!-- ====== start loading page ====== -->
