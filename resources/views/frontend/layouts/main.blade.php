@@ -11,17 +11,6 @@ $agent = new Agent();
 
 <body>
 
-    <!-- ====== start loading page ====== -->
-    <div class="preloader">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- ====== end loading page ====== -->
-
     {{-- @include('frontend.partials.pop-up') --}}
 
     @include('frontend.partials.header')

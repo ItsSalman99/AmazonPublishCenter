@@ -1,3 +1,12 @@
+<div class="d-flex truspilot" style="background-color: #000032;">
+    <div>
+        <img src="{{ asset('assets/frontend/images/Turspilot.png') }}" style="width: 400px;" alt="">
+    </div>
+    <div>
+        <img src="{{ asset('assets/frontend/images/bark.png') }}" style="width: 300px;" alt="">
+    </div>
+
+</div>
 <footer class="style-6 border-top brd-gray main-container"
     style="color: #fff; border-top-left-radius: 30px; border-top-right-radius: 30px;">
     <div class="container">

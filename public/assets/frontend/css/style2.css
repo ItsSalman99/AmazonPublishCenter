@@ -4590,6 +4590,7 @@ header.style-6 .head6-rocket {
     border-radius: 15px;
     text-align: center;
     margin: 0 15px;
+    height: 550px;
 }
 
 .testi-card.style-5:hover {
@@ -10104,4 +10105,13 @@ footer.style-6 .foot .logo {
         padding-right: 10px;
         padding-left: 10px;
     }
+}
+.truspilot {
+    position: relative;
+    top: 40px;
+    background-color: #000032;
+    justify-content: center;
+}
+.truspilot img{
+    width: 30%;
 }

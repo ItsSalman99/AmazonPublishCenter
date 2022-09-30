@@ -9,17 +9,6 @@ $agent = new Agent();
 @include('frontend.partials.head')
 <body>
 
-    <!-- ====== start loading page ====== -->
-    <div class="preloader">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- ====== end loading page ====== -->
-
     <!-- ====== start header ====== -->
     @include('frontend.partials.nav')
     <!-- ====== end header ====== -->

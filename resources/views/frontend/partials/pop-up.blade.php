@@ -1,8 +1,8 @@
 <div class="pop-up" id="pop-up">
     <div class="row"
-        style="border: 10px solid #000; border-radius: 40px; background-color: #e6e6e6; height: 100%">
+        style="border: 8px solid #000; border-radius: 40px; background-color: #e6e6e6; height: 100%">
         <div class="col-lg-6 popimg">
-            <a onclick="closePopUp()" class="float-end close-pop" style="font-size: 40px; margin-right: 20px">
+            <a href="javascript:void(0)" onclick="closePopUp()" class="float-end close-pop" style="font-size: 40px; margin-right: 20px">
                 &times;
             </a>
         </div>

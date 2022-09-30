@@ -1,7 +1,7 @@
 <section class="testimonials section-padding bg-gray5 style-5">
     <div class="container">
         <div class="section-head text-center mb-60 style-5">
-            <h2 class="mb-20"> Our Satisfied <span> Clients </span> </h2>
+            <h2 class="mb-20"> Our Satisfied Clients </h2>
             <p> Let's see what our consumers have to say about us!
                 I am really happy with the work the Amazon Publish Center has done. Over the past few weeks, I've
                 relished working with them to publish my book. They are reliable, accommodating, and talented
@@ -16,35 +16,21 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “A truly wonderful resort. Special compliments and admiration should be extended to
-                                management and employees for their hospitality.”
+                                management and employees for their hospitality. I was really happy for the services that I received.”
                             </div>
                             <div class="user mt-40 text-center">
                                 <div class="icon-80 rounded-circle img-cover overflow-hidden m-auto">
                                     <img src="{{ asset('assets/frontend/images/team/one.jpg') }}" alt="">
                                 </div>
                                 <h6>Liam Scott</h6>
-                                <small>Sale Director at Amazon Retail</small>
+
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “Although there weren't many mistakes and misspellings to be corrected, I was happy with
                                 the timeline you provided for the proofreading work on my book project. The price you
@@ -55,19 +41,11 @@
                                     <img src="{{ asset('assets/frontend/images/team/two.jpg') }}" alt="">
                                 </div>
                                 <h6> Olivia Payne </h6>
-                                <small> SEO & Marketing at Ebay Global </small>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “My book The Department of Injustice was just finished. My book was printed and
                                 formatted by Amazon Publish Center. The cover artwork is fantastic, and the books
@@ -78,19 +56,12 @@
                                     <img src="{{ asset('assets/frontend/images/team/three.jpg') }}" alt="">
                                 </div>
                                 <h6> Noah Bell </h6>
-                                <small> VP of Sale Development </small>
+
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “That I used their ghostwriting services, I am delighted! They always maintained a high
                                 professional standard and gave me the needed assistance. They were good to me because
@@ -106,13 +77,6 @@
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “It was a pleasure working with Amazon Publish Center. I'm glad I decided to use their
                                 services for my business book. They fulfilled their commitment to me. Initially, I was
@@ -129,19 +93,11 @@
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “I needed assistance so that my students could write picture books. Even though I had
                                 the option to select from previously written texts that I might utilize as classroom
                                 readings, I preferred to create a tale specifically for my prompt since I found that to
-                                be exciting. Being a beginner in the children's book writing industry, I discovered
-                                their services.”
+                                be exciting.”
                             </div>
                             <div class="user mt-40 text-center">
                                 <div class="icon-80 rounded-circle img-cover overflow-hidden m-auto">
@@ -153,13 +109,6 @@
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “They are top-notch. Being able to collaborate with them was exciting. They promised to
                                 write a book for me and optimize my content for search engines. They gladly assisted me
@@ -176,13 +125,6 @@
                     </div>
                     <div class="swiper-slide">
                         <a class="testi-card style-5">
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                             <div class="text">
                                 “They are top-notch. Being able to collaborate with them was exciting. They promised to
                                 write a book for me and optimize my content for search engines. They gladly assisted me

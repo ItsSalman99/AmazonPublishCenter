@@ -138,116 +138,143 @@
                     <li class="nav-item">
                         <a class="nav-item " href="#">Services</a>
                         <ul class="services-ul">
-                            <div style="padding: 40px">
-                                <h1 class="service-h1">Amazon Publishing Center Services</h1>
+                            <div style="padding: 40px; width: 80%;">
+                                <h1 class="service-h1">
+                                    Our <br> Services
+                                </h1>
                             </div>
-                            <br>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('book-writing') }}">Book Writing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('book-publishing') }}">Book
-                                    Publishing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('book-marketing') }}">Book
-                                    Marketing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('video-book-trailers') }}">Video
-                                    Book
-                                    Trailers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('social-media-marketing') }}">Social
-                                    Media
-                                    Marketing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('interactive-ebooks') }}">Interactive E-Book
-                                    Designs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('creative-writing') }}">Creative
-                                    Writing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('press-release-writing') }}">Press
-                                    Release
-                                    Writing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('editingProofReading') }}">Editing
-                                    and
-                                    ProofReading</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('bookCoverDesign') }}">Book Cover
-                                    Desing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('amazon-marketing') }}">Amazon
-                                    Markeiting</a>
-                            </li>
+                            <div>
+                                <div style="margin-top: 20px;">
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('book-writing') }}">Book Writing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('book-publishing') }}">Book
+                                            Publishing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('book-marketing') }}">Book
+                                            Marketing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('video-book-trailers') }}">Video
+                                            Book
+                                            Trailers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('social-media-marketing') }}">Social
+                                            Media
+                                            Marketing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('interactive-ebooks') }}">Interactive E-Book
+                                            Designs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('creative-writing') }}">Creative
+                                            Writing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('press-release-writing') }}">Press
+                                            Release
+                                            Writing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('editingProofReading') }}">Editing
+                                            and
+                                            ProofReading</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('bookCoverDesign') }}">Book Cover
+                                            Desing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('amazon-marketing') }}">Amazon
+                                            Markeiting</a>
+                                    </li>
+                                </div>
+                            </div>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-item " href="#">Ghostwriting Services</a>
                         <ul class="services-ul">
-                            <div style="padding: 40px">
-                                <h1 class="service-h1">Amazon Publishing Center GhostWriting Services</h1>
+                            <div style="padding: 40px; width: 70%;">
+                                <h1 class="service-h1">Our GhostWriting Services</h1>
                             </div>
-                            <br>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('fiction') }}">FICTION</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('beauty') }}">BEAUTY
-                                    GHOSTWRITING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('business') }}">BUSINESS
-                                    GHOSTWRITING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('fantasy') }}">FANTASY
-                                    GHOSTWRITING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('medical') }}">MEDICAL
-                                    GHOSTWRITING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('screenplay') }}">SCREENPLAY
-                                    GHOSTWRITING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('nonfiction') }}">NONFICTION
-                                    GHOSTWRITING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link service-link" style="color: #000; font-size: 22px;"
-                                    href="{{ route('blog-writing') }}">BLOG
-                                    GHOSTWRITING</a>
-                            </li>
+                            <div>
+                                <div style="margin-top: 20px;">
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('fiction') }}">FICTION</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('beauty') }}">BEAUTY
+                                            GHOSTWRITING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('business') }}">BUSINESS
+                                            GHOSTWRITING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('fantasy') }}">FANTASY
+                                            GHOSTWRITING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('medical') }}">MEDICAL
+                                            GHOSTWRITING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('screenplay') }}">SCREENPLAY
+                                            GHOSTWRITING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('nonfiction') }}">NONFICTION
+                                            GHOSTWRITING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link service-link"
+                                            style="color: #000; font-size: 20px; line-height: 50px;"
+                                            href="{{ route('blog-writing') }}">BLOG
+                                            GHOSTWRITING</a>
+                                    </li>
+                                </div>
+                            </div>
                         </ul>
                     </li>
                     <li class="nav-item">

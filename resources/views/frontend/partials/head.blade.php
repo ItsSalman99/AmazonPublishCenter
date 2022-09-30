@@ -29,10 +29,8 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/lib/jquery.fancybox.css') }}" />
 
     @if ($agent->isMobile())
-        <!-- ====== global style ====== -->
         <link rel="stylesheet" href="{{ asset('assets/frontend/css/style2.css') }}" />
     @else
-        <!-- ====== global style ====== -->
         <link rel="stylesheet" href="{{ asset('assets/frontend/css/style1.css') }}" />
     @endif
 

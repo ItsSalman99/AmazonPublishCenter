@@ -29,7 +29,7 @@ $(document).ready(function (e) {
         }
     });
 })
-// $(window).load(function () { 
+// $(window).load(function () {
 //     // This runs when the window has loaded
 
 //     $("#bg1").attr('src', '/assets/frontend/images/bg1.jpg');
@@ -52,9 +52,9 @@ function closePopUp() {
     $('#pop-up').remove();
 }
 // preloader
-$(window).on("load", function () {
-    $(".preloader").fadeOut('slow');
-});
+// $(window).on("load", function () {
+//     $(".preloader").fadeOut('slow');
+// });
 
 
 setInterval(function time() {
