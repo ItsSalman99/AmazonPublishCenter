@@ -48,11 +48,11 @@
                     </li>
                     <li class="sidebar-list"><a class="sidebar-link sidebar-title active" href="#">
                             <i data-feather="settings"></i>
-                            <span class="">Settings</span>
+                            <span class="">Blogs</span>
                             <div class="according-menu"><i class="fa fa-angle-down"></i></div>
                         </a>
                         <ul class="sidebar-submenu" style="">
-                            <li><a href="#">Applications Settings</a></li>
+                            <li><a href="{{ route('blogs.create') }}">Add Blog</a></li>
                         </ul>
                     </li>
 

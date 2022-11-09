@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RegionController;
@@ -44,6 +45,9 @@ Route::post('clients/store', [ClientController::class, 'store'])->name('clients.
 
 Route::post('get-regions', [RegionController::class, 'getRegionByAjax']);
 
+Route::get('/blogs', [BlogController::class, 'index'])->name('blogs.index');
+
+
 Route::prefix('admin')->middleware(['web','auth'])->group(function () {
 
     Route::get('/dashboard', function () {
@@ -75,6 +79,9 @@ Route::prefix('admin')->middleware(['web','auth'])->group(function () {
     Route::get('/application/users', [UsersController::class, 'index'])->name('users.index');
     Route::get('/application/users/create', [UsersController::class, 'create'])->name('users.create');
     Route::post('/application/users/store', [UsersController::class, 'store'])->name('users.store');
+
+    Route::get('/blogs/create', [BlogController::class, 'create'])->name('blogs.create');
+    Route::post('/blogs/store', [BlogController::class, 'store'])->name('blogs.store');
 
 });
 

@@ -9944,6 +9944,10 @@ nav ul .services-ul {
     box-shadow: 2px 2px 2px 2px #000;
 }
 
+.pop-h2{
+    font-size: 20px;
+}
+
 .imgcol {
     background-image: url('/assets/frontend/img/sale.jpeg');
     background-position: center;
@@ -9965,6 +9969,8 @@ nav ul .services-ul {
 .truspilot img{
     width: 30%;
 }
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {

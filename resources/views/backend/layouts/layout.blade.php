@@ -40,7 +40,7 @@
     <link id="color" rel="stylesheet" href="{{ asset('assets/backend/css/color-1.css') }}" media="screen">
     <!-- Responsive css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/responsive.css') }}">
-    
+
     <!-- ====== bootstrap icons cdn ====== -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
         integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
@@ -121,8 +121,8 @@
     <script src="{{ asset('assets/backend/js/theme-customizer/customizer.js') }}"></script>
     @include('sweetalert::alert')
 
-    <!-- login js-->
-    <!-- Plugin used-->
+    @yield('extra-js')
+
 </body>
 
 </html>

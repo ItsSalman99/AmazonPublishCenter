@@ -285,6 +285,9 @@
                                 <a class="nav-item " href="{{ route('portfolio') }}">Portfolio</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-item " href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-item " href="{{ route('contact') }}">Contact</a>
                             </li>
                         </ul>
